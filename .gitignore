@@ -1,0 +1,26 @@
+# Godot generated files
+.godot/
+.import/
+.nomedia
+
+# Godot generated/export credentials
+export.cfg
+export_credentials.cfg
+
+# Temporary files
+*.tmp
+*.translation
+
+# Build output
+build/
+dist/
+exports/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code local/private files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
