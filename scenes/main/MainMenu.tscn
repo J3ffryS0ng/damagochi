@@ -5,9 +5,35 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 23.0
-offset_top = -8.0
-offset_right = -462.0
-offset_bottom = -885.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=2049639233]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=1780832817]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="TitleLabel" type="Label" parent="CenterContainer/VBoxContainer" unique_id=818304856]
+layout_mode = 2
+theme_override_font_sizes/font_size = 36
+text = "Damagochi"
+horizontal_alignment = 1
+
+[node name="StartButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=672395652]
+custom_minimum_size = Vector2(280, 70)
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Game Start"
+
+[node name="EncyclopediaButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=1089368796]
+custom_minimum_size = Vector2(280, 70)
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Encyclopedia"
