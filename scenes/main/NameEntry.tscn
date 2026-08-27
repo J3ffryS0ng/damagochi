@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://500dtp7e8m7l"]
 
+[ext_resource type="Script" uid="uid://blafwbno60wnn" path="res://scripts/main/name_entry.gd" id="1_qtoub"]
+
 [node name="NameEntry" type="Control" unique_id=1494146958]
 layout_mode = 3
 anchors_preset = 15
@@ -7,11 +9,44 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_qtoub")
 
-[node name="Label" type="Label" parent="." unique_id=1607389307]
-layout_mode = 0
-offset_left = 261.0
-offset_top = 271.0
-offset_right = 420.0
-offset_bottom = 294.0
-text = "Name choice display"
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=209815279]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=829924741]
+layout_mode = 2
+theme_override_constants/separation = 18
+
+[node name="TitleLabel" type="Label" parent="CenterContainer/VBoxContainer" unique_id=614067613]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "캐릭터 이름을 정해주세요"
+horizontal_alignment = 1
+
+[node name="NameInput" type="LineEdit" parent="CenterContainer/VBoxContainer" unique_id=1935204169]
+custom_minimum_size = Vector2(320, 60)
+layout_mode = 2
+placeholder_text = "이름을 입력하세요"
+max_length = 12
+
+[node name="MessageLabel" type="Label" parent="CenterContainer/VBoxContainer" unique_id=1773502384]
+layout_mode = 2
+horizontal_alignment = 1
+
+[node name="ConfirmButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=1103415501]
+custom_minimum_size = Vector2(320, 65)
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "확인"
+
+[node name="BackButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=1018168163]
+custom_minimum_size = Vector2(320, 55)
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "뒤로가기"

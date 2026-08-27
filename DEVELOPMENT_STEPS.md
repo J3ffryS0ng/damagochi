@@ -47,7 +47,7 @@
 
 - [X] STEP 01 — MainMenu Scene 생성
 - [X] STEP 02 — 게임 시작 / 도감 버튼 생성
-- [ ] STEP 03 — Scene 전환 시스템 구현
+- [X] STEP 03 — Scene 전환 시스템 구현
 - [ ] STEP 04 — 이름 입력 화면 생성
 - [ ] STEP 05 — 새 게임 데이터 생성
 - [ ] STEP 06 — GameManager 생성
