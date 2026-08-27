@@ -23,29 +23,29 @@
 
 # PHASE 0 — 개발환경
 
-- [ ] STEP E01 — Git 및 VS Code 설치 확인
-- [ ] STEP E02 — Godot 4.7.2 Standard 설치
-- [ ] STEP E03 — `D:\GitHub\CreatureGame` Godot 프로젝트 생성
-- [ ] STEP E04 — VS Code에서 프로젝트 폴더 열기
-- [ ] STEP E05 — Git 저장소 초기화
-- [ ] STEP E06 — `.gitignore` 작성
-- [ ] STEP E07 — VS Code Godot Tools 설치
-- [ ] STEP E08 — Godot 외부 편집기를 VS Code로 설정
-- [ ] STEP E09 — 외부 변경 자동 Reload 설정
-- [ ] STEP E10 — Godot LSP 연결 확인
-- [ ] STEP E11 — `.vscode/extensions.json` 작성
-- [ ] STEP E12 — `.vscode/launch.json` 작성
-- [ ] STEP E13 — 프로젝트 해상도 720 × 1280 설정
-- [ ] STEP E14 — 프로젝트 기본 폴더 생성
-- [ ] STEP E15 — `MainTest.tscn` 생성
-- [ ] STEP E16 — `main_test.gd`를 VS Code에서 실행
-- [ ] STEP E17 — GDScript 자동완성 확인
-- [ ] STEP E18 — 첫 Git commit
-- [ ] STEP E19 — GitHub repository 연결 및 push
+- [X] STEP E01 — Git 및 VS Code 설치 확인
+- [X] STEP E02 — Godot 4.7.2 Standard 설치
+- [X] STEP E03 — `D:\GitHub\CreatureGame` Godot 프로젝트 생성
+- [X] STEP E04 — VS Code에서 프로젝트 폴더 열기
+- [X] STEP E05 — Git 저장소 초기화
+- [X] STEP E06 — `.gitignore` 작성
+- [X] STEP E07 — VS Code Godot Tools 설치
+- [X] STEP E08 — Godot 외부 편집기를 VS Code로 설정
+- [X] STEP E09 — 외부 변경 자동 Reload 설정
+- [X] STEP E10 — Godot LSP 연결 확인
+- [X] STEP E11 — `.vscode/extensions.json` 작성
+- [X] STEP E12 — `.vscode/launch.json` 작성
+- [X] STEP E13 — 프로젝트 해상도 720 × 1280 설정
+- [X] STEP E14 — 프로젝트 기본 폴더 생성
+- [X] STEP E15 — `MainTest.tscn` 생성
+- [X] STEP E16 — `main_test.gd`를 VS Code에서 실행
+- [X] STEP E17 — GDScript 자동완성 확인
+- [X] STEP E18 — 첫 Git commit
+- [X] STEP E19 — GitHub repository 연결 및 push
 
 # PHASE 1 — 게임 골격
 
-- [ ] STEP 01 — MainMenu Scene 생성
+- [X] STEP 01 — MainMenu Scene 생성
 - [ ] STEP 02 — 게임 시작 / 도감 버튼 생성
 - [ ] STEP 03 — Scene 전환 시스템 구현
 - [ ] STEP 04 — 이름 입력 화면 생성
