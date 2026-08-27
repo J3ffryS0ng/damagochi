@@ -14,6 +14,12 @@ func _ready() -> void:
     start_button.pressed.connect(_on_start_button_pressed)
     encyclopedia_button.pressed.connect(_on_encyclopedia_button_pressed)
 
+    if GameManager.has_game_data():
+        print(
+            "MainMenu에서도 데이터 유지:",
+            GameManager.game_data
+        )
+
 
 func _on_start_button_pressed() -> void:
     get_tree().change_scene_to_file(
