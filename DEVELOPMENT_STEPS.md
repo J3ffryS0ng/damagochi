@@ -48,8 +48,8 @@
 - [X] STEP 01 — MainMenu Scene 생성
 - [X] STEP 02 — 게임 시작 / 도감 버튼 생성
 - [X] STEP 03 — Scene 전환 시스템 구현
-- [ ] STEP 04 — 이름 입력 화면 생성
-- [ ] STEP 05 — 새 게임 데이터 생성
+- [X] STEP 04 — 이름 입력 화면 생성
+- [X] STEP 05 — 새 게임 데이터 생성
 - [ ] STEP 06 — GameManager 생성
 - [ ] STEP 07 — SaveManager 생성
 - [ ] STEP 08 — JSON 저장 및 불러오기 구현

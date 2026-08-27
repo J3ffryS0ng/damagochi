@@ -42,9 +42,14 @@ func validate_name() -> void:
         message_label.text = "이름을 입력해주세요."
         return
 
-    message_label.text = "입력된 이름: " + entered_name
+    var new_game_data := GameDataFactory.create_new_game(
+        entered_name
+    )
 
-    print("입력된 이름:", entered_name)
+    message_label.text = "새 게임 데이터 생성 완료"
+
+    print("새 게임 데이터:")
+    print(new_game_data)
 
 
 func _on_back_button_pressed() -> void:
