@@ -9,7 +9,19 @@ func has_game_data() -> bool:
 
 
 func create_new_game(player_name: String) -> void:
-    game_data = GameDataFactory.create_new_game(player_name)
+    game_data = GameDataFactory.create_new_game(
+        player_name
+    )
+
+
+func load_game_data(loaded_data: Dictionary) -> bool:
+    if loaded_data.is_empty():
+        push_error("불러온 게임 데이터가 비어 있습니다.")
+        return false
+
+    game_data = loaded_data
+
+    return true
 
 
 func clear_game_data() -> void:
@@ -20,4 +32,9 @@ func get_player_name() -> String:
     if not has_game_data():
         return ""
 
-    return str(game_data.get("player_name", ""))
+    return str(
+        game_data.get(
+            "player_name",
+            ""
+        )
+    )

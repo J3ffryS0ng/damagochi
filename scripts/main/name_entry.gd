@@ -19,10 +19,17 @@ extends Control
 
 
 func _ready() -> void:
-    confirm_button.pressed.connect(_on_confirm_button_pressed)
-    back_button.pressed.connect(_on_back_button_pressed)
+    confirm_button.pressed.connect(
+        _on_confirm_button_pressed
+    )
 
-    name_input.text_submitted.connect(_on_name_submitted)
+    back_button.pressed.connect(
+        _on_back_button_pressed
+    )
+
+    name_input.text_submitted.connect(
+        _on_name_submitted
+    )
 
     name_input.grab_focus()
 
@@ -42,9 +49,19 @@ func validate_name() -> void:
         message_label.text = "이름을 입력해주세요."
         return
 
-    GameManager.create_new_game(entered_name)
+    GameManager.create_new_game(
+        entered_name
+    )
 
-    message_label.text = "새 게임 데이터 생성 완료"
+    var save_success: bool = SaveManager.save_game(
+		GameManager.game_data
+	)
+
+    if not save_success:
+        message_label.text = "게임 저장에 실패했습니다."
+        return
+
+    message_label.text = "새 게임 생성 및 저장 완료"
 
     print("GameManager에 저장된 데이터:")
     print(GameManager.game_data)
