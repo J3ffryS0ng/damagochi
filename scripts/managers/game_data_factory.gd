@@ -9,7 +9,15 @@ static func create_new_game(player_name: String) -> Dictionary:
         "created_at": Time.get_unix_time_from_system(),
         "last_played_at": Time.get_unix_time_from_system(),
 
-        "active_creatures": [],
+        "active_creatures": [
+            {
+                "creature_id": "001",
+                "stage": "egg",
+                "level": 1,
+                "affection": 0,
+                "affection_to_next_level": 10
+            }
+        ],
 
         "encyclopedia": {},
 

@@ -38,3 +38,30 @@ func get_player_name() -> String:
             ""
         )
     )
+
+
+func has_active_creature() -> bool:
+    if not has_game_data():
+        return false
+
+    var active_creatures: Array = game_data.get(
+        "active_creatures",
+        []
+    )
+
+    return not active_creatures.is_empty()
+
+
+func get_active_creature(index: int = 0) -> Dictionary:
+    if not has_active_creature():
+        return {}
+
+    var active_creatures: Array = game_data.get(
+        "active_creatures",
+        []
+    )
+
+    if index < 0 or index >= active_creatures.size():
+        return {}
+
+    return active_creatures[index]
