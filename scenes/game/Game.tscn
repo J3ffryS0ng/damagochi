@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://brrh6d4ebyehj"]
 
-[ext_resource type="Texture2D" uid="uid://btouvgfwg1xfs" path="res://assets/eggs/egg_001.png" id="1_klkup"]
 [ext_resource type="Script" uid="uid://c614y12k77o1q" path="res://scripts/game/game.gd" id="1_m44fu"]
+[ext_resource type="Texture2D" uid="uid://o2okui0m66va" path="res://assets/eggs/egg_001.svg" id="2_m44fu"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_m44fu"]
 size = Vector2(260, 260)
@@ -20,7 +20,7 @@ position = Vector2(360, 650)
 
 [node name="EggSprite" type="Sprite2D" parent="PetArea" unique_id=186788264]
 scale = Vector2(0.7, 0.7)
-texture = ExtResource("1_klkup")
+texture = ExtResource("2_m44fu")
 
 [node name="EggTouchArea" type="Area2D" parent="PetArea" unique_id=1706645835]
 

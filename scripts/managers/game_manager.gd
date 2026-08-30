@@ -21,7 +21,31 @@ func load_game_data(loaded_data: Dictionary) -> bool:
 
     game_data = loaded_data
 
+    ensure_creature_defaults()
+
     return true
+
+
+func ensure_creature_defaults() -> void:
+    if not has_active_creature():
+        return
+
+    var active_creatures: Array = game_data.get(
+        "active_creatures",
+        []
+    )
+
+    for index in range(active_creatures.size()):
+        var creature: Dictionary = active_creatures[index]
+
+        if not creature.has("egg_created_at"):
+            creature["egg_created_at"] = (
+                Time.get_unix_time_from_system()
+            )
+
+        active_creatures[index] = creature
+
+    game_data["active_creatures"] = active_creatures
 
 
 func clear_game_data() -> void:
@@ -127,3 +151,4 @@ func add_affection(
     game_data["active_creatures"] = active_creatures
 
     return true
+

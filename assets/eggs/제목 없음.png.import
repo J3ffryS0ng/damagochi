@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://da5rc0hyuce7j"
-path="res://.godot/imported/egg_001.png-9d2b9697f427dd792ba02c2bcbddb8c5.ctex"
+uid="uid://dvs3jv7o1tb43"
+path="res://.godot/imported/제목 없음.png-d43bc2d1a7133b141f567de024aab281.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/eggs/egg_001.png"
-dest_files=["res://.godot/imported/egg_001.png-9d2b9697f427dd792ba02c2bcbddb8c5.ctex"]
+source_file="res://assets/eggs/제목 없음.png"
+dest_files=["res://.godot/imported/제목 없음.png-d43bc2d1a7133b141f567de024aab281.ctex"]
 
 [params]
 

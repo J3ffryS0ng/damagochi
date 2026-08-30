@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://da5rc0hyuce7j"
-path="res://.godot/imported/egg_001.png-9d2b9697f427dd792ba02c2bcbddb8c5.ctex"
+uid="uid://o2okui0m66va"
+path="res://.godot/imported/egg_001.svg-19a3df481aaaa6fd45198ce0c22fb623.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/eggs/egg_001.png"
-dest_files=["res://.godot/imported/egg_001.png-9d2b9697f427dd792ba02c2bcbddb8c5.ctex"]
+source_file="res://assets/eggs/egg_001.svg"
+dest_files=["res://.godot/imported/egg_001.svg-19a3df481aaaa6fd45198ce0c22fb623.ctex"]
 
 [params]
 
@@ -38,3 +38,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false
