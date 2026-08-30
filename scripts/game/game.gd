@@ -120,4 +120,21 @@ func _on_egg_touch_area_input_event(
 
 
 func _handle_egg_touch() -> void:
-    print("알을 터치했습니다.")
+    var affection_added: bool = GameManager.add_affection(
+        0,
+        1
+    )
+
+    if not affection_added:
+        push_error("친밀도 증가에 실패했습니다.")
+        return
+
+    var save_success: bool = SaveManager.save_game(
+        GameManager.game_data
+    )
+
+    if not save_success:
+        push_error("친밀도 저장에 실패했습니다.")
+        return
+
+    load_current_creature()

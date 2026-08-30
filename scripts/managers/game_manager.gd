@@ -65,3 +65,65 @@ func get_active_creature(index: int = 0) -> Dictionary:
         return {}
 
     return active_creatures[index]
+
+
+func add_affection(
+    index: int = 0,
+    amount: int = 1
+) -> bool:
+    if not has_active_creature():
+        return false
+
+    var active_creatures: Array = game_data.get(
+        "active_creatures",
+        []
+    )
+
+    if index < 0 or index >= active_creatures.size():
+        return false
+
+    var creature: Dictionary = active_creatures[index]
+
+    var affection: int = int(
+        creature.get(
+            "affection",
+            0
+        )
+    )
+
+    var level: int = int(
+        creature.get(
+            "level",
+            1
+        )
+    )
+
+    var affection_to_next_level: int = int(
+        creature.get(
+            "affection_to_next_level",
+            10
+        )
+    )
+
+    affection += amount
+
+    while affection >= affection_to_next_level:
+        affection -= affection_to_next_level
+        level += 1
+
+        affection_to_next_level = int(
+            ceil(
+                float(affection_to_next_level) * 1.25
+            )
+        )
+
+    creature["affection"] = affection
+    creature["level"] = level
+    creature["affection_to_next_level"] = (
+        affection_to_next_level
+    )
+
+    active_creatures[index] = creature
+    game_data["active_creatures"] = active_creatures
+
+    return true
