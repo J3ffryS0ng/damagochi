@@ -18,7 +18,8 @@ static func create_new_game(player_name: String) -> Dictionary:
                 "level": 1,
                 "affection": 0,
                 "affection_to_next_level": 10,
-                "egg_created_at": current_time
+                "egg_created_at": current_time,
+                "hatched_at": 0.0
             }
         ],
 

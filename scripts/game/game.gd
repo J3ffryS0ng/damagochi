@@ -9,6 +9,10 @@ const HATCH_REQUIRED_LEVEL: int = 2
     $PetArea/EggSprite
 )
 
+@onready var creature_sprite: Sprite2D = (
+    $PetArea/CreatureSprite
+)
+
 @onready var egg_touch_area: Area2D = (
     $PetArea/EggTouchArea
 )
@@ -35,10 +39,12 @@ const HATCH_REQUIRED_LEVEL: int = 2
 
 
 var current_creature: Dictionary = {}
-var egg_wiggle_tween: Tween
 
+var egg_wiggle_tween: Tween
 var hatch_flash_tween: Tween
+
 var hatch_effect_played: bool = false
+var hatch_in_progress: bool = false
 
 
 func _ready() -> void:
@@ -48,7 +54,6 @@ func _ready() -> void:
 
     restore_game_data_if_needed()
     load_current_creature()
-    start_egg_wiggle()
 
 
 func restore_game_data_if_needed() -> void:
@@ -76,8 +81,11 @@ func load_current_creature() -> void:
         return
 
     update_status_ui()
-    print_hatch_status()
-    check_hatch_effect()
+    update_creature_visual()
+
+    if is_egg_stage():
+        print_hatch_status()
+        check_hatch_effect()
 
 
 func update_status_ui() -> void:
@@ -120,6 +128,46 @@ func update_status_ui() -> void:
     affection_bar.value = affection
 
 
+func update_creature_visual() -> void:
+    if current_creature.is_empty():
+        return
+
+    var stage: String = str(
+        current_creature.get(
+            "stage",
+            "egg"
+        )
+    )
+
+    if stage == "egg":
+        egg_sprite.visible = true
+        creature_sprite.visible = false
+        egg_touch_area.input_pickable = true
+
+        start_egg_wiggle()
+        return
+
+    egg_sprite.visible = false
+    creature_sprite.visible = true
+    egg_touch_area.input_pickable = false
+
+    stop_egg_wiggle()
+
+
+func is_egg_stage() -> bool:
+    if current_creature.is_empty():
+        return false
+
+    var stage: String = str(
+        current_creature.get(
+            "stage",
+            "egg"
+        )
+    )
+
+    return stage == "egg"
+
+
 func get_egg_elapsed_seconds() -> float:
     if current_creature.is_empty():
         return 0.0
@@ -145,7 +193,7 @@ func get_egg_elapsed_seconds() -> float:
 
 
 func is_hatch_time_ready() -> bool:
-    if current_creature.is_empty():
+    if not is_egg_stage():
         return false
 
     var elapsed_seconds: float = (
@@ -156,7 +204,7 @@ func is_hatch_time_ready() -> bool:
 
 
 func is_hatch_level_ready() -> bool:
-    if current_creature.is_empty():
+    if not is_egg_stage():
         return false
 
     var level: int = int(
@@ -170,7 +218,7 @@ func is_hatch_level_ready() -> bool:
 
 
 func can_hatch() -> bool:
-    if current_creature.is_empty():
+    if not is_egg_stage():
         return false
 
     return (
@@ -180,7 +228,7 @@ func can_hatch() -> bool:
 
 
 func print_hatch_status() -> void:
-    if current_creature.is_empty():
+    if not is_egg_stage():
         return
 
     var elapsed_seconds: float = (
@@ -232,13 +280,18 @@ func print_hatch_status() -> void:
 
 
 func start_egg_wiggle() -> void:
+    if not is_egg_stage():
+        return
+
+    if hatch_in_progress:
+        return
+
     if egg_wiggle_tween != null:
         egg_wiggle_tween.kill()
 
     egg_sprite.rotation = 0.0
 
     egg_wiggle_tween = create_tween()
-
     egg_wiggle_tween.set_loops()
 
     egg_wiggle_tween.tween_property(
@@ -275,46 +328,19 @@ func start_egg_wiggle() -> void:
     )
 
 
-func _on_egg_touch_area_input_event(
-    _viewport: Node,
-    event: InputEvent,
-    _shape_idx: int
-) -> void:
-    if event is InputEventMouseButton:
-        if (
-            event.pressed
-            and event.button_index == MOUSE_BUTTON_LEFT
-        ):
-            _handle_egg_touch()
-            return
+func stop_egg_wiggle() -> void:
+    if egg_wiggle_tween != null:
+        egg_wiggle_tween.kill()
+        egg_wiggle_tween = null
 
-    if event is InputEventScreenTouch:
-        if event.pressed:
-            _handle_egg_touch()
+    egg_sprite.rotation = 0.0
 
-
-func _handle_egg_touch() -> void:
-    var affection_added: bool = GameManager.add_affection(
-        0,
-        1
-    )
-
-    if not affection_added:
-        push_error("친밀도 증가에 실패했습니다.")
-        return
-
-    var save_success: bool = SaveManager.save_game(
-        GameManager.game_data
-    )
-
-    if not save_success:
-        push_error("친밀도 저장에 실패했습니다.")
-        return
-
-    load_current_creature()
 
 func check_hatch_effect() -> void:
     if hatch_effect_played:
+        return
+
+    if hatch_in_progress:
         return
 
     if not can_hatch():
@@ -322,16 +348,17 @@ func check_hatch_effect() -> void:
 
     play_hatch_flash()
 
+
 func play_hatch_flash() -> void:
     if hatch_effect_played:
         return
 
     hatch_effect_played = true
+    hatch_in_progress = true
 
-    if egg_wiggle_tween != null:
-        egg_wiggle_tween.kill()
+    stop_egg_wiggle()
 
-    egg_sprite.rotation = 0.0
+    egg_touch_area.input_pickable = false
 
     if hatch_flash_tween != null:
         hatch_flash_tween.kill()
@@ -355,6 +382,13 @@ func play_hatch_flash() -> void:
         0.15
     )
 
+    hatch_flash_tween.tween_callback(
+        Callable(
+            self,
+            "_finish_hatch"
+        )
+    )
+
     hatch_flash_tween.tween_property(
         hatch_flash,
         "color:a",
@@ -365,3 +399,78 @@ func play_hatch_flash() -> void:
     ).set_ease(
         Tween.EASE_IN
     )
+
+
+func _finish_hatch() -> void:
+    var hatch_success: bool = GameManager.hatch_creature(
+        0
+    )
+
+    if not hatch_success:
+        push_error("캐릭터 부화 처리에 실패했습니다.")
+        hatch_in_progress = false
+        return
+
+    var save_success: bool = SaveManager.save_game(
+        GameManager.game_data
+    )
+
+    if not save_success:
+        push_error("부화 상태 저장에 실패했습니다.")
+
+    current_creature = GameManager.get_active_creature()
+
+    update_status_ui()
+    update_creature_visual()
+
+    hatch_in_progress = false
+
+    print("부화 완료")
+
+
+func _on_egg_touch_area_input_event(
+    _viewport: Node,
+    event: InputEvent,
+    _shape_idx: int
+) -> void:
+    if hatch_in_progress:
+        return
+
+    if not is_egg_stage():
+        return
+
+    if event is InputEventMouseButton:
+        if (
+            event.pressed
+            and event.button_index == MOUSE_BUTTON_LEFT
+        ):
+            _handle_egg_touch()
+            return
+
+    if event is InputEventScreenTouch:
+        if event.pressed:
+            _handle_egg_touch()
+
+
+func _handle_egg_touch() -> void:
+    if not is_egg_stage():
+        return
+
+    var affection_added: bool = GameManager.add_affection(
+        0,
+        1
+    )
+
+    if not affection_added:
+        push_error("친밀도 증가에 실패했습니다.")
+        return
+
+    var save_success: bool = SaveManager.save_game(
+        GameManager.game_data
+    )
+
+    if not save_success:
+        push_error("친밀도 저장에 실패했습니다.")
+        return
+
+    load_current_creature()

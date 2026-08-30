@@ -13,6 +13,8 @@ func create_new_game(player_name: String) -> void:
         player_name
     )
 
+    ensure_creature_defaults()
+
 
 func load_game_data(loaded_data: Dictionary) -> bool:
     if loaded_data.is_empty():
@@ -24,28 +26,6 @@ func load_game_data(loaded_data: Dictionary) -> bool:
     ensure_creature_defaults()
 
     return true
-
-
-func ensure_creature_defaults() -> void:
-    if not has_active_creature():
-        return
-
-    var active_creatures: Array = game_data.get(
-        "active_creatures",
-        []
-    )
-
-    for index in range(active_creatures.size()):
-        var creature: Dictionary = active_creatures[index]
-
-        if not creature.has("egg_created_at"):
-            creature["egg_created_at"] = (
-                Time.get_unix_time_from_system()
-            )
-
-        active_creatures[index] = creature
-
-    game_data["active_creatures"] = active_creatures
 
 
 func clear_game_data() -> void:
@@ -89,6 +69,43 @@ func get_active_creature(index: int = 0) -> Dictionary:
         return {}
 
     return active_creatures[index]
+
+
+func ensure_creature_defaults() -> void:
+    if not has_active_creature():
+        return
+
+    var active_creatures: Array = game_data.get(
+        "active_creatures",
+        []
+    )
+
+    for index in range(active_creatures.size()):
+        var creature: Dictionary = active_creatures[index]
+
+        if not creature.has("stage"):
+            creature["stage"] = "egg"
+
+        if not creature.has("level"):
+            creature["level"] = 1
+
+        if not creature.has("affection"):
+            creature["affection"] = 0
+
+        if not creature.has("affection_to_next_level"):
+            creature["affection_to_next_level"] = 10
+
+        if not creature.has("egg_created_at"):
+            creature["egg_created_at"] = (
+                Time.get_unix_time_from_system()
+            )
+
+        if not creature.has("hatched_at"):
+            creature["hatched_at"] = 0.0
+
+        active_creatures[index] = creature
+
+    game_data["active_creatures"] = active_creatures
 
 
 func add_affection(
@@ -152,3 +169,37 @@ func add_affection(
 
     return true
 
+
+func hatch_creature(index: int = 0) -> bool:
+    if not has_active_creature():
+        return false
+
+    var active_creatures: Array = game_data.get(
+        "active_creatures",
+        []
+    )
+
+    if index < 0 or index >= active_creatures.size():
+        return false
+
+    var creature: Dictionary = active_creatures[index]
+
+    var stage: String = str(
+        creature.get(
+            "stage",
+            "egg"
+        )
+    )
+
+    if stage != "egg":
+        return false
+
+    creature["stage"] = "baby"
+    creature["hatched_at"] = (
+        Time.get_unix_time_from_system()
+    )
+
+    active_creatures[index] = creature
+    game_data["active_creatures"] = active_creatures
+
+    return true
