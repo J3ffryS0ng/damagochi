@@ -56,7 +56,7 @@
 
 # PHASE 2 — 알 육성
 
-- [ ] STEP 09 — Game Scene 기본 UI 구성
+- [X] STEP 09 — Game Scene 기본 UI 구성
 - [ ] STEP 10 — 테스트 알 이미지 표시
 - [ ] STEP 11 — 알 클릭 및 모바일 터치 영역 구현
 - [ ] STEP 12 — 친밀도 변수 구현

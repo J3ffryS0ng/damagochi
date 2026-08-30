@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://brrh6d4ebyehj"]
 
+[ext_resource type="Texture2D" uid="uid://btouvgfwg1xfs" path="res://assets/eggs/egg_001.png" id="1_klkup"]
+
 [node name="Game" type="Node2D" unique_id=486060642]
 
 [node name="Background" type="ColorRect" parent="." unique_id=1714372709]
@@ -9,6 +11,10 @@ color = Color(0.8666667, 0.9372549, 0.96862745, 1)
 
 [node name="PetArea" type="Node2D" parent="." unique_id=1103173683]
 position = Vector2(360, 650)
+
+[node name="EggSprite" type="Sprite2D" parent="PetArea" unique_id=186788264]
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("1_klkup")
 
 [node name="UI" type="Control" parent="." unique_id=740538115]
 layout_mode = 3
