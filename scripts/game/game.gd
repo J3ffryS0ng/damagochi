@@ -2,6 +2,7 @@ extends Node2D
 
 
 const HATCH_MIN_SECONDS: float = 60.0
+const HATCH_REQUIRED_LEVEL: int = 2
 
 
 @onready var egg_touch_area: Area2D = (
@@ -62,7 +63,7 @@ func load_current_creature() -> void:
         return
 
     update_status_ui()
-    print_hatch_time_status()
+    print_hatch_status()
 
 
 func update_status_ui() -> void:
@@ -140,7 +141,31 @@ func is_hatch_time_ready() -> bool:
     return elapsed_seconds >= HATCH_MIN_SECONDS
 
 
-func print_hatch_time_status() -> void:
+func is_hatch_level_ready() -> bool:
+    if current_creature.is_empty():
+        return false
+
+    var level: int = int(
+        current_creature.get(
+            "level",
+            1
+        )
+    )
+
+    return level >= HATCH_REQUIRED_LEVEL
+
+
+func can_hatch() -> bool:
+    if current_creature.is_empty():
+        return false
+
+    return (
+        is_hatch_time_ready()
+        and is_hatch_level_ready()
+    )
+
+
+func print_hatch_status() -> void:
     if current_creature.is_empty():
         return
 
@@ -153,18 +178,43 @@ func print_hatch_time_status() -> void:
         HATCH_MIN_SECONDS - elapsed_seconds
     )
 
+    var level: int = int(
+        current_creature.get(
+            "level",
+            1
+        )
+    )
+
     print(
         "알 생성 후 경과 시간: %.1f초"
         % elapsed_seconds
     )
 
     if is_hatch_time_ready():
-        print("부화 최소 시간 조건 충족")
+        print("시간 조건 충족")
     else:
         print(
-            "부화까지 최소 %.1f초 남음"
+            "부화 최소 시간까지 %.1f초 남음"
             % remaining_seconds
         )
+
+    print(
+        "현재 레벨: %d / 필요 레벨: %d"
+        % [
+            level,
+            HATCH_REQUIRED_LEVEL
+        ]
+    )
+
+    if is_hatch_level_ready():
+        print("레벨 조건 충족")
+    else:
+        print("레벨 조건 미충족")
+
+    if can_hatch():
+        print("최종 판정: 부화 가능")
+    else:
+        print("최종 판정: 아직 부화 불가")
 
 
 func _on_egg_touch_area_input_event(
