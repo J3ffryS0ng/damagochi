@@ -29,9 +29,16 @@ const HATCH_REQUIRED_LEVEL: int = 2
     $UI/TopPanel/StatusContainer/AffectionBar
 )
 
+@onready var hatch_flash: ColorRect = (
+    $UI/HatchFlash
+)
+
 
 var current_creature: Dictionary = {}
 var egg_wiggle_tween: Tween
+
+var hatch_flash_tween: Tween
+var hatch_effect_played: bool = false
 
 
 func _ready() -> void:
@@ -70,6 +77,7 @@ func load_current_creature() -> void:
 
     update_status_ui()
     print_hatch_status()
+    check_hatch_effect()
 
 
 func update_status_ui() -> void:
@@ -304,3 +312,56 @@ func _handle_egg_touch() -> void:
         return
 
     load_current_creature()
+
+func check_hatch_effect() -> void:
+    if hatch_effect_played:
+        return
+
+    if not can_hatch():
+        return
+
+    play_hatch_flash()
+
+func play_hatch_flash() -> void:
+    if hatch_effect_played:
+        return
+
+    hatch_effect_played = true
+
+    if egg_wiggle_tween != null:
+        egg_wiggle_tween.kill()
+
+    egg_sprite.rotation = 0.0
+
+    if hatch_flash_tween != null:
+        hatch_flash_tween.kill()
+
+    hatch_flash.color.a = 0.0
+
+    hatch_flash_tween = create_tween()
+
+    hatch_flash_tween.tween_property(
+        hatch_flash,
+        "color:a",
+        0.9,
+        0.25
+    ).set_trans(
+        Tween.TRANS_SINE
+    ).set_ease(
+        Tween.EASE_OUT
+    )
+
+    hatch_flash_tween.tween_interval(
+        0.15
+    )
+
+    hatch_flash_tween.tween_property(
+        hatch_flash,
+        "color:a",
+        0.0,
+        0.45
+    ).set_trans(
+        Tween.TRANS_SINE
+    ).set_ease(
+        Tween.EASE_IN
+    )
