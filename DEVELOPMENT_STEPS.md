@@ -52,7 +52,7 @@
 - [X] STEP 05 — 새 게임 데이터 생성
 - [X] STEP 06 — GameManager 생성
 - [X] STEP 07 — SaveManager 생성
-- [ ] STEP 08 — JSON 저장 및 불러오기 구현
+- [X] STEP 08 — JSON 저장 및 불러오기 구현
 
 # PHASE 2 — 알 육성
 
