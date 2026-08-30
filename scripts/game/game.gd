@@ -1,6 +1,9 @@
 extends Node2D
 
 
+const HATCH_MIN_SECONDS: float = 60.0
+
+
 @onready var egg_touch_area: Area2D = (
     $PetArea/EggTouchArea
 )
@@ -59,6 +62,7 @@ func load_current_creature() -> void:
         return
 
     update_status_ui()
+    print_hatch_time_status()
 
 
 func update_status_ui() -> void:
@@ -99,6 +103,68 @@ func update_status_ui() -> void:
     affection_bar.min_value = 0
     affection_bar.max_value = affection_to_next_level
     affection_bar.value = affection
+
+
+func get_egg_elapsed_seconds() -> float:
+    if current_creature.is_empty():
+        return 0.0
+
+    var egg_created_at: float = float(
+        current_creature.get(
+            "egg_created_at",
+            0.0
+        )
+    )
+
+    if egg_created_at <= 0.0:
+        return 0.0
+
+    var current_time: float = (
+        Time.get_unix_time_from_system()
+    )
+
+    return max(
+        0.0,
+        current_time - egg_created_at
+    )
+
+
+func is_hatch_time_ready() -> bool:
+    if current_creature.is_empty():
+        return false
+
+    var elapsed_seconds: float = (
+        get_egg_elapsed_seconds()
+    )
+
+    return elapsed_seconds >= HATCH_MIN_SECONDS
+
+
+func print_hatch_time_status() -> void:
+    if current_creature.is_empty():
+        return
+
+    var elapsed_seconds: float = (
+        get_egg_elapsed_seconds()
+    )
+
+    var remaining_seconds: float = max(
+        0.0,
+        HATCH_MIN_SECONDS - elapsed_seconds
+    )
+
+    print(
+        "알 생성 후 경과 시간: %.1f초"
+        % elapsed_seconds
+    )
+
+    if is_hatch_time_ready():
+        print("부화 최소 시간 조건 충족")
+    else:
+        print(
+            "부화까지 최소 %.1f초 남음"
+            % remaining_seconds
+        )
 
 
 func _on_egg_touch_area_input_event(
