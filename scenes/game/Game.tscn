@@ -1,12 +1,18 @@
 [gd_scene format=3 uid="uid://brrh6d4ebyehj"]
 
 [ext_resource type="Texture2D" uid="uid://btouvgfwg1xfs" path="res://assets/eggs/egg_001.png" id="1_klkup"]
+[ext_resource type="Script" uid="uid://c614y12k77o1q" path="res://scripts/game/game.gd" id="1_m44fu"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m44fu"]
+size = Vector2(260, 260)
 
 [node name="Game" type="Node2D" unique_id=486060642]
+script = ExtResource("1_m44fu")
 
 [node name="Background" type="ColorRect" parent="." unique_id=1714372709]
 offset_right = 720.0
 offset_bottom = 1280.0
+mouse_filter = 2
 color = Color(0.8666667, 0.9372549, 0.96862745, 1)
 
 [node name="PetArea" type="Node2D" parent="." unique_id=1103173683]
@@ -16,11 +22,17 @@ position = Vector2(360, 650)
 scale = Vector2(0.7, 0.7)
 texture = ExtResource("1_klkup")
 
+[node name="EggTouchArea" type="Area2D" parent="PetArea" unique_id=1706645835]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PetArea/EggTouchArea" unique_id=1110377017]
+shape = SubResource("RectangleShape2D_m44fu")
+
 [node name="UI" type="Control" parent="." unique_id=740538115]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 720.0
 offset_bottom = 1280.0
+mouse_filter = 2
 
 [node name="TopPanel" type="PanelContainer" parent="UI" unique_id=2032282338]
 layout_mode = 0
