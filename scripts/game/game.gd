@@ -5,6 +5,10 @@ const HATCH_MIN_SECONDS: float = 60.0
 const HATCH_REQUIRED_LEVEL: int = 2
 
 
+@onready var egg_sprite: Sprite2D = (
+    $PetArea/EggSprite
+)
+
 @onready var egg_touch_area: Area2D = (
     $PetArea/EggTouchArea
 )
@@ -27,6 +31,7 @@ const HATCH_REQUIRED_LEVEL: int = 2
 
 
 var current_creature: Dictionary = {}
+var egg_wiggle_tween: Tween
 
 
 func _ready() -> void:
@@ -36,6 +41,7 @@ func _ready() -> void:
 
     restore_game_data_if_needed()
     load_current_creature()
+    start_egg_wiggle()
 
 
 func restore_game_data_if_needed() -> void:
@@ -215,6 +221,50 @@ func print_hatch_status() -> void:
         print("최종 판정: 부화 가능")
     else:
         print("최종 판정: 아직 부화 불가")
+
+
+func start_egg_wiggle() -> void:
+    if egg_wiggle_tween != null:
+        egg_wiggle_tween.kill()
+
+    egg_sprite.rotation = 0.0
+
+    egg_wiggle_tween = create_tween()
+
+    egg_wiggle_tween.set_loops()
+
+    egg_wiggle_tween.tween_property(
+        egg_sprite,
+        "rotation",
+        deg_to_rad(-8.0),
+        0.35
+    ).set_trans(
+        Tween.TRANS_SINE
+    ).set_ease(
+        Tween.EASE_IN_OUT
+    )
+
+    egg_wiggle_tween.tween_property(
+        egg_sprite,
+        "rotation",
+        deg_to_rad(8.0),
+        0.7
+    ).set_trans(
+        Tween.TRANS_SINE
+    ).set_ease(
+        Tween.EASE_IN_OUT
+    )
+
+    egg_wiggle_tween.tween_property(
+        egg_sprite,
+        "rotation",
+        0.0,
+        0.35
+    ).set_trans(
+        Tween.TRANS_SINE
+    ).set_ease(
+        Tween.EASE_IN_OUT
+    )
 
 
 func _on_egg_touch_area_input_event(
