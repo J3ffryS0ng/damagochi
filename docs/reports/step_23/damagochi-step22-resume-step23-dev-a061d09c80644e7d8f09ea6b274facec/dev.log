@@ -1,0 +1,29 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-step23-dev-a061d09c80644e7d8f09ea6b274facec/
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+PASS AC3 egg never moves
+PASS AC2 baby starts movement and Idle
+FAIL AC3 100 refreshes preserve single Idle and movement
+게임 저장 성공:user://savegame.json
+PASS AC1 60px per second
+PASS AC1 long frame clamps at target
+PASS AC1 arrival wait in 1-3 seconds
+PASS AC1 waiting holds position
+PASS AC1 ten simulated minutes bounds speed waits
+PASS AC1 random destinations and both directions
+PASS AC2 real time x movement with full 4px Idle
+PASS AC2 original orientation scale rotation
+PASS AC2 PetArea and egg hitbox fixed
+PASS AC1 entire texture inside screen at both bounds
+PASS AC4 movement changes neither game data nor save
+PASS AC3 stop/reset egg
+PASS AC3 stop/reset unknown
+PASS AC3 empty cleanup
+PASS AC3 exit frees old movement and restarts
+PASS AC3 repeated stop resets x
+RESULT failures=1

@@ -1,0 +1,80 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+게임 저장 성공:user://savegame.json
+PASS seed
+PASS no early award
+게임 저장 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS completion once immediate save
+PASS UI and controls
+게임 저장 성공:user://savegame.json
+PASS exact level threshold
+게임 저장 성공:user://savegame.json
+PASS remainder and next goal
+게임 저장 성공:user://savegame.json
+PASS seed cancel
+PASS cancel no award 0.1
+게임 저장 성공:user://savegame.json
+PASS seed cancel
+PASS cancel no award 0.3
+게임 저장 성공:user://savegame.json
+PASS seed cancel
+PASS cancel no award 0.5
+게임 저장 성공:user://savegame.json
+PASS seed cancel
+PASS cancel no award 0.7
+게임 저장 성공:user://savegame.json
+PASS seed cancel
+PASS cancel no award 0.9
+게임 저장 성공:user://savegame.json
+PASS seed cancel
+PASS cancel no award 1.1
+PASS target replacement no award
+게임 저장 성공:user://savegame.json
+PASS seed failure
+PASS three fields rollback deny_add
+PASS failure notice and controls
+PASS invalid input keeps notice
+PASS fresh play clears own notice
+게임 저장 성공:user://savegame.json
+PASS fresh retry once
+게임 저장 성공:user://savegame.json
+PASS seed failure
+PASS three fields rollback deny_save
+PASS failure notice and controls
+PASS invalid input keeps notice
+PASS fresh play clears own notice
+게임 저장 성공:user://savegame.json
+PASS fresh retry once
+게임 저장 성공:user://savegame.json
+PASS seed actual file refusal
+PASS protect isolated save
+PASS block write with directory
+ERROR: 세이브 파일을 열 수 없습니다. 오류 코드: 12
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] save_game (res://scripts/managers/save_manager.gd:36)
+       [1] _save_play_progress (res://scripts/game/game.gd:366)
+       [2] _save_play_progress (res://play_failure.gd:9)
+       [3] _award_play_affection (res://scripts/game/game.gd:379)
+       [4] _finish_playing (res://scripts/game/game.gd:342)
+       [5] complete (res://play_verify.gd:28)
+       [6] run (res://play_verify.gd:140)
+       [7] enter (res://play_verify.gd:20)
+       [8] settle (res://play_verify.gd:11)
+PASS actual open denial rollback
+PASS remove empty blocker
+PASS restore save path
+PASS old bytes preserved
+PASS invalid goal safe 0
+PASS invalid goal safe -1
+PASS invalid goal safe nan
+PASS invalid goal safe inf
+게임 저장 성공:user://savegame.json
+PASS play keeps feed notice
+게임 저장 성공:user://savegame.json
+PASS feed still awards and clears notice
+게임 저장 성공:user://savegame.json
+PASS real UI cycle awards once
+PASS exit old cycle no award
+RESULT failures=0

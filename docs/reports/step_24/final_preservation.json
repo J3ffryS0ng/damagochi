@@ -1,0 +1,35 @@
+{
+  "checked": 213,
+  "changed": [
+    "J:\\2026\\Github\\damagochi\\scripts\\game\\game.gd",
+    "J:\\2026\\Github\\damagochi\\scenes\\game\\Game.tscn",
+    "J:\\2026\\Github\\damagochi\\DEVELOPMENT_STEPS.md"
+  ],
+  "expected_changes": [
+    "scripts/game/game.gd",
+    "scenes/game/Game.tscn",
+    "DEVELOPMENT_STEPS.md"
+  ],
+  "qa_matches": [
+    {
+      "path": "scripts/game/game.gd",
+      "matches": true
+    },
+    {
+      "path": "scenes/game/Game.tscn",
+      "matches": true
+    },
+    {
+      "path": "scripts/managers/game_manager.gd",
+      "matches": true
+    },
+    {
+      "path": "scripts/managers/save_manager.gd",
+      "matches": true
+    },
+    {
+      "path": "tests/step_24/qa_verify.gd",
+      "matches": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-step23-step27-qa-94a44c4df27540dfad58eece8ad6c188/
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC02/03 menu reads temporary data only
+PASS RC02/03 continue enabled without write
+게임 불러오기 성공:user://savegame.json
+알 생성 후 경과 시간: 120.5초
+시간 조건 충족
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+PASS RC02/03/14 default MainMenu continue enters Game
+PASS RC02/03 all fields and file bytes preserved across process restart
+RESULT resume_egg failures=0

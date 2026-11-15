@@ -1,0 +1,82 @@
+[
+  {
+    "passes": 55,
+    "label": "dev",
+    "exit": 0
+  },
+  {
+    "passes": 2,
+    "label": "clean_restore",
+    "exit": 0
+  },
+  {
+    "passes": 6,
+    "label": "real_interval",
+    "exit": 0
+  },
+  {
+    "passes": 46,
+    "label": "play_regression",
+    "exit": 0
+  },
+  {
+    "passes": 3,
+    "label": "play_restore",
+    "exit": 0
+  },
+  {
+    "passes": 38,
+    "label": "feed_regression",
+    "exit": 0
+  },
+  {
+    "passes": 3,
+    "label": "restore",
+    "exit": 0
+  },
+  {
+    "passes": 19,
+    "label": "movement_regression",
+    "exit": 0
+  },
+  {
+    "passes": 52,
+    "label": "menu_regression",
+    "exit": 0
+  },
+  {
+    "passes": 1,
+    "label": "seed_egg",
+    "exit": 0
+  },
+  {
+    "passes": 4,
+    "label": "resume_egg",
+    "exit": 0
+  },
+  {
+    "passes": 1,
+    "label": "seed_baby",
+    "exit": 0
+  },
+  {
+    "passes": 8,
+    "label": "resume_baby",
+    "exit": 0
+  },
+  {
+    "passes": 1,
+    "label": "seed_hatch",
+    "exit": 0
+  },
+  {
+    "passes": 5,
+    "label": "resume_hatch",
+    "exit": 0
+  },
+  {
+    "passes": 57,
+    "label": "render",
+    "exit": 0
+  }
+]

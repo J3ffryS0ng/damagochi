@@ -1,0 +1,146 @@
+[
+  {
+    "file": "qa_clean_resume.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_clean.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_feed_resume.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_feed.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_menu_write_denied.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_menu.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_movement.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_native_game_exit.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_native_menu_exit.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_play_resume.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_play.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_render.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_restore_001_baby.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_restore_001_egg.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_restore_002_baby.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_restore_002_egg.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_restore_003_baby.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_restore_003_egg.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_restore_004_baby.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_restore_004_egg.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_restore_baby.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_restore_egg.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_restore_hatch.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_retry.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_seed_001_baby.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_seed_001_egg.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_seed_002_baby.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_seed_002_egg.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_seed_003_baby.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_seed_003_egg.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_seed_004_baby.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_seed_004_egg.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_seed_baby.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_seed_egg.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa_seed_hatch.status.json",
+    "native_exit": 0
+  },
+  {
+    "file": "qa.status.json",
+    "native_exit": 0
+  }
+]

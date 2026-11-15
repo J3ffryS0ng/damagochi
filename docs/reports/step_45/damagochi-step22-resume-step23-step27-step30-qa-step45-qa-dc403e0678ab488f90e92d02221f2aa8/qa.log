@@ -1,0 +1,1418 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS QA isolated user dir
+PASS 45 exact ordered shared stage metadata
+PASS 45 stage lookup egg
+PASS 45 stage lookup baby
+PASS 45 stage lookup adult
+PASS 45 unknown and terminal safe
+PASS 45 stage list and single deep copies
+PASS 45 explicit stages load
+PASS 45 stage input ownership deep copy
+PASS 45 legacy missing field defaults without species loss
+PASS 45 legacy input remains unmodified
+WARNING: CreatureCatalog: stages 구조 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:49)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:69)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stages structure <null>
+PASS whole fallback + diagnostic stages structure <null>
+PASS 45 rejected structure resets default stages
+WARNING: CreatureCatalog: stages 구조 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:49)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:69)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stages structure []
+PASS whole fallback + diagnostic stages structure []
+PASS 45 rejected structure resets default stages
+WARNING: CreatureCatalog: stages 구조 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:49)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:69)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stages structure {  }
+PASS whole fallback + diagnostic stages structure {  }
+PASS 45 rejected structure resets default stages
+WARNING: CreatureCatalog: stages 구조 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:49)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:69)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stages structure egg
+PASS whole fallback + diagnostic stages structure egg
+PASS 45 rejected structure resets default stages
+WARNING: CreatureCatalog: stages 구조 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:49)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:69)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stages structure true
+PASS whole fallback + diagnostic stages structure true
+PASS 45 rejected structure resets default stages
+WARNING: CreatureCatalog: stages 구조 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:49)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:69)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stages structure 1
+PASS whole fallback + diagnostic stages structure 1
+PASS 45 rejected structure resets default stages
+WARNING: CreatureCatalog: stages 구조 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:49)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:69)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stages structure [{ "id": "egg", "name": "알", "next_stage": "b
+PASS whole fallback + diagnostic stages structure [{ "id": "egg", "name": "알", "next_stage": "b
+PASS 45 rejected structure resets default stages
+WARNING: CreatureCatalog: stages 구조 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:49)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:69)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stages structure [{ "id": "egg", "name": "알", "next_stage": "b
+PASS whole fallback + diagnostic stages structure [{ "id": "egg", "name": "알", "next_stage": "b
+PASS 45 rejected structure resets default stages
+WARNING: CreatureCatalog: stages 구조 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:49)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:69)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stages structure [{ "id": "egg", "name": "알", "next_stage": "b
+PASS whole fallback + diagnostic stages structure [{ "id": "egg", "name": "알", "next_stage": "b
+PASS 45 rejected structure resets default stages
+WARNING: CreatureCatalog: stage 순서/이름/전이 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:55)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:69)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stages structure [{ "id": "baby", "name": "유아", "next_stage": 
+PASS whole fallback + diagnostic stages structure [{ "id": "baby", "name": "유아", "next_stage": 
+PASS 45 rejected structure resets default stages
+WARNING: CreatureCatalog: stage 필드 타입 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:53)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:69)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stages structure [<null>, { "id": "baby", "name": "유아", "next_
+PASS whole fallback + diagnostic stages structure [<null>, { "id": "baby", "name": "유아", "next_
+PASS 45 rejected structure resets default stages
+WARNING: CreatureCatalog: stage 필드 타입 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:53)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:74)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage missing id
+PASS whole fallback + diagnostic stage missing id
+WARNING: CreatureCatalog: stage 필드 타입 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:53)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:78)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage type id<null>
+PASS whole fallback + diagnostic stage type id<null>
+WARNING: CreatureCatalog: stage 필드 타입 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:53)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:78)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage type idtrue
+PASS whole fallback + diagnostic stage type idtrue
+WARNING: CreatureCatalog: stage 필드 타입 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:53)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:78)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage type id42
+PASS whole fallback + diagnostic stage type id42
+WARNING: CreatureCatalog: stage 필드 타입 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:53)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:78)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage type id[]
+PASS whole fallback + diagnostic stage type id[]
+WARNING: CreatureCatalog: stage 필드 타입 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:53)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:78)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage type id{  }
+PASS whole fallback + diagnostic stage type id{  }
+WARNING: CreatureCatalog: stage 필드 타입 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:53)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:74)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage missing name
+PASS whole fallback + diagnostic stage missing name
+WARNING: CreatureCatalog: stage 필드 타입 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:53)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:78)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage type name<null>
+PASS whole fallback + diagnostic stage type name<null>
+WARNING: CreatureCatalog: stage 필드 타입 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:53)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:78)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage type nametrue
+PASS whole fallback + diagnostic stage type nametrue
+WARNING: CreatureCatalog: stage 필드 타입 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:53)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:78)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage type name42
+PASS whole fallback + diagnostic stage type name42
+WARNING: CreatureCatalog: stage 필드 타입 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:53)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:78)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage type name[]
+PASS whole fallback + diagnostic stage type name[]
+WARNING: CreatureCatalog: stage 필드 타입 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:53)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:78)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage type name{  }
+PASS whole fallback + diagnostic stage type name{  }
+WARNING: CreatureCatalog: stage 필드 타입 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:53)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:74)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage missing next_stage
+PASS whole fallback + diagnostic stage missing next_stage
+WARNING: CreatureCatalog: stage 필드 타입 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:53)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:78)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage type next_stage<null>
+PASS whole fallback + diagnostic stage type next_stage<null>
+WARNING: CreatureCatalog: stage 필드 타입 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:53)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:78)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage type next_stagetrue
+PASS whole fallback + diagnostic stage type next_stagetrue
+WARNING: CreatureCatalog: stage 필드 타입 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:53)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:78)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage type next_stage42
+PASS whole fallback + diagnostic stage type next_stage42
+WARNING: CreatureCatalog: stage 필드 타입 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:53)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:78)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage type next_stage[]
+PASS whole fallback + diagnostic stage type next_stage[]
+WARNING: CreatureCatalog: stage 필드 타입 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:53)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:78)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage type next_stage{  }
+PASS whole fallback + diagnostic stage type next_stage{  }
+WARNING: CreatureCatalog: stage 순서/이름/전이 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:55)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:82)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage ID 
+PASS whole fallback + diagnostic stage ID 
+WARNING: CreatureCatalog: stage 순서/이름/전이 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:55)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:82)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage ID  
+PASS whole fallback + diagnostic stage ID  
+WARNING: CreatureCatalog: stage 순서/이름/전이 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:55)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:82)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage ID egg
+PASS whole fallback + diagnostic stage ID egg
+WARNING: CreatureCatalog: stage 순서/이름/전이 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:55)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:82)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage ID unknown
+PASS whole fallback + diagnostic stage ID unknown
+WARNING: CreatureCatalog: stage 순서/이름/전이 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:55)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:82)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage ID Baby
+PASS whole fallback + diagnostic stage ID Baby
+WARNING: CreatureCatalog: stage 순서/이름/전이 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:55)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:86)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage wrong graph 
+PASS whole fallback + diagnostic stage wrong graph 
+WARNING: CreatureCatalog: stage 순서/이름/전이 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:55)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:86)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage wrong graph  
+PASS whole fallback + diagnostic stage wrong graph  
+WARNING: CreatureCatalog: stage 순서/이름/전이 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:55)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:86)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage wrong graph egg
+PASS whole fallback + diagnostic stage wrong graph egg
+WARNING: CreatureCatalog: stage 순서/이름/전이 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:55)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:86)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage wrong graph baby
+PASS whole fallback + diagnostic stage wrong graph baby
+WARNING: CreatureCatalog: stage 순서/이름/전이 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:55)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:86)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage wrong graph unknown
+PASS whole fallback + diagnostic stage wrong graph unknown
+WARNING: CreatureCatalog: stage 순서/이름/전이 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:55)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:89)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage skips baby
+PASS whole fallback + diagnostic stage skips baby
+WARNING: CreatureCatalog: stage 순서/이름/전이 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:55)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:92)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage cycle nonterminal adult
+PASS whole fallback + diagnostic stage cycle nonterminal adult
+WARNING: CreatureCatalog: stage 순서/이름/전이 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:55)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:96)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage empty name
+PASS whole fallback + diagnostic stage empty name
+WARNING: CreatureCatalog: stage 순서/이름/전이 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:55)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:96)
+       [4] run (res://qa_verify.gd:32)
+PASS reject stage empty name
+PASS whole fallback + diagnostic stage empty name
+PASS 45 nonblank stage display name accepted
+WARNING: CreatureCatalog: version/creatures 구조 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:45)
+       [2] reject (res://qa_verify.gd:44)
+       [3] stages (res://qa_verify.gd:100)
+       [4] run (res://qa_verify.gd:32)
+PASS reject invalid root after custom valid stage
+PASS whole fallback + diagnostic invalid root after custom valid stage
+PASS 45 fallback resets previously customized stage metadata
+PASS 45 valid reload recovery all data
+PASS 36 four definitions load
+PASS 38 original 001 path scale
+PASS 37/40 ID lookup test equal weight 001
+PASS 39 textures load 001
+PASS 37/40 ID lookup test equal weight 002
+PASS 39 textures load 002
+PASS 37/40 ID lookup test equal weight 003
+PASS 39 textures load 003
+PASS 37/40 ID lookup test equal weight 004
+PASS 39 textures load 004
+PASS 37 nested query copies immutable
+WARNING: CreatureCatalog: version/creatures 구조 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:45)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:116)
+       [4] run (res://qa_verify.gd:33)
+PASS reject root <null>
+PASS whole fallback + diagnostic root <null>
+WARNING: CreatureCatalog: version/creatures 구조 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:45)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:116)
+       [4] run (res://qa_verify.gd:33)
+PASS reject root []
+PASS whole fallback + diagnostic root []
+WARNING: CreatureCatalog: version/creatures 구조 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:45)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:116)
+       [4] run (res://qa_verify.gd:33)
+PASS reject root {  }
+PASS whole fallback + diagnostic root {  }
+WARNING: CreatureCatalog: version/creatures 구조 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:45)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:116)
+       [4] run (res://qa_verify.gd:33)
+PASS reject root { "version": 2, "creatures": [
+PASS whole fallback + diagnostic root { "version": 2, "creatures": [
+WARNING: CreatureCatalog: version/creatures 구조 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:45)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:116)
+       [4] run (res://qa_verify.gd:33)
+PASS reject root { "version": true, "creatures"
+PASS whole fallback + diagnostic root { "version": true, "creatures"
+WARNING: CreatureCatalog: version/creatures 구조 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:45)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:116)
+       [4] run (res://qa_verify.gd:33)
+PASS reject root { "version": 1, "creatures": [
+PASS whole fallback + diagnostic root { "version": 1, "creatures": [
+WARNING: CreatureCatalog: ID 형식 또는 중복 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:64)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:120)
+       [4] run (res://qa_verify.gd:33)
+PASS reject missing id
+PASS whole fallback + diagnostic missing id
+WARNING: CreatureCatalog: name 값 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:67)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:120)
+       [4] run (res://qa_verify.gd:33)
+PASS reject missing name
+PASS whole fallback + diagnostic missing name
+WARNING: CreatureCatalog: rarity 값 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:67)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:120)
+       [4] run (res://qa_verify.gd:33)
+PASS reject missing rarity
+PASS whole fallback + diagnostic missing rarity
+WARNING: CreatureCatalog: weight 값 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:69)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:120)
+       [4] run (res://qa_verify.gd:33)
+PASS reject missing weight
+PASS whole fallback + diagnostic missing weight
+WARNING: CreatureCatalog: 이미지 또는 scale 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:71)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:120)
+       [4] run (res://qa_verify.gd:33)
+PASS reject missing baby_image
+PASS whole fallback + diagnostic missing baby_image
+WARNING: CreatureCatalog: 이미지 또는 scale 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:71)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:120)
+       [4] run (res://qa_verify.gd:33)
+PASS reject missing baby_scale
+PASS whole fallback + diagnostic missing baby_scale
+WARNING: CreatureCatalog: 이미지 또는 scale 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:71)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:120)
+       [4] run (res://qa_verify.gd:33)
+PASS reject missing egg_image
+PASS whole fallback + diagnostic missing egg_image
+WARNING: CreatureCatalog: 이미지 또는 scale 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:71)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:120)
+       [4] run (res://qa_verify.gd:33)
+PASS reject missing egg_scale
+PASS whole fallback + diagnostic missing egg_scale
+WARNING: CreatureCatalog: ID 형식 또는 중복 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:64)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:124)
+       [4] run (res://qa_verify.gd:33)
+PASS reject id 
+PASS whole fallback + diagnostic id 
+WARNING: CreatureCatalog: ID 형식 또는 중복 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:64)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:124)
+       [4] run (res://qa_verify.gd:33)
+PASS reject id 1
+PASS whole fallback + diagnostic id 1
+WARNING: CreatureCatalog: ID 형식 또는 중복 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:64)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:124)
+       [4] run (res://qa_verify.gd:33)
+PASS reject id 0001
+PASS whole fallback + diagnostic id 0001
+WARNING: CreatureCatalog: ID 형식 또는 중복 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:64)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:124)
+       [4] run (res://qa_verify.gd:33)
+PASS reject id -01
+PASS whole fallback + diagnostic id -01
+WARNING: CreatureCatalog: ID 형식 또는 중복 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:64)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:124)
+       [4] run (res://qa_verify.gd:33)
+PASS reject id a01
+PASS whole fallback + diagnostic id a01
+WARNING: CreatureCatalog: ID 형식 또는 중복 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:64)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:124)
+       [4] run (res://qa_verify.gd:33)
+PASS reject id  01
+PASS whole fallback + diagnostic id  01
+WARNING: CreatureCatalog: ID 형식 또는 중복 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:64)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:124)
+       [4] run (res://qa_verify.gd:33)
+PASS reject id 2
+PASS whole fallback + diagnostic id 2
+WARNING: CreatureCatalog: ID 형식 또는 중복 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:64)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:124)
+       [4] run (res://qa_verify.gd:33)
+PASS reject id <null>
+PASS whole fallback + diagnostic id <null>
+WARNING: CreatureCatalog: ID 형식 또는 중복 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:64)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:124)
+       [4] run (res://qa_verify.gd:33)
+PASS reject id 001
+PASS whole fallback + diagnostic id 001
+WARNING: CreatureCatalog: name 값 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:67)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:129)
+       [4] run (res://qa_verify.gd:33)
+PASS reject name   
+PASS whole fallback + diagnostic name   
+WARNING: CreatureCatalog: name 값 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:67)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:129)
+       [4] run (res://qa_verify.gd:33)
+PASS reject name2
+PASS whole fallback + diagnostic name2
+WARNING: CreatureCatalog: name 값 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:67)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:129)
+       [4] run (res://qa_verify.gd:33)
+PASS reject name<null>
+PASS whole fallback + diagnostic name<null>
+WARNING: CreatureCatalog: rarity 값 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:67)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:129)
+       [4] run (res://qa_verify.gd:33)
+PASS reject rarity   
+PASS whole fallback + diagnostic rarity   
+WARNING: CreatureCatalog: rarity 값 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:67)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:129)
+       [4] run (res://qa_verify.gd:33)
+PASS reject rarity2
+PASS whole fallback + diagnostic rarity2
+WARNING: CreatureCatalog: rarity 값 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:67)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:129)
+       [4] run (res://qa_verify.gd:33)
+PASS reject rarity<null>
+PASS whole fallback + diagnostic rarity<null>
+WARNING: CreatureCatalog: weight 값 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:69)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:133)
+       [4] run (res://qa_verify.gd:33)
+PASS reject weight -1
+PASS whole fallback + diagnostic weight -1
+WARNING: CreatureCatalog: weight 값 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:69)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:133)
+       [4] run (res://qa_verify.gd:33)
+PASS reject weight 1000001
+PASS whole fallback + diagnostic weight 1000001
+WARNING: CreatureCatalog: weight 값 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:69)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:133)
+       [4] run (res://qa_verify.gd:33)
+PASS reject weight 1
+PASS whole fallback + diagnostic weight 1
+WARNING: CreatureCatalog: weight 값 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:69)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:133)
+       [4] run (res://qa_verify.gd:33)
+PASS reject weight true
+PASS whole fallback + diagnostic weight true
+WARNING: CreatureCatalog: weight 값 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:69)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:133)
+       [4] run (res://qa_verify.gd:33)
+PASS reject weight <null>
+PASS whole fallback + diagnostic weight <null>
+WARNING: CreatureCatalog: weight 값 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:69)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:133)
+       [4] run (res://qa_verify.gd:33)
+PASS reject weight inf
+PASS whole fallback + diagnostic weight inf
+WARNING: CreatureCatalog: weight 값 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:69)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:133)
+       [4] run (res://qa_verify.gd:33)
+PASS reject weight nan
+PASS whole fallback + diagnostic weight nan
+WARNING: CreatureCatalog: 양수 가중치 합 필요; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:76)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:136)
+       [4] run (res://qa_verify.gd:33)
+PASS reject all zero
+PASS whole fallback + diagnostic all zero
+WARNING: CreatureCatalog: 이미지 또는 scale 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:71)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:141)
+       [4] run (res://qa_verify.gd:33)
+PASS reject baby_imageres://assets/no-such.svg
+PASS whole fallback + diagnostic baby_imageres://assets/no-such.svg
+WARNING: CreatureCatalog: 이미지 또는 scale 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:71)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:141)
+       [4] run (res://qa_verify.gd:33)
+PASS reject baby_imageres://scripts/game/game.gd
+PASS whole fallback + diagnostic baby_imageres://scripts/game/game.gd
+WARNING: CreatureCatalog: 이미지 또는 scale 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:71)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:141)
+       [4] run (res://qa_verify.gd:33)
+PASS reject baby_imageuser://save.json
+PASS whole fallback + diagnostic baby_imageuser://save.json
+WARNING: CreatureCatalog: 이미지 또는 scale 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:71)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:141)
+       [4] run (res://qa_verify.gd:33)
+PASS reject baby_imagehttps://invalid/image.png
+PASS whole fallback + diagnostic baby_imagehttps://invalid/image.png
+WARNING: CreatureCatalog: 이미지 또는 scale 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:71)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:141)
+       [4] run (res://qa_verify.gd:33)
+PASS reject baby_image42
+PASS whole fallback + diagnostic baby_image42
+WARNING: CreatureCatalog: 이미지 또는 scale 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:71)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:141)
+       [4] run (res://qa_verify.gd:33)
+PASS reject egg_imageres://assets/no-such.svg
+PASS whole fallback + diagnostic egg_imageres://assets/no-such.svg
+WARNING: CreatureCatalog: 이미지 또는 scale 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:71)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:141)
+       [4] run (res://qa_verify.gd:33)
+PASS reject egg_imageres://scripts/game/game.gd
+PASS whole fallback + diagnostic egg_imageres://scripts/game/game.gd
+WARNING: CreatureCatalog: 이미지 또는 scale 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:71)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:141)
+       [4] run (res://qa_verify.gd:33)
+PASS reject egg_imageuser://save.json
+PASS whole fallback + diagnostic egg_imageuser://save.json
+WARNING: CreatureCatalog: 이미지 또는 scale 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:71)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:141)
+       [4] run (res://qa_verify.gd:33)
+PASS reject egg_imagehttps://invalid/image.png
+PASS whole fallback + diagnostic egg_imagehttps://invalid/image.png
+WARNING: CreatureCatalog: 이미지 또는 scale 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:71)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:141)
+       [4] run (res://qa_verify.gd:33)
+PASS reject egg_image42
+PASS whole fallback + diagnostic egg_image42
+WARNING: CreatureCatalog: 이미지 또는 scale 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:71)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:145)
+       [4] run (res://qa_verify.gd:33)
+PASS reject scale []
+PASS whole fallback + diagnostic scale []
+WARNING: CreatureCatalog: 이미지 또는 scale 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:71)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:145)
+       [4] run (res://qa_verify.gd:33)
+PASS reject scale [0, 1]
+PASS whole fallback + diagnostic scale [0, 1]
+WARNING: CreatureCatalog: 이미지 또는 scale 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:71)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:145)
+       [4] run (res://qa_verify.gd:33)
+PASS reject scale [-1, 1]
+PASS whole fallback + diagnostic scale [-1, 1]
+WARNING: CreatureCatalog: 이미지 또는 scale 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:71)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:145)
+       [4] run (res://qa_verify.gd:33)
+PASS reject scale [1]
+PASS whole fallback + diagnostic scale [1]
+WARNING: CreatureCatalog: 이미지 또는 scale 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:71)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:145)
+       [4] run (res://qa_verify.gd:33)
+PASS reject scale [inf, 1]
+PASS whole fallback + diagnostic scale [inf, 1]
+WARNING: CreatureCatalog: 이미지 또는 scale 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:71)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:145)
+       [4] run (res://qa_verify.gd:33)
+PASS reject scale [1, "1"]
+PASS whole fallback + diagnostic scale [1, "1"]
+WARNING: CreatureCatalog: 이미지 또는 scale 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:71)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:145)
+       [4] run (res://qa_verify.gd:33)
+PASS reject scale [true, 1]
+PASS whole fallback + diagnostic scale [true, 1]
+WARNING: CreatureCatalog: 이미지 또는 scale 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] load_document (res://scripts/managers/creature_catalog.gd:71)
+       [2] reject (res://qa_verify.gd:44)
+       [3] definitions (res://qa_verify.gd:145)
+       [4] run (res://qa_verify.gd:33)
+PASS reject scale [101, 1]
+PASS whole fallback + diagnostic scale [101, 1]
+WARNING: CreatureCatalog: 정의 JSON 문법 오류; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] reload (res://scripts/managers/creature_catalog.gd:24)
+       [2] definitions (res://qa_verify.gd:149)
+       [3] run (res://qa_verify.gd:33)
+PASS 36 invalid JSON diagnostic fallback
+WARNING: CreatureCatalog: 정의 파일 없음: res://qa_missing.json; 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] _reject (res://scripts/managers/creature_catalog.gd:31)
+       [1] reload (res://scripts/managers/creature_catalog.gd:21)
+       [2] definitions (res://qa_verify.gd:150)
+       [3] run (res://qa_verify.gd:33)
+PASS 36 missing file fallback
+PASS 36 reload recovery
+PASS 37 loaded input deep copied
+WARNING: CreatureCatalog: 미등록 ID 999; 표시만 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] get_definition (res://scripts/managers/creature_catalog.gd:102)
+       [1] definitions (res://qa_verify.gd:156)
+       [2] run (res://qa_verify.gd:33)
+PASS 37 unknown lookup fallback keeps catalog
+QA_UNIFORM_40000={"001":10068,"002":9982,"003":9906,"004":10044}
+PASS 44 40k uniform tolerance 001
+PASS 44 40k uniform tolerance 002
+PASS 44 40k uniform tolerance 003
+PASS 44 40k uniform tolerance 004
+PASS 44 identical seed reproduces 40k counts
+PASS 40 alternate weights load
+QA_WEIGHTED_40000={"001":4008,"002":7948,"003":12003,"004":16041}
+PASS 44 1:2:3:4 tolerance 0
+PASS 44 1:2:3:4 tolerance 1
+PASS 44 1:2:3:4 tolerance 2
+PASS 44 1:2:3:4 tolerance 3
+PASS 40/44 40k zero weight excluded
+PASS 41 actual menu new game name entry 0
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "QA 0", "created_at": 1791343835.149, "last_played_at": 1791343835.149, "active_creatures": [{ "creature_id": "004", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1791343835.149, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual new game selected saved ID
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual menu new game name entry 1
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "QA 1", "created_at": 1791343835.353, "last_played_at": 1791343835.353, "active_creatures": [{ "creature_id": "002", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1791343835.353, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual new game selected saved ID
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual menu new game name entry 2
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "QA 2", "created_at": 1791343835.465, "last_played_at": 1791343835.465, "active_creatures": [{ "creature_id": "002", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1791343835.465, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual new game selected saved ID
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual menu new game name entry 3
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "QA 3", "created_at": 1791343835.573, "last_played_at": 1791343835.573, "active_creatures": [{ "creature_id": "002", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1791343835.573, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual new game selected saved ID
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual menu new game name entry 4
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "QA 4", "created_at": 1791343835.678, "last_played_at": 1791343835.678, "active_creatures": [{ "creature_id": "004", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1791343835.678, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.0초
+부화 최소 시간까지 60.0초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual new game selected saved ID
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual menu new game name entry 5
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "QA 5", "created_at": 1791343835.778, "last_played_at": 1791343835.778, "active_creatures": [{ "creature_id": "002", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1791343835.778, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual new game selected saved ID
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual menu new game name entry 6
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "QA 6", "created_at": 1791343835.902, "last_played_at": 1791343835.902, "active_creatures": [{ "creature_id": "001", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1791343835.902, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.0초
+부화 최소 시간까지 60.0초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual new game selected saved ID
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual menu new game name entry 7
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "QA 7", "created_at": 1791343835.999, "last_played_at": 1791343835.999, "active_creatures": [{ "creature_id": "002", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1791343835.999, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual new game selected saved ID
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual menu new game name entry 8
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "QA 8", "created_at": 1791343836.112, "last_played_at": 1791343836.112, "active_creatures": [{ "creature_id": "002", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1791343836.112, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual new game selected saved ID
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual menu new game name entry 9
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "QA 9", "created_at": 1791343836.222, "last_played_at": 1791343836.222, "active_creatures": [{ "creature_id": "001", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1791343836.222, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.0초
+부화 최소 시간까지 60.0초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual new game selected saved ID
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual menu new game name entry 10
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "QA 10", "created_at": 1791343836.319, "last_played_at": 1791343836.319, "active_creatures": [{ "creature_id": "001", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1791343836.319, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.0초
+부화 최소 시간까지 60.0초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual new game selected saved ID
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual menu new game name entry 11
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "QA 11", "created_at": 1791343836.408, "last_played_at": 1791343836.408, "active_creatures": [{ "creature_id": "001", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1791343836.408, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.0초
+부화 최소 시간까지 60.0초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual new game selected saved ID
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual menu new game name entry 12
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "QA 12", "created_at": 1791343836.491, "last_played_at": 1791343836.491, "active_creatures": [{ "creature_id": "004", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1791343836.491, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.0초
+부화 최소 시간까지 60.0초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual new game selected saved ID
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual menu new game name entry 13
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "QA 13", "created_at": 1791343836.588, "last_played_at": 1791343836.588, "active_creatures": [{ "creature_id": "004", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1791343836.588, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.0초
+부화 최소 시간까지 60.0초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual new game selected saved ID
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual menu new game name entry 14
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "QA 14", "created_at": 1791343836.681, "last_played_at": 1791343836.681, "active_creatures": [{ "creature_id": "001", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1791343836.681, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.0초
+부화 최소 시간까지 60.0초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual new game selected saved ID
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual menu new game name entry 15
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "QA 15", "created_at": 1791343836.759, "last_played_at": 1791343836.759, "active_creatures": [{ "creature_id": "004", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1791343836.759, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.0초
+부화 최소 시간까지 60.0초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual new game selected saved ID
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual menu new game name entry 16
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "QA 16", "created_at": 1791343836.868, "last_played_at": 1791343836.868, "active_creatures": [{ "creature_id": "001", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1791343836.868, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.0초
+부화 최소 시간까지 60.0초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual new game selected saved ID
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual menu new game name entry 17
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "QA 17", "created_at": 1791343836.999, "last_played_at": 1791343836.999, "active_creatures": [{ "creature_id": "003", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1791343836.999, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 불러오기 성공:user://savegame.json
+PASS 41 actual new game selected saved ID
+PASS 44 actual new game reaches four species within 24 seeded requests
+알 생성 후 경과 시간: 120.0초
+시간 조건 충족
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 부화 가능
+PASS 39 natural hatch begins egg 001
+게임 저장 성공:user://savegame.json
+부화 완료
+PASS 41 natural hatch ID unchanged 001
+PASS 38/39/42/43 baby appearance 001
+PASS 42/43 movement care enabled 001
+게임 저장 성공:user://savegame.json
+PASS 42/43 feed reward 001
+게임 저장 성공:user://savegame.json
+PASS 42/43 play reward 001
+게임 저장 성공:user://savegame.json
+PASS 42/43 cleanup reward 001
+게임 불러오기 성공:user://savegame.json
+PASS 42/43 care save ID unchanged 001
+PASS 45 care queries no adult auto transition or write 001
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 41 cancellation preserves saved ID 001
+게임 불러오기 성공:user://savegame.json
+PASS 39 reentry correct species 001
+알 생성 후 경과 시간: 120.0초
+시간 조건 충족
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 부화 가능
+PASS 39 natural hatch begins egg 002
+게임 저장 성공:user://savegame.json
+부화 완료
+PASS 41 natural hatch ID unchanged 002
+PASS 38/39/42/43 baby appearance 002
+PASS 42/43 movement care enabled 002
+게임 저장 성공:user://savegame.json
+PASS 42/43 feed reward 002
+게임 저장 성공:user://savegame.json
+PASS 42/43 play reward 002
+게임 저장 성공:user://savegame.json
+PASS 42/43 cleanup reward 002
+게임 불러오기 성공:user://savegame.json
+PASS 42/43 care save ID unchanged 002
+PASS 45 care queries no adult auto transition or write 002
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 41 cancellation preserves saved ID 002
+게임 불러오기 성공:user://savegame.json
+PASS 39 reentry correct species 002
+알 생성 후 경과 시간: 120.0초
+시간 조건 충족
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 부화 가능
+PASS 39 natural hatch begins egg 003
+게임 저장 성공:user://savegame.json
+부화 완료
+PASS 41 natural hatch ID unchanged 003
+PASS 38/39/42/43 baby appearance 003
+PASS 42/43 movement care enabled 003
+게임 저장 성공:user://savegame.json
+PASS 42/43 feed reward 003
+게임 저장 성공:user://savegame.json
+PASS 42/43 play reward 003
+게임 저장 성공:user://savegame.json
+PASS 42/43 cleanup reward 003
+게임 불러오기 성공:user://savegame.json
+PASS 42/43 care save ID unchanged 003
+PASS 45 care queries no adult auto transition or write 003
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 41 cancellation preserves saved ID 003
+게임 불러오기 성공:user://savegame.json
+PASS 39 reentry correct species 003
+알 생성 후 경과 시간: 120.0초
+시간 조건 충족
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 부화 가능
+PASS 39 natural hatch begins egg 004
+게임 저장 성공:user://savegame.json
+부화 완료
+PASS 41 natural hatch ID unchanged 004
+PASS 38/39/42/43 baby appearance 004
+PASS 42/43 movement care enabled 004
+게임 저장 성공:user://savegame.json
+PASS 42/43 feed reward 004
+게임 저장 성공:user://savegame.json
+PASS 42/43 play reward 004
+게임 저장 성공:user://savegame.json
+PASS 42/43 cleanup reward 004
+게임 불러오기 성공:user://savegame.json
+PASS 42/43 care save ID unchanged 004
+PASS 45 care queries no adult auto transition or write 004
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 41 cancellation preserves saved ID 004
+게임 불러오기 성공:user://savegame.json
+PASS 39 reentry correct species 004
+PASS 41 catalog RNG independent of movement poop RNG
+PASS 36 save field contract unchanged
+게임 저장 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 37 valid nonempty unknown saved ID accepted
+게임 불러오기 성공:user://savegame.json
+WARNING: CreatureCatalog: 미등록 ID unregistered-old-id; 표시만 내장 001 사용
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] get_definition (res://scripts/managers/creature_catalog.gd:102)
+       [1] update_creature_visual (res://scripts/game/game.gd:211)
+       [2] load_current_creature (res://scripts/game/game.gd:162)
+       [3] _ready (res://scripts/game/game.gd:131)
+PASS 37 unknown ID display fallback 001
+PASS 37 unknown saved ID and loaded values preserved no reroll
+PASS 37 unknown ID no automatic disk write
+PASS 37 missing saved ID remains explicit rejection
+RESULT STEP45 QA suite failures=0

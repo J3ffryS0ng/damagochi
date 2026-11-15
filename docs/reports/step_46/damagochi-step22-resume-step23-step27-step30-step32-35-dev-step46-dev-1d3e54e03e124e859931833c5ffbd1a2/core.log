@@ -1,0 +1,108 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS one common level threshold
+PASS species boundary 001 4
+PASS species boundary 001 5
+PASS species boundary 001 6
+PASS species boundary 001 5.0
+PASS species boundary 001 6.0
+PASS actual levelup before 001
+PASS actual affection reward 001
+PASS actual levelup reaches boundary 001
+PASS levelup does not evolve 001
+PASS species boundary 002 4
+PASS species boundary 002 5
+PASS species boundary 002 6
+PASS species boundary 002 5.0
+PASS species boundary 002 6.0
+PASS actual levelup before 002
+PASS actual affection reward 002
+PASS actual levelup reaches boundary 002
+PASS levelup does not evolve 002
+PASS species boundary 003 4
+PASS species boundary 003 5
+PASS species boundary 003 6
+PASS species boundary 003 5.0
+PASS species boundary 003 6.0
+PASS actual levelup before 003
+PASS actual affection reward 003
+PASS actual levelup reaches boundary 003
+PASS levelup does not evolve 003
+PASS species boundary 004 4
+PASS species boundary 004 5
+PASS species boundary 004 6
+PASS species boundary 004 5.0
+PASS species boundary 004 6.0
+PASS actual levelup before 004
+PASS actual affection reward 004
+PASS actual levelup reaches boundary 004
+PASS levelup does not evolve 004
+PASS invalid or insufficient level <null>
+PASS invalid or insufficient level true
+PASS invalid or insufficient level false
+PASS invalid or insufficient level 5
+PASS invalid or insufficient level -5
+PASS invalid or insufficient level -5.0
+PASS invalid or insufficient level 0
+PASS invalid or insufficient level 1
+PASS invalid or insufficient level 4.999
+PASS invalid or insufficient level 5.001
+PASS invalid or insufficient level inf
+PASS invalid or insufficient level -inf
+PASS invalid or insufficient level nan
+PASS invalid or insufficient level []
+PASS invalid or insufficient level {  }
+PASS invalid stage egg
+PASS invalid stage adult
+PASS invalid stage unknown
+PASS invalid stage BABY
+PASS invalid stage 
+PASS invalid stage <null>
+PASS invalid stage 5
+PASS invalid stage true
+PASS invalid stage []
+PASS invalid stage {  }
+PASS missing field creature_id
+PASS missing field not repaired creature_id
+PASS missing field level
+PASS missing field not repaired level
+PASS missing field stage
+PASS missing field not repaired stage
+PASS unregistered target <null>
+PASS unregistered target 999
+PASS unregistered target 
+PASS unregistered target 1
+PASS unregistered target true
+PASS unregistered target []
+PASS unregistered target {  }
+PASS malformed active collection <null>
+PASS malformed active collection {  }
+PASS malformed active collection bad
+PASS malformed active collection 5
+PASS malformed active collection true
+PASS malformed active collection []
+PASS malformed active collection [<null>]
+PASS malformed active collection [[]]
+PASS malformed active collection ["bad"]
+PASS malformed active collection [5]
+PASS empty game
+PASS invalid index -1
+PASS invalid index 1
+PASS invalid index 999
+PASS invalid index <null>
+PASS invalid index true
+PASS invalid index 0
+PASS invalid index 0.0
+PASS invalid index []
+PASS invalid index {  }
+PASS second valid creature index
+게임 저장 성공:user://savegame.json
+PASS save side effect baseline
+PASS query preserves all memory data
+PASS query preserves disk bytes
+PASS query does not consume catalog RNG
+PASS query preserves species/stage metadata
+PASS egg excluded despite level
+PASS existing hatch becomes eligible baby
+PASS hatch never produces adult
+RESULT failures=0

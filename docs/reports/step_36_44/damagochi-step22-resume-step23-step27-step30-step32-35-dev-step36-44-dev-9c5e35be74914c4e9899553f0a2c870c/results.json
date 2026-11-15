@@ -1,0 +1,102 @@
+[
+  {
+    "passes": 66,
+    "label": "core",
+    "exit": 0
+  },
+  {
+    "passes": 1,
+    "label": "seed_001",
+    "exit": 0
+  },
+  {
+    "passes": 2,
+    "label": "restore_001",
+    "exit": 0
+  },
+  {
+    "passes": 1,
+    "label": "seed_002",
+    "exit": 0
+  },
+  {
+    "passes": 2,
+    "label": "restore_002",
+    "exit": 0
+  },
+  {
+    "passes": 1,
+    "label": "seed_003",
+    "exit": 0
+  },
+  {
+    "passes": 2,
+    "label": "restore_003",
+    "exit": 0
+  },
+  {
+    "passes": 60,
+    "label": "clean_regression",
+    "exit": 0
+  },
+  {
+    "passes": 46,
+    "label": "play_regression",
+    "exit": 0
+  },
+  {
+    "passes": 38,
+    "label": "feed_regression",
+    "exit": 0
+  },
+  {
+    "passes": 19,
+    "label": "movement_regression",
+    "exit": 0
+  },
+  {
+    "passes": 52,
+    "label": "menu_regression",
+    "exit": 0
+  },
+  {
+    "passes": 1,
+    "label": "old_seed_egg",
+    "exit": 0
+  },
+  {
+    "passes": 4,
+    "label": "old_resume_egg",
+    "exit": 0
+  },
+  {
+    "passes": 1,
+    "label": "old_seed_baby",
+    "exit": 0
+  },
+  {
+    "passes": 8,
+    "label": "old_resume_baby",
+    "exit": 0
+  },
+  {
+    "passes": 1,
+    "label": "old_seed_hatch",
+    "exit": 0
+  },
+  {
+    "passes": 5,
+    "label": "old_resume_hatch",
+    "exit": 0
+  },
+  {
+    "passes": 69,
+    "label": "render",
+    "exit": -1073741819
+  },
+  {
+    "exit": 0,
+    "label": "render_retry",
+    "passes": 69
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "log": "dev.log",
+    "pass": 21,
+    "fail": 0,
+    "result": "RESULT failures=0"
+  },
+  {
+    "log": "feed_restore_baby.log",
+    "pass": 4,
+    "fail": 0,
+    "result": null
+  },
+  {
+    "log": "feed_restore_egg.log",
+    "pass": 4,
+    "fail": 0,
+    "result": null
+  },
+  {
+    "log": "feed_seed_baby.log",
+    "pass": 1,
+    "fail": 0,
+    "result": null
+  },
+  {
+    "log": "feed_seed_egg.log",
+    "pass": 1,
+    "fail": 0,
+    "result": null
+  },
+  {
+    "log": "import.log",
+    "pass": 0,
+    "fail": 0,
+    "result": null
+  },
+  {
+    "log": "legacy_independent.log",
+    "pass": 32,
+    "fail": 0,
+    "result": "QA_RESULT failures=0"
+  },
+  {
+    "log": "legacy.log",
+    "pass": 38,
+    "fail": 0,
+    "result": "RESULT failures=0"
+  },
+  {
+    "log": "menu_suite.log",
+    "pass": 52,
+    "fail": 0,
+    "result": "RESULT suite failures=0"
+  },
+  {
+    "log": "movement_regression.log",
+    "pass": 19,
+    "fail": 0,
+    "result": "RESULT failures=0"
+  },
+  {
+    "log": "render.log",
+    "pass": 24,
+    "fail": 0,
+    "result": "RESULT failures=0"
+  },
+  {
+    "log": "resume_baby.log",
+    "pass": 8,
+    "fail": 0,
+    "result": "RESULT resume_baby failures=0"
+  },
+  {
+    "log": "resume_egg.log",
+    "pass": 4,
+    "fail": 0,
+    "result": "RESULT resume_egg failures=0"
+  },
+  {
+    "log": "resume_hatch.log",
+    "pass": 5,
+    "fail": 0,
+    "result": "RESULT resume_hatch failures=0"
+  },
+  {
+    "log": "seed_baby.log",
+    "pass": 1,
+    "fail": 0,
+    "result": "RESULT seed_baby failures=0"
+  },
+  {
+    "log": "seed_egg.log",
+    "pass": 1,
+    "fail": 0,
+    "result": "RESULT seed_egg failures=0"
+  },
+  {
+    "log": "seed_hatch.log",
+    "pass": 1,
+    "fail": 0,
+    "result": "RESULT seed_hatch failures=0"
+  }
+]

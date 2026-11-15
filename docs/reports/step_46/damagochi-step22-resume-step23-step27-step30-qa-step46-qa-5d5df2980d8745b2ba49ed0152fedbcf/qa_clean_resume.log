@@ -1,0 +1,8 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS isolated user directory
+PASS separate process scene load
+게임 불러오기 성공:user://savegame.json
+PASS separate process restores cleanup growth
+PASS separate process poop and countdown reset
+RESULT STEP32-35 QA failures=0

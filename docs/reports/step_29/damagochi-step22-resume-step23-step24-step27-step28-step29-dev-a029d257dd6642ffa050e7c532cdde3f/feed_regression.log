@@ -1,0 +1,68 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-step23-step24-step27-step28-step29-dev-a029d257dd6642ffa050e7c532cdde3f/
+게임 저장 성공:user://savegame.json
+PASS seed save
+PASS early finish and fade cannot award
+게임 저장 성공:user://savegame.json
+PASS one completion adds one
+PASS duplicate completion no award
+게임 불러오기 성공:user://savegame.json
+PASS immediately saved
+PASS UI update
+게임 저장 성공:user://savegame.json
+PASS threshold levelup and next target
+PASS level UI
+게임 저장 성공:user://savegame.json
+PASS remainder carried
+게임 저장 성공:user://savegame.json
+PASS save cancel fixture
+PASS cancel no reward 0.2
+게임 저장 성공:user://savegame.json
+PASS save cancel fixture
+PASS cancel no reward 0.8
+게임 저장 성공:user://savegame.json
+PASS save cancel fixture
+PASS cancel no reward 1.3
+PASS stale view rejects new input before reload
+PASS equal content different target cancels
+게임 저장 성공:user://savegame.json
+PASS save refusal fixture
+PASS failure restores all three fields deny_add
+PASS failure UI and controls deny_add
+게임 저장 성공:user://savegame.json
+PASS next fresh cycle pays exactly once deny_add
+게임 저장 성공:user://savegame.json
+PASS save refusal fixture
+PASS failure restores all three fields deny_save
+PASS failure UI and controls deny_save
+게임 저장 성공:user://savegame.json
+PASS next fresh cycle pays exactly once deny_save
+게임 저장 성공:user://savegame.json
+PASS save filesystem failure fixture
+PASS protect isolated save
+PASS directory blocks writing
+ERROR: 세이브 파일을 열 수 없습니다. 오류 코드: 12
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] save_game (res://scripts/managers/save_manager.gd:36)
+       [1] _save_feed_progress (res://scripts/game/game.gd:390)
+       [2] _save_feed_progress (res://dev_failure.gd:12)
+       [3] _award_feed_affection (res://scripts/game/game.gd:402)
+       [4] _finish_feeding (res://scripts/game/game.gd:356)
+       [5] complete (res://feed_verify.gd:32)
+       [6] run (res://feed_verify.gd:139)
+       [7] enter (res://feed_verify.gd:22)
+       [8] settle (res://feed_verify.gd:12)
+PASS actual open denial rolls back
+PASS remove empty fixture directory
+PASS restore isolated save path
+PASS protected save bytes unchanged
+PASS invalid threshold rejected 0
+PASS invalid threshold rejected -1
+PASS invalid threshold rejected nan
+PASS invalid threshold rejected inf
+게임 저장 성공:user://savegame.json
+PASS real UI full cycle rewards and resumes
+PASS exit old generation no reward
+RESULT failures=0

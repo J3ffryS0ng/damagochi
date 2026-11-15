@@ -1,0 +1,14 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-step23-dev-step24-dev-c146ecbd5abb43159ba3812984e4da3d/
+PASS load uid://een0gd3i1lu5
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+알 생성 후 경과 시간: 0.5초
+부화 최소 시간까지 59.5초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+PASS normal menu restore feed state restore_egg
+PASS restored button routed mouse restore_egg
+PASS restore and feed preserve save

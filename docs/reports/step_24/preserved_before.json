@@ -1,0 +1,854 @@
+[
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\game\\game.gd",
+    "sha256": "8E17F4D2E6B2D48D98F7EFF6040AF8105164E5733C78CD922F4FB52B2BEFDDDA"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\game\\game.gd.uid",
+    "sha256": "9B5D28BB8035A1DB979979E87EB66955DA1E5043EE4FD85A6BC8E5D263C4A0D3"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\main\\main_menu.gd",
+    "sha256": "43DE775632AD75008B22A5072EF56A250081E5723E5659F195A3C8AB159C8AD8"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\main\\main_menu.gd.uid",
+    "sha256": "1C435A86B25BDDDB1125F4351EEB4BCF57004FF23C457D44A2BA2D1B4485014D"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\main\\name_entry.gd",
+    "sha256": "DDD863FD08F0591F0C202C409ACCE59E285079E60B9F250D9E6E20269ABD4044"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\main\\name_entry.gd.uid",
+    "sha256": "BC88494EAD8B726314FDD01E5B7C0935FB23E89777870E341546C140DFDA4EBD"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\game_data_factory.gd",
+    "sha256": "096D3FCF70C560A61534F46897CA0EBD0056D501FD6E77E47F6037C8F2AAD707"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\game_data_factory.gd.uid",
+    "sha256": "59A32A9418864A3537BFA61EA5FE8E5C733C9A4ED5414045AD52A090E35A0901"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\game_manager.gd",
+    "sha256": "82A1B422F14109B698715CBE584F9B0AECA2C55E30617AF2FAFC9DEF7192FD18"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\game_manager.gd.uid",
+    "sha256": "F99BDCB93731AD21E0DA1A0B88CAAAC0C1F90D03B870EE3E188559C013B0CED3"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\save_manager.gd",
+    "sha256": "AEF9CE295A36868B3B4D22E0B4FBEEB7AEA582E80862245BE38FBE81FA4F0C19"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\save_manager.gd.uid",
+    "sha256": "1FB9152CD6531F3944A8931F1DCD44DCEE5D1F20B5FDAAE6F92C21D88AD15990"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scenes\\encyclopedia\\Encyclopedia.tscn",
+    "sha256": "E4F8E9ACF55DA5BD7C94F23661D8835B715A0B068C0DABFC221ADD5C7CF4E537"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scenes\\game\\Game.tscn",
+    "sha256": "B74C37C18024ABD71CB01946CEC602CB5C8D8499EDCBFEC7863F3E42C7D5B9D9"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scenes\\main\\Encyclopedia.tscn",
+    "sha256": "07A212A63B2AF6A09CBEC58EE95B1BD5214FA59369C268BEFCE2F2C428CBD36E"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scenes\\main\\MainMenu.tscn",
+    "sha256": "A8E17BA6F4835EA8102248E3041CFAF4F6AE6EB02E70E49938D41F54CE79B376"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scenes\\main\\NameEntry.tscn",
+    "sha256": "58ECFCD64F6AC49A07358B657BD28CFE40D2986FE0E997E5387B3CBA0896E5CB"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\assets\\creatures\\001\\creature_001_idle.png",
+    "sha256": "CCDCBDE4C48455B6ECE794AD64CD45293CFDA60C7D3B3F95C2F6592389497FB6"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\assets\\creatures\\001\\creature_001_idle.png.import",
+    "sha256": "DA5852459B9AC18928F0D8D9E398A8FDD819870A99F9A6B26667B069287DC570"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\assets\\eggs\\제목 없음.png",
+    "sha256": "22DE8B8B16A239E57B29C4A85685C849FFC4682BB1D3D95799FDFF47AC1BD522"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\assets\\eggs\\제목 없음.png.import",
+    "sha256": "C2894B2F39F2B4670CA08F8B7B61BC61208B4FD1329E86ADCB07EFCE513D6DEC"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\assets\\eggs\\egg_001.png",
+    "sha256": "6FE8FF847201F31025657CA3390030B4463CC3BDCF8BA225ED0FF2811AD21256"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\assets\\eggs\\egg_001.png.import",
+    "sha256": "4821495C2CD188E27A23A46B2D183AFFFB2F3558C973462E724464C9B80B88DF"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\assets\\eggs\\egg_001.svg",
+    "sha256": "1398ED13A07FCAA0A8BFF8B0B54B5EE5E044C68D42D671A6CD2532E2BCEB233F"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\assets\\eggs\\egg_001.svg.import",
+    "sha256": "317A5BB211D72BFC9DECE92F21DEE716CE530E09914661B3581601CCD30DF03C"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\tests\\step_22\\.gdignore",
+    "sha256": "7EB70257593DA06F682A3DDDA54A9D260D4FC514F645237F5CA74B08F8DA61A6"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\tests\\step_22\\baseline.gd",
+    "sha256": "2DA83FA139BBD9CBE4DFAD056A1A05EE4A08938BBD516899363ACCF9E9B628AD"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\tests\\step_22\\probe.gd",
+    "sha256": "0FA215F81B5A645670D5CC41992AF5711D3EF7974E49C8D92DA0F52B91EF0CF6"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\tests\\step_22\\qa_verify.gd",
+    "sha256": "A57CEE0F0632AF9C1F264AF0A31561B8CCE03CD16FD590827E9D431420F25BCB"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\tests\\step_22\\resume_qa_verify.gd",
+    "sha256": "83519E2284C67074E9AD14A72CC71BFD283EFADC62135BDF4B08791AA4984EE3"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\tests\\step_22\\resume_verify.gd",
+    "sha256": "F6D23C3EDEDF6528D08129FFFB42D3BCD4CD1AAE9E3A7BE990B455BCA6E96152"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\tests\\step_22\\run_resume.ps1",
+    "sha256": "41D9CB0FF159FEACE198E3E7BF1BEBE22D531E2B3EAFB0785ADA044C71C9413B"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\tests\\step_22\\run.ps1",
+    "sha256": "C1EDC85DDDFF17D4BFF0368E0C1EBE1EFCA3C6C42A8681525F60FD7A75DC3CE9"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\tests\\step_22\\runtime_path.txt",
+    "sha256": "7B8D52311E638E54D488DD767C9DE4126329DD27983BC899A460119BDD100891"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\tests\\step_22\\verify.gd",
+    "sha256": "05D8063842D121BC100B7A8645AE746242173A6047F8BBFDF020C42FA3773694"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\tests\\step_23\\.gdignore",
+    "sha256": "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\tests\\step_23\\dev_verify.gd",
+    "sha256": "402925FD23BF337E87CFA840DF93A34DA1847944976B2A9E77FF083366BD7108"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\tests\\step_23\\qa_verify.gd",
+    "sha256": "67A781AF47F0C6664E03116CBA5039D7E6980B3208AA137746202968771727C9"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\tests\\step_23\\run_dev.ps1",
+    "sha256": "60F32160B411CF673311A478283ED7BCF1E6C18EA7BF96DEF2052B18489CCC41"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\tests\\step_23\\run_qa.ps1",
+    "sha256": "0304226271881BD8D472B0F9415627757FFC281E2020A4103E44E60F1F6CF113"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\tasks\\STEP_22_DEV.md",
+    "sha256": "6C1FF7B9A4FC4EE74CECC7BC48F1962C4158160396A11B281E4906FA955C1BF3"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\tasks\\STEP_22_RESUME.md",
+    "sha256": "ED1E94E7049D7A6FB5E69EE686864A9C44BF4CB12C41096835A58BDDDA89016B"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\tasks\\STEP_22.md",
+    "sha256": "19C6A66E0842E21674CD6404C56398391AD1A50022D6DF16A57131FF4796ED3B"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\tasks\\STEP_23_DEV.md",
+    "sha256": "C98DBDC91A8AA37207DE561AA1C8079291351DF0C578B9C65A145263E6FCB264"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\STEP_22_DEV_REPORT.md",
+    "sha256": "54E0A24CCC6EAC3F220F951E81C346455993B51E394EFF46AC5B23949372F1DF"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\STEP_22_MANAGER_FINAL.md",
+    "sha256": "D6CCBFFE285421A4B1BE47D1415DEF39A669A4EF5D3A87C749B4A4F480FB6B12"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\STEP_22_QA_REPORT.md",
+    "sha256": "D11F8BFCB6C3B9274EAD7DBAC6BE677D5702BB19052E0A27272BEE949764851F"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\STEP_22_RESUME_DEV_REPORT.md",
+    "sha256": "04B99C20974B66974467834889A23265409F4CB2B9ABE5090B808B2CA9961A1D"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\STEP_22_RESUME_QA_REPORT.md",
+    "sha256": "6C8FB42CBEB8AB361A474B93B2E099937CC3863636EE84E327F36E1F03A1C307"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\STEP_23_DEV_REPORT.md",
+    "sha256": "E79B2AEA8D72A57EA2368CA14C13938BB12DD6A725E5D37CF98E1A98F2D96262"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\STEP_23_MANAGER_FINAL.md",
+    "sha256": "8A1D187F68E9933054ED7F3E2BED57C3367248C14D741AAA70DD8E70356BCE6C"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\STEP_23_MANAGER_REPORT.md",
+    "sha256": "64ABD30150FA64276C053BB585E04E74649F0C63F8A4B0B8588F26A3B2B1369E"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\STEP_23_QA_REPORT.md",
+    "sha256": "4597DEED046DA8E5524780AC515D93294E9E897F05C7D1EA090232AF7060BDFE"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22\\baseline_import_retry.log",
+    "sha256": "158DC26483D8D869BB4480668F32464988ED3003B2875BC33B61E42167002DAA"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22\\baseline_import.log",
+    "sha256": "3B2AAF05CA7054CBBA40C95972153B9858448814A3740F4ED1EAC0743327AFF1"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22\\baseline.log",
+    "sha256": "6DCFFF46D4AA7B56FD4A24440D2EBEAABF679E7868F3241BE48968CDFD88679E"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22\\normal_start.log",
+    "sha256": "A233E6696941D7A1D0AA51F736E198056719B69185D79088DBD1B20EA1F621BC"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22\\original_probe.log",
+    "sha256": "4F919C4A04C8F7CD9D6660146886876A2FA4B1409AF430E683B7A02A56580DB5"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22\\original_save_after.txt",
+    "sha256": "7C9CF505CE969A41705558E5F30105FA5357C6CB9C0C787AE396096674DE4C9E"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22\\original_save_before.txt",
+    "sha256": "7C9CF505CE969A41705558E5F30105FA5357C6CB9C0C787AE396096674DE4C9E"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22\\restore_render.log",
+    "sha256": "78FB3E28D3BEDC9BA615D7124D08E7215916069A933AA9B9E54777C17A742463"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22\\restored_baby.png",
+    "sha256": "9F9171D5DF04F9CE650FFA69427E969612DBF4A5D8B748AF0FF52FBA80C0CDCF"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22\\verify.log",
+    "sha256": "5132C01597B8AE4DA3A12070EBC61472FE85EBC69A8999BE1FCFD4106A05C0F3"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22\\damagochi-step22-218f440bcc104c67be1d69b42d9937b9\\import.log",
+    "sha256": "37E7255337881C7E16B103A958B62A91B80BFBF41159AE191B2D4EFF294378D2"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22\\damagochi-step22-218f440bcc104c67be1d69b42d9937b9\\original_probe.log",
+    "sha256": "4F919C4A04C8F7CD9D6660146886876A2FA4B1409AF430E683B7A02A56580DB5"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22\\damagochi-step22-218f440bcc104c67be1d69b42d9937b9\\restore_render.log",
+    "sha256": "FFBDD02C61AFB9EEA9F001F034ACD505445706A5829D74602A04A3F104C68AB1"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22\\damagochi-step22-218f440bcc104c67be1d69b42d9937b9\\restored_baby.png",
+    "sha256": "E021FBFC319E1B9307A1B1ED29BF668F5813A15E5AF50EDB9E2C2FF0CE2A1B6E"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22\\damagochi-step22-218f440bcc104c67be1d69b42d9937b9\\verify.log",
+    "sha256": "522D2DC7B24B77558E38E3AF28C826064D3EE23429E2CDFA75002F17323B2423"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_qa\\default_start.log",
+    "sha256": "EF4D9EFE847FEF3F6022521D4CC41FC37E59515548267BB02464529C14C33A9E"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_qa\\independent_render.log",
+    "sha256": "DB03832B7DE0570857D9939664303CF9DED317E49F5A33E081359FF0A0536F6D"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_qa\\independent_restart.log",
+    "sha256": "BC617BDC2F3EB8D84B8CCB91342EBADF7CE89A040DFE957845CDB0714CF5924C"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_qa\\measurements.json",
+    "sha256": "AEE91B2D07ECB3B228191898BCDBA2BF7E097887427ECECA19D6D18333B58504"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_qa\\qa_hatch_flash.png",
+    "sha256": "1953777CBCC83FC3D799F6F56EF9227A2070E3D8C56AE1FE19BFFDE4277A51CA"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_qa\\qa_hatched_baby.png",
+    "sha256": "10C649FB9906ACBC588DC53E4F54F23270FB8F9FD574E552AB767D589A8B0FA7"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_qa\\qa_idle_base.png",
+    "sha256": "DC8A5994515E9F5B84ABA745EB7D8EF3ED2A4020EF790C6EF0D6A97981F9BFA6"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_qa\\qa_idle_up.png",
+    "sha256": "321A49D4114A7F6D13F4B18560C6378ED6D8B14E2D542396DF8679C144C3409A"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_qa\\qa_new_egg.png",
+    "sha256": "8E71F8ADB4CE336550E7E3A5C7301501D8F030A5697739BA7AEA3B8B5512B4FE"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_qa\\qa_positions.csv",
+    "sha256": "FFA7460A4015F52940271FBCC97F4DC6FA8B4733F2D356E08A621AA34A88FAA7"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_qa\\qa_restored_baby.png",
+    "sha256": "CD3C0C59642EA170BDA692E9E9541B65BE97AEE079576EE9D9CEAD7EFF4E6BB0"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_qa\\source_hashes.json",
+    "sha256": "C2EE5069C793198A52B7D2F52E5730B0B7A8E7BE02F21EC84E85CFE79D78ED43"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\escape_retry.log",
+    "sha256": "7BE69407361794503CCE1844157D73815CF359570D0B850C75E90C969D9FE990"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\escape_viewport.log",
+    "sha256": "3BE29466ABC8B8935821E36BA15AA9BBEB8D5C1D412ED7D39A9E7914B94B0FE6"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\latest_run.json",
+    "sha256": "8C4CA242EBFF8D7CCCCD7F81201C65B9D16FA81D1522ECF102EFB0EDCCA694F1"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\protected_after.json",
+    "sha256": "E700A61E7642BA635440E71C0770F744B959C4E5B39C33BD394DCCA6CF221113"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\protected_before.json",
+    "sha256": "E700A61E7642BA635440E71C0770F744B959C4E5B39C33BD394DCCA6CF221113"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\continue_scene_failure.log",
+    "sha256": "2FB871D6B6C30B8ED31A88ED601058AB0D333F9326A5970B8217367D99569EF4"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\default_start.log",
+    "sha256": "FA02D07997FA86EF2512CC398C1EBBB8746F97B054504557751584FBDEEDEFE9"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\import.log",
+    "sha256": "0E8EC24D488EC9173A77F0052FB8F2031AFBD6417C13E9CB1B60007299B97C7D"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\legacy_regression.log",
+    "sha256": "1824D6191E7A104FD2F28B10A369C1BF8B22486901A6439B7923EF78C0EA598E"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\locked_hashes.txt",
+    "sha256": "346BDB8F374BA1316B9C4F565D33B51A2C3ECFA28FEF7EB4FB686225FB10D1DC"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\name_scene_failure.log",
+    "sha256": "736CD5FAB810A4B14D5AF8D658A81637C4E97B59229714CA418D0F7E685CA104"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\original_after.txt",
+    "sha256": "C4E141ABD9EBCD02B0183C318DF6E67E92F3112E71C7EC576086FE7BD06B1F17"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\original_before.txt",
+    "sha256": "C4E141ABD9EBCD02B0183C318DF6E67E92F3112E71C7EC576086FE7BD06B1F17"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\original_probe.log",
+    "sha256": "4F919C4A04C8F7CD9D6660146886876A2FA4B1409AF430E683B7A02A56580DB5"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\read_locked.log",
+    "sha256": "D23515D312F146A475230B93195BCA72DF00A92CCC9BCA8538510E8EA0612B7D"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\resume_baby.log",
+    "sha256": "E8639A1B64BC823DCCC2E3227B260952E5A64C1FE51ED4FF81E9C8DDE988C934"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\resume_baby.png",
+    "sha256": "55FFD3194C05C902EA6FC86202B37A6CED22FDE3C0FFDDA0D0928A056323ACD8"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\resume_confirm.png",
+    "sha256": "9F7E891A54A0C88A279E7D86BBA5A6CF5E5E89B899BF385D5FB36033E39B5D65"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\resume_egg.log",
+    "sha256": "3D06635FE9D830FBD1C2A739ED1A7A68E581C732DEA6EC55549F747B1E6536F4"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\resume_hatch.log",
+    "sha256": "E03BBA2526CE0FC3973D015664F7F5837A5D2EA3FE029678459AFAD514DEBD1B"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\resume_invalid_confirm.png",
+    "sha256": "822D1881A99B37E83A4C0D6C7861A1070B5D5E14D9EE7B27A1126ADC1B3C23C7"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\resume_invalid_menu.png",
+    "sha256": "D99D4A8BFEF6E79E40281D5D301F6DF355C69FBD98DD34B4D9D1EBBF198EF8B7"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\resume_menu.png",
+    "sha256": "15EABE1F796D7C594337004F74C1517830361669987303070D3E0D9AF8773D86"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\resume_valid_menu.png",
+    "sha256": "15EABE1F796D7C594337004F74C1517830361669987303070D3E0D9AF8773D86"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\seed_baby.log",
+    "sha256": "1E27E1B8242A5E47007A18E1941168D66F75C4FBF566C38825FB6D547D6893AD"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\seed_egg.log",
+    "sha256": "D53B0E7FEAE1DF190C2A043E4D8F02313555A9960A9D0D5D52963348D99A93B9"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\seed_hatch.log",
+    "sha256": "BDDDE7A9F4E2A6CFA244ABCDD099A8B75BBE639E3179E80419B6115410E15EF6"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\suite.log",
+    "sha256": "D5CD317E13ACA14E26DFCEC70D4B3855A8D4ACB34B4D219C02D22EE7BC9961C2"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-4cb5866a1fd64535a21978b40b975dcc\\write_locked.log",
+    "sha256": "E5D288CA5F2E935147DB0F670F3D9B658996D47FDB294D08113D98EA338DC895"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-8897e1916ee24e3c9d5d473ea24f4008\\import.log",
+    "sha256": "0E8EC24D488EC9173A77F0052FB8F2031AFBD6417C13E9CB1B60007299B97C7D"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-8897e1916ee24e3c9d5d473ea24f4008\\original_after.txt",
+    "sha256": "C4E141ABD9EBCD02B0183C318DF6E67E92F3112E71C7EC576086FE7BD06B1F17"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-8897e1916ee24e3c9d5d473ea24f4008\\original_before.txt",
+    "sha256": "C4E141ABD9EBCD02B0183C318DF6E67E92F3112E71C7EC576086FE7BD06B1F17"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-8897e1916ee24e3c9d5d473ea24f4008\\original_probe.log",
+    "sha256": "4F919C4A04C8F7CD9D6660146886876A2FA4B1409AF430E683B7A02A56580DB5"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-8897e1916ee24e3c9d5d473ea24f4008\\suite.log",
+    "sha256": "820B092F15AA6734595DBFF392742FA788290F7124FE515A2538A7492182D67A"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\continue_scene_failure.log",
+    "sha256": "FE4D4308942A920AC98E6D8EFA212B8D5553E9939BEDAE0D520F56DD373FD0C0"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\default_start.log",
+    "sha256": "FA02D07997FA86EF2512CC398C1EBBB8746F97B054504557751584FBDEEDEFE9"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\import.log",
+    "sha256": "0E8EC24D488EC9173A77F0052FB8F2031AFBD6417C13E9CB1B60007299B97C7D"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\legacy_regression.log",
+    "sha256": "D3530E6157F5A209CBDA3DEB3D272FCA26D8BD6F89EF9F03FB917D362B2B19BD"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\locked_hashes.txt",
+    "sha256": "64A253B940C91CEBEA293AE99FD5ABC2AE29AF22A1AACF6814599053EA3131BC"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\name_scene_failure.log",
+    "sha256": "E4EC6DA75FF9233FA0643C45F092D7C97D10021A277459E8863EF58506E026B3"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\original_after.txt",
+    "sha256": "C4E141ABD9EBCD02B0183C318DF6E67E92F3112E71C7EC576086FE7BD06B1F17"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\original_before.txt",
+    "sha256": "C4E141ABD9EBCD02B0183C318DF6E67E92F3112E71C7EC576086FE7BD06B1F17"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\original_probe.log",
+    "sha256": "4F919C4A04C8F7CD9D6660146886876A2FA4B1409AF430E683B7A02A56580DB5"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\read_locked.log",
+    "sha256": "6074F67F189EE3D7ABE53C53D8CA858B55083B04515E04B687168FA4DF02F5D7"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\resume_baby.log",
+    "sha256": "FBF6145BAFDA5395A45B103F7473C9F5134FA42790BCAE608ACCDC3232221497"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\resume_baby.png",
+    "sha256": "55FFD3194C05C902EA6FC86202B37A6CED22FDE3C0FFDDA0D0928A056323ACD8"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\resume_confirm.png",
+    "sha256": "9F7E891A54A0C88A279E7D86BBA5A6CF5E5E89B899BF385D5FB36033E39B5D65"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\resume_egg.log",
+    "sha256": "0DFC52378CC5379456365F6296CCAE3EE2975142AD291547FC595A662469F801"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\resume_hatch.log",
+    "sha256": "9ADDC35274C0A21118BC19349C09249BDDDF0B0083EFA31A1B2391C659A0637C"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\resume_invalid_confirm.png",
+    "sha256": "822D1881A99B37E83A4C0D6C7861A1070B5D5E14D9EE7B27A1126ADC1B3C23C7"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\resume_invalid_menu.png",
+    "sha256": "D99D4A8BFEF6E79E40281D5D301F6DF355C69FBD98DD34B4D9D1EBBF198EF8B7"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\resume_menu.png",
+    "sha256": "15EABE1F796D7C594337004F74C1517830361669987303070D3E0D9AF8773D86"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\resume_valid_menu.png",
+    "sha256": "15EABE1F796D7C594337004F74C1517830361669987303070D3E0D9AF8773D86"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\seed_baby.log",
+    "sha256": "43CDC56BCB6D5E5542395682CF27957B5B65CA1A8273316543188E5E52D2F3D9"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\seed_egg.log",
+    "sha256": "A317F900CDB63C3EF918D8FE1626B1EECDC40CE9050C2168180EC45DD54BF68C"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\seed_hatch.log",
+    "sha256": "736934016479919B81C3F3BBB085DE98EE89FA6D7FA8090A670A7ED1F4B6D8C3"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\suite.log",
+    "sha256": "49B93F3789193E14202DEF3D717BDC426825BD131BA68B8BB99C9A15BF6A2AD9"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847\\write_locked.log",
+    "sha256": "4AAD4FDE0DE15F7BCCC62CB3D4F02D3C916CE272C10A85824544760B13834038"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-b8af561bd91c4993810ace29bd81b73f\\import.log",
+    "sha256": "0E8EC24D488EC9173A77F0052FB8F2031AFBD6417C13E9CB1B60007299B97C7D"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-b8af561bd91c4993810ace29bd81b73f\\original_after.txt",
+    "sha256": "C4E141ABD9EBCD02B0183C318DF6E67E92F3112E71C7EC576086FE7BD06B1F17"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-b8af561bd91c4993810ace29bd81b73f\\original_before.txt",
+    "sha256": "C4E141ABD9EBCD02B0183C318DF6E67E92F3112E71C7EC576086FE7BD06B1F17"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-b8af561bd91c4993810ace29bd81b73f\\original_probe.log",
+    "sha256": "4F919C4A04C8F7CD9D6660146886876A2FA4B1409AF430E683B7A02A56580DB5"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume\\damagochi-step22-resume-b8af561bd91c4993810ace29bd81b73f\\suite.log",
+    "sha256": "857FDF9FF5BEE642E40A41D0BCE6ADE853C0B73C81B1C5B231271B18DBA35252"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume_qa\\copy_comparison.json",
+    "sha256": "0A855636BFB866109873B5B7C9F2EE06BA458170122EF6BA63AF4F153B4202E2"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume_qa\\independent_initial.log",
+    "sha256": "879F4EB4F3D6F6508E3B28AF804E9B4A35532357C56EC2DD27A34BBD0B4EA445"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume_qa\\independent.log",
+    "sha256": "533DC273385C1306FA4243506F1FC00E5A20D79FADF2F49911431AF7CD23857E"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume_qa\\legacy_comparison.json",
+    "sha256": "A4F736CA8B6BCC1BCADB8E9F5D2E9F29EC931C3F969F17776AC39A5F51AE004F"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume_qa\\native_baby.png",
+    "sha256": "3B52FA0D693E110A79F274EE3ADCF9F5E3A6F24805BA5C9EE41A5FE56AF9B5D8"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume_qa\\native_ui_second.log",
+    "sha256": "B0818F24BF61C5206C145C9ED87610800BBF14738312A25DFCED6C17FA0724C1"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume_qa\\native_ui.log",
+    "sha256": "732995F41E5C14BC1DD1ACA8AA23576EC98BD2374813D60AB88173402C96F11B"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume_qa\\original_after_all.json",
+    "sha256": "B279D0D6A80A3703DF60BD5D7180C19BAB0E9C23C4CB421F623AA8004A135284"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume_qa\\rerun_summary.json",
+    "sha256": "6E898DFACB19198DDD027A557F31111A1A3BA45B22DE27252526C43311A86B08"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume_qa\\run_paths.json",
+    "sha256": "8C4CA242EBFF8D7CCCCD7F81201C65B9D16FA81D1522ECF102EFB0EDCCA694F1"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume_qa\\source_after.json",
+    "sha256": "21EC26CABF59CA18333F243C83A65263750AD475236A9AE478EEB9C37E99D42B"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_22_resume_qa\\source_before.json",
+    "sha256": "4105D61A45631BCC6A5C099C3ADCCCBCF9977A17DEB1302CB58768889F63E237"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\dev_paths.json",
+    "sha256": "F6E350956105E2FBCA92843BB893BEF76C458A3A8700EA429145166123820F33"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\dev_source_comparison.json",
+    "sha256": "6496AF9F34B5BF08E3CF6EAD1D4E08490C4A1AE9799D18569095D501DC1B620E"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\dev_summary.json",
+    "sha256": "6FCE6DD2D4A1838EA0E9BA2A926B600F86894424EBFF5B4202B0F5929A2A3B95"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\existing_artifacts_preservation.json",
+    "sha256": "D4A4934946786B3F2DEE21892037AA16B341D258EA9A852A6AE61496A6C62B01"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\final_preservation.json",
+    "sha256": "6F07CC8F6928BE6837257857B34E05E54CCAE994CA64CEC9B280149498105EB1"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\game_before.gd.txt",
+    "sha256": "E3AF512C717645DA9706B52CAC9B411E1750D5012F6DA0A90284EA95473647A1"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\implementation_before.json",
+    "sha256": "8CC01D086C54E82556BCFBC9F36C3C98C5F76361C110B3195D70A39744F4D663"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\implementation_preservation.json",
+    "sha256": "875D5E9500AF23745D265109D30B19EC9072B2B508EBA13504035F8A78C2A9DC"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\preservation_check.json",
+    "sha256": "20506E5EF267DC6EDA0C8C267F65E6D24FAC26EC9F375F69CC77892AD15A6849"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\preserved_before.json",
+    "sha256": "4E5B24A1848FFE7EEDB22F4F6A5C1C9E556775B84A7C8F0E06BD159B6D762F7F"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\qa_idle_measurement.json",
+    "sha256": "A48206511E221081B4374612866F0530F524AF0534CBD8F8E487E759032FF74A"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\qa_paths.json",
+    "sha256": "BDD60E044159B6FB54F7D6E07EC2A508F5724B36FF2C04461776893F45A63148"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\qa_source_comparison.json",
+    "sha256": "B83CD9996DED3B3FDE3E99D0B0EF1FD5F8BAADE9B75863007813E818F36A7836"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\qa_summary.json",
+    "sha256": "4D4D2161766C5F2060D5C95F574BA6C20786D50F272C29037714C2D1181E98F5"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\step22_baseline_check.json",
+    "sha256": "883A5A9D7AA371F95DF2140572E52388EFD3486D564D9A4106E4898A382786D0"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-dev-a061d09c80644e7d8f09ea6b274facec\\dev.log",
+    "sha256": "38D78511382DA2DB6AAE9A7508F3F7B164A6D479BD170909AAE1AB6A933ECE00"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-dev-a061d09c80644e7d8f09ea6b274facec\\import.log",
+    "sha256": "933A7D53FD47B36C0D853600D8AA73346CFB217945C82426EC6C8C7B4E8585E4"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-dev-a061d09c80644e7d8f09ea6b274facec\\original_after.txt",
+    "sha256": "C4E141ABD9EBCD02B0183C318DF6E67E92F3112E71C7EC576086FE7BD06B1F17"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-dev-a061d09c80644e7d8f09ea6b274facec\\original_before.txt",
+    "sha256": "C4E141ABD9EBCD02B0183C318DF6E67E92F3112E71C7EC576086FE7BD06B1F17"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-dev-a061d09c80644e7d8f09ea6b274facec\\version.txt",
+    "sha256": "BF8803022B574250BB04DEA65053A46B7C58570725316C1F7FE2AA6735706498"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-dev-ceba8ff8236449668f7f5c7a494423ae\\dev_baby.png",
+    "sha256": "B6871CFE8828AA82F37EFB9799AE2B6BC3551F55322B14A12D4439FECAAF7C86"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-dev-ceba8ff8236449668f7f5c7a494423ae\\dev_positions.csv",
+    "sha256": "2A1AE5520FEF31BCE26E5BF0B823732C903789C4FF9114E248B2F5AEE4334214"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-dev-ceba8ff8236449668f7f5c7a494423ae\\dev.log",
+    "sha256": "8AE278E7DE8C34AD8BC50AD3BE0D43E7FE894489AC35E58BAB062757A778E4D5"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-dev-ceba8ff8236449668f7f5c7a494423ae\\import.log",
+    "sha256": "933A7D53FD47B36C0D853600D8AA73346CFB217945C82426EC6C8C7B4E8585E4"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-dev-ceba8ff8236449668f7f5c7a494423ae\\legacy_independent.log",
+    "sha256": "7B0611ACAD88CE583E63C458C274313969B30F2DF33DA49CE36892C41B464F98"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-dev-ceba8ff8236449668f7f5c7a494423ae\\legacy.log",
+    "sha256": "D1F8BF92D4B1A01F854A3B3F108763E00B83C741298A01CA577CEAC61B897415"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-dev-ceba8ff8236449668f7f5c7a494423ae\\menu_suite.log",
+    "sha256": "5CD7FCFF2711F3E886DE10574217D93969918C3780D1744FC1D4B44D8C59592A"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-dev-ceba8ff8236449668f7f5c7a494423ae\\original_after.txt",
+    "sha256": "C4E141ABD9EBCD02B0183C318DF6E67E92F3112E71C7EC576086FE7BD06B1F17"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-dev-ceba8ff8236449668f7f5c7a494423ae\\original_before.txt",
+    "sha256": "C4E141ABD9EBCD02B0183C318DF6E67E92F3112E71C7EC576086FE7BD06B1F17"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-dev-ceba8ff8236449668f7f5c7a494423ae\\render.log",
+    "sha256": "C860253E4A2A6A326E703F626EA5A8EA3B66194AF1BD101C1D5F6F2F1DE0AC4D"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-dev-ceba8ff8236449668f7f5c7a494423ae\\resume_baby.log",
+    "sha256": "613833A05476EE4567CD94B88ACE993315E991D009E8D79D58DB318716EBA512"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-dev-ceba8ff8236449668f7f5c7a494423ae\\resume_egg.log",
+    "sha256": "B40CFFF04B5CF847092A70AA88205182AE97A9B41474FFD51DA384EC1DC82B96"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-dev-ceba8ff8236449668f7f5c7a494423ae\\resume_hatch.log",
+    "sha256": "B7B5F36B269A1FDAB665881D716C48BFA58B2F42B89531E554648ECE502EAFF6"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-dev-ceba8ff8236449668f7f5c7a494423ae\\seed_baby.log",
+    "sha256": "6BCDD236713107C2E4929BF5AE4A78563D7D930C542E829A6D9EED89355C652D"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-dev-ceba8ff8236449668f7f5c7a494423ae\\seed_egg.log",
+    "sha256": "1D97028AECD9FA22819A2B280DB9F9CB1AEF6D9182C8E330C2E67BA6FE17B77A"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-dev-ceba8ff8236449668f7f5c7a494423ae\\seed_hatch.log",
+    "sha256": "86EDF427C9DDA23FD20D377D87BE24B2D7F618825E844720AA15918725022CFC"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-dev-ceba8ff8236449668f7f5c7a494423ae\\version.txt",
+    "sha256": "BF8803022B574250BB04DEA65053A46B7C58570725316C1F7FE2AA6735706498"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-qa-df8ff1182c654346889a779faf1a36a0\\import.log",
+    "sha256": "933A7D53FD47B36C0D853600D8AA73346CFB217945C82426EC6C8C7B4E8585E4"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-qa-df8ff1182c654346889a779faf1a36a0\\legacy_independent.log",
+    "sha256": "5683B7DBC7982D47BEF48F72D7033BE5851E0AEE6C505A8A90F746519219D56D"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-qa-df8ff1182c654346889a779faf1a36a0\\legacy.log",
+    "sha256": "0DEDB10FCF6A58F9BAF6CBDCFBDCD53E521745F51A884CA6D79513BC51010BB4"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-qa-df8ff1182c654346889a779faf1a36a0\\menu_suite.log",
+    "sha256": "8A9F55B82CC8DCEF41A56273F5A641DFA9A0A6D02EBEE9EA5467DEDC6AAF03CA"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-qa-df8ff1182c654346889a779faf1a36a0\\original_after.txt",
+    "sha256": "C4E141ABD9EBCD02B0183C318DF6E67E92F3112E71C7EC576086FE7BD06B1F17"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-qa-df8ff1182c654346889a779faf1a36a0\\original_before.txt",
+    "sha256": "C4E141ABD9EBCD02B0183C318DF6E67E92F3112E71C7EC576086FE7BD06B1F17"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-qa-df8ff1182c654346889a779faf1a36a0\\qa_baby.png",
+    "sha256": "41C6CC85E37EAB5CF6B5F714177F4ED99CA21B4E54AC1E476B529420CB56C415"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-qa-df8ff1182c654346889a779faf1a36a0\\qa_positions.csv",
+    "sha256": "6EECC86EC0CE1A1201F48451A1C5B05D3A93B798205C6C16C45055EEBE018124"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-qa-df8ff1182c654346889a779faf1a36a0\\qa_render.log",
+    "sha256": "3F72D1AC30699E7E0770E8777AFC49842520E74DA575C321FC7CA32AE90F087E"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-qa-df8ff1182c654346889a779faf1a36a0\\qa.log",
+    "sha256": "A6DA05069CC99E0F67109D07FD58BEBC17ECCC632ECA325394A764786C21A326"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-qa-df8ff1182c654346889a779faf1a36a0\\resume_baby.log",
+    "sha256": "63E38287A55EB128F6D066399CA777F9A44B4972757A988CF36259EEEC75B846"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-qa-df8ff1182c654346889a779faf1a36a0\\resume_egg.log",
+    "sha256": "26B36AEBD6683AC97DB58AE5098D25BBC9A6C7562CE36ACCE00D9082F0138ACB"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-qa-df8ff1182c654346889a779faf1a36a0\\resume_hatch.log",
+    "sha256": "2D02C66D704151461307E57DA11FFBC3D6A788E2F68905BD495540CE0BA67B34"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-qa-df8ff1182c654346889a779faf1a36a0\\seed_baby.log",
+    "sha256": "30CBE56887968B2B396B6C294F2839855DAB89FAB767A576C164858E64F671D4"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-qa-df8ff1182c654346889a779faf1a36a0\\seed_egg.log",
+    "sha256": "5722E1B09E957423CB1F07994D78F0732907902AD72101BA329D3BD1C02647D2"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-qa-df8ff1182c654346889a779faf1a36a0\\seed_hatch.log",
+    "sha256": "B4DB2BFC10E97B75D74AE95BA12E2B0218A181F0F6292B9A333F7D3EF8E07B82"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\step_23\\damagochi-step22-resume-step23-qa-df8ff1182c654346889a779faf1a36a0\\version.txt",
+    "sha256": "BF8803022B574250BB04DEA65053A46B7C58570725316C1F7FE2AA6735706498"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\project.godot",
+    "sha256": "8C16C5D98FBA284120D6FE9F79F5505833ADD87139CAFCC8406889EACB001110"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\COMMON_OPERATIONS_TEMPLATE.md",
+    "sha256": "8874E0F1251D3C7E937C986AE9EB3105A81358940B944E05D5923B5DD832C21B"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\BUG_LOG.md",
+    "sha256": "08E8E6BDC0A737D045A4A0515142B3183DF622DECE78D32562762E6FD5E80E41"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\DEVELOPMENT_STEPS.md",
+    "sha256": "58E69BE49979CAADE4EADD10DF3B3249D5FFA571867C5995B32EAA8414B5920C"
+  }
+]

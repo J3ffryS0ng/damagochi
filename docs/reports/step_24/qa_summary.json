@@ -1,0 +1,84 @@
+{
+  "render_selection": "qa_render_retry.log replaces qa_render.log; no duplicate count",
+  "selected_logs": [
+    {
+      "log": "import.log",
+      "pass": 0,
+      "fail": 0,
+      "script_error": 0,
+      "result": ""
+    },
+    {
+      "log": "qa_menu.log",
+      "pass": 52,
+      "fail": 0,
+      "script_error": 0,
+      "result": "RESULT suite failures=0"
+    },
+    {
+      "log": "qa_movement.log",
+      "pass": 19,
+      "fail": 0,
+      "script_error": 0,
+      "result": "RESULT failures=0"
+    },
+    {
+      "log": "qa_render_retry.log",
+      "pass": 42,
+      "fail": 0,
+      "script_error": 0,
+      "result": "RESULT QA failures=0"
+    },
+    {
+      "log": "qa_resume_baby.log",
+      "pass": 8,
+      "fail": 0,
+      "script_error": 0,
+      "result": "RESULT resume_baby failures=0"
+    },
+    {
+      "log": "qa_resume_egg.log",
+      "pass": 4,
+      "fail": 0,
+      "script_error": 0,
+      "result": "RESULT resume_egg failures=0"
+    },
+    {
+      "log": "qa_resume_hatch.log",
+      "pass": 5,
+      "fail": 0,
+      "script_error": 0,
+      "result": "RESULT resume_hatch failures=0"
+    },
+    {
+      "log": "qa_seed_baby.log",
+      "pass": 1,
+      "fail": 0,
+      "script_error": 0,
+      "result": "RESULT seed_baby failures=0"
+    },
+    {
+      "log": "qa_seed_egg.log",
+      "pass": 1,
+      "fail": 0,
+      "script_error": 0,
+      "result": "RESULT seed_egg failures=0"
+    },
+    {
+      "log": "qa_seed_hatch.log",
+      "pass": 1,
+      "fail": 0,
+      "script_error": 0,
+      "result": "RESULT seed_hatch failures=0"
+    },
+    {
+      "log": "qa.log",
+      "pass": 38,
+      "fail": 0,
+      "script_error": 0,
+      "result": "RESULT QA failures=0"
+    }
+  ],
+  "total_pass": 171.0,
+  "render_native_exit": 0
+}

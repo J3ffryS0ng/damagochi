@@ -1,0 +1,10 @@
+{
+  "baseline": "preserved_before.json from initial MANAGER investigation",
+  "checked": 139,
+  "changed": [
+    "J:\\2026\\Github\\damagochi\\scripts\\game\\game.gd"
+  ],
+  "expected_changed": [
+    "scripts/game/game.gd"
+  ]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "label": "dev",
+    "passes": 63,
+    "exit": 0
+  },
+  {
+    "label": "restore",
+    "passes": 4,
+    "exit": 0
+  },
+  {
+    "label": "movement_regression",
+    "passes": 19,
+    "exit": 0
+  },
+  {
+    "label": "menu_regression",
+    "passes": 52,
+    "exit": 0
+  },
+  {
+    "label": "seed_egg",
+    "passes": 1,
+    "exit": 0
+  },
+  {
+    "label": "resume_egg",
+    "passes": 4,
+    "exit": 0
+  },
+  {
+    "label": "seed_baby",
+    "passes": 1,
+    "exit": 0
+  },
+  {
+    "label": "resume_baby",
+    "passes": 8,
+    "exit": 0
+  },
+  {
+    "label": "seed_hatch",
+    "passes": 1,
+    "exit": 0
+  },
+  {
+    "label": "resume_hatch",
+    "passes": 5,
+    "exit": 0
+  },
+  {
+    "label": "render",
+    "passes": 67,
+    "exit": 0
+  }
+]

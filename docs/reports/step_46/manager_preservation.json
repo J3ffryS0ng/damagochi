@@ -1,0 +1,19 @@
+[
+  {
+    "baseline": "history_before",
+    "count": 1420,
+    "changed": []
+  },
+  {
+    "baseline": "product_before",
+    "count": 30,
+    "changed": [
+      "J:\\2026\\Github\\damagochi\\scripts\\managers\\game_manager.gd"
+    ]
+  },
+  {
+    "baseline": "protected_before",
+    "count": 3,
+    "changed": []
+  }
+]

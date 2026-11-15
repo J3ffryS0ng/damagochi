@@ -1,0 +1,178 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-step23-step24-step27-dev-571bdae8a8944ac9a11b1709d41eeeff/
+세이브 파일 삭제 완료
+PASS RC01 no save continue disabled
+PASS RC01 no-dialog entry consumes authorization
+PASS RC01 empty name no save
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "새 이름", "created_at": 1790860725.558, "last_played_at": 1790860725.558, "active_creatures": [{ "creature_id": "001", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1790860725.558, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+PASS RC01/13 one new egg transition on repeated submission
+게임 저장 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC05 prompt before entry without changes cancel
+PASS RC07 preserve state/focus/hash cancel
+게임 불러오기 성공:user://savegame.json
+PASS RC05 prompt before entry without changes escape
+ESC_STATE visible=false pending=false focus=true
+PASS RC07 preserve state/focus/hash escape
+게임 불러오기 성공:user://savegame.json
+PASS RC05 prompt before entry without changes close
+PASS RC07 preserve state/focus/hash close
+게임 불러오기 성공:user://savegame.json
+PASS RC06 confirmed entry leaves save and memory unchanged
+게임 불러오기 성공:user://savegame.json
+PASS RC12 back discards approval preserves data
+게임 불러오기 성공:user://savegame.json
+PASS RC12 direct NameEntry rejected
+게임 불러오기 성공:user://savegame.json
+PASS RC12 changed-file authorization blocked
+ERROR: 세이브 JSON 분석 실패. Line 0: Expected 'true', 'false', or 'null', got 'changed'
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_game (res://scripts/managers/save_manager.gd:76)
+       [1] load_existing_save (res://scripts/main/main_menu.gd:77)
+       [2] _ready (res://scripts/main/main_menu.gd:27)
+PASS RC08 malformed JSON blocked
+ERROR: 세이브 JSON 분석 실패. Line 0: Expected 'true', 'false', or 'null', got 'changed'
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_game (res://scripts/managers/save_manager.gd:76)
+       [1] _on_continue_button_pressed (res://scripts/main/main_menu.gd:93)
+       [2] suite (res://resume_verify.gd:179)
+       [3] settle (res://resume_verify.gd:19)
+PASS RC09 invalid continue no automatic initialization
+ERROR: 세이브 JSON 분석 실패. Line 0: Expected 'true', 'false', or 'null', got 'changed'
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_game (res://scripts/managers/save_manager.gd:76)
+       [1] _on_start_button_pressed (res://scripts/main/main_menu.gd:123)
+       [2] suite (res://resume_verify.gd:182)
+PASS RC11 corrupt save replacement warning
+PASS RC11 cancel corrupt file preserves bytes
+ERROR: 세이브 JSON 분석 실패. Line 0: Expected 'true', 'false', or 'null', got 'changed'
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_game (res://scripts/managers/save_manager.gd:76)
+       [1] _on_start_button_pressed (res://scripts/main/main_menu.gd:123)
+       [2] suite (res://resume_verify.gd:187)
+PASS RC11 explicit corrupt replacement enters without write
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "명시적 대체", "created_at": 1790860726.395, "last_played_at": 1790860726.395, "active_creatures": [{ "creature_id": "001", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1790860726.395, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.0초
+부화 최소 시간까지 60.0초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 불러오기 성공:user://savegame.json
+PASS RC06/11 only submitted name replaces file
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 0
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 1
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 2
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 3
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 4
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 5
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 6
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 7
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 8
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 9
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 10
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 11
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 12
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 13
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 14
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 15
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 16
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 17
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 18
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 19
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 20
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 21
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 22
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC08 invalid structure blocked 23
+PASS RC08 nonfinite helper rejects
+PASS RC08 nonfinite helper rejects
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+알 생성 후 경과 시간: 0.0초
+부화 최소 시간까지 60.0초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+PASS RC08 missing optional defaults/unknown keys/JSON float preserved
+PASS RC08 other nonempty stage not rewritten
+세이브 파일 삭제 완료
+게임 저장 성공:user://savegame.json
+PASS RC12 file appeared after absent approval blocked
+게임 불러오기 성공:user://savegame.json
+ERROR: 세이브 JSON 분석 실패. Line 0: Expected 'true', 'false', or 'null', got 'invalidated'
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_game (res://scripts/managers/save_manager.gd:76)
+       [1] _on_continue_button_pressed (res://scripts/main/main_menu.gd:93)
+       [2] suite (res://resume_verify.gd:248)
+       [3] menu (res://resume_verify.gd:24)
+       [4] settle (res://resume_verify.gd:19)
+PASS RC08 continue rechecks disk after menu display
+세이브 파일 삭제 완료
+게임 저장 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC05 new game rechecks file presence
+PASS existing encyclopedia route retained
+RESULT suite failures=0

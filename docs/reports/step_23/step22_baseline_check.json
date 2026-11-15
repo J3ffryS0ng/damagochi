@@ -1,0 +1,42 @@
+[
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\game\\game.gd",
+    "matches": true
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scenes\\game\\Game.tscn",
+    "matches": true
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\game_manager.gd",
+    "matches": true
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\save_manager.gd",
+    "matches": true
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\game_data_factory.gd",
+    "matches": true
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\project.godot",
+    "matches": true
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scenes\\main\\NameEntry.tscn",
+    "matches": true
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\main\\main_menu.gd",
+    "matches": true
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\main\\name_entry.gd",
+    "matches": true
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scenes\\main\\MainMenu.tscn",
+    "matches": true
+  }
+]

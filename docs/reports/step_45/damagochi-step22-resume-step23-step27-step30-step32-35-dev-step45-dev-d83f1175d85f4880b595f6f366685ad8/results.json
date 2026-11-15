@@ -1,0 +1,147 @@
+[
+  {
+    "exit": 0,
+    "passes": 134,
+    "label": "core"
+  },
+  {
+    "exit": 0,
+    "passes": 1,
+    "label": "seed_001_egg"
+  },
+  {
+    "exit": 0,
+    "passes": 3,
+    "label": "restore_001_egg"
+  },
+  {
+    "exit": 0,
+    "passes": 1,
+    "label": "seed_001_baby"
+  },
+  {
+    "exit": 0,
+    "passes": 3,
+    "label": "restore_001_baby"
+  },
+  {
+    "exit": 0,
+    "passes": 1,
+    "label": "seed_002_egg"
+  },
+  {
+    "exit": 0,
+    "passes": 3,
+    "label": "restore_002_egg"
+  },
+  {
+    "exit": 0,
+    "passes": 1,
+    "label": "seed_002_baby"
+  },
+  {
+    "exit": 0,
+    "passes": 3,
+    "label": "restore_002_baby"
+  },
+  {
+    "exit": 0,
+    "passes": 1,
+    "label": "seed_003_egg"
+  },
+  {
+    "exit": 0,
+    "passes": 3,
+    "label": "restore_003_egg"
+  },
+  {
+    "exit": 0,
+    "passes": 1,
+    "label": "seed_003_baby"
+  },
+  {
+    "exit": 0,
+    "passes": 3,
+    "label": "restore_003_baby"
+  },
+  {
+    "exit": 0,
+    "passes": 1,
+    "label": "seed_004_egg"
+  },
+  {
+    "exit": 0,
+    "passes": 3,
+    "label": "restore_004_egg"
+  },
+  {
+    "exit": 0,
+    "passes": 1,
+    "label": "seed_004_baby"
+  },
+  {
+    "exit": 0,
+    "passes": 3,
+    "label": "restore_004_baby"
+  },
+  {
+    "exit": 0,
+    "passes": 60,
+    "label": "clean_regression"
+  },
+  {
+    "exit": 0,
+    "passes": 46,
+    "label": "play_regression"
+  },
+  {
+    "exit": 0,
+    "passes": 38,
+    "label": "feed_regression"
+  },
+  {
+    "exit": 0,
+    "passes": 19,
+    "label": "movement_regression"
+  },
+  {
+    "exit": 0,
+    "passes": 52,
+    "label": "menu_regression"
+  },
+  {
+    "exit": 0,
+    "passes": 1,
+    "label": "old_seed_egg"
+  },
+  {
+    "exit": 0,
+    "passes": 4,
+    "label": "old_resume_egg"
+  },
+  {
+    "exit": 0,
+    "passes": 1,
+    "label": "old_seed_baby"
+  },
+  {
+    "exit": 0,
+    "passes": 8,
+    "label": "old_resume_baby"
+  },
+  {
+    "exit": 0,
+    "passes": 1,
+    "label": "old_seed_hatch"
+  },
+  {
+    "exit": 0,
+    "passes": 5,
+    "label": "old_resume_hatch"
+  },
+  {
+    "exit": 0,
+    "passes": 138,
+    "label": "render"
+  }
+]

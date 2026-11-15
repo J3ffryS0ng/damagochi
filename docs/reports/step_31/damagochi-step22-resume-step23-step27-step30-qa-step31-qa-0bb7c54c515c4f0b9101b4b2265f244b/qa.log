@@ -1,0 +1,42 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-step23-step27-step30-qa-step31-qa-0bb7c54c515c4f0b9101b4b2265f244b/
+PASS eligible baby starts full random interval without request
+PASS real one-shot Timer
+PASS single timeout connection
+PASS 1000 uniform-range samples low=506 high=494 mean=90.075325
+PASS timer sampling does not consume movement RNG
+PASS 100 refresh preserve running timer exactly
+PASS refresh does not duplicate connection
+게임 저장 성공:user://savegame.json
+PASS isolated save seeded
+PASS timer coexists with movement and Idle
+PASS play preserves remaining while busy
+PASS play cancel resumes
+PASS feed preserves remaining while busy
+PASS feed cancel resumes
+PASS cancel and timer no memory/save effect
+PASS SceneTree pause preserves remaining
+PASS SceneTree unpause resumes
+PASS unrefreshed stage monitor egg
+PASS unrefreshed stage monitor adult
+PASS unrefreshed stage monitor baby
+PASS hatch in progress stops
+PASS flash still running blocks timer
+PASS flash completion starts full interval
+PASS unrefreshed identical-value new target stops stale timer
+PASS explicit target refresh starts new interval
+PASS empty target stops
+PASS accelerated natural timeout sends one request and rearms
+PASS duplicate timeout callbacks ignored after rearm
+PASS long frame yields one request without catch-up burst
+PASS requests preserve full memory and save bytes
+REAL_CYCLE_START interval=73.5895156860352
+REAL_CYCLE_END elapsed=73.619 interval=73.5895156860352
+PASS actual default-range wall-clock cycle
+PASS real cycle rearms full default-range interval
+게임 저장 성공:user://savegame.json
+PASS save for separate process
+PASS scene exit frees Timer
+PASS same-process scene reentry resets countdown
+RESULT STEP31 QA failures=0

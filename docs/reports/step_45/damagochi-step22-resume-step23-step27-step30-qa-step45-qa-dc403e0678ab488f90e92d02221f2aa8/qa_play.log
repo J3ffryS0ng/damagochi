@@ -1,0 +1,122 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-step23-step27-step30-qa-step45-qa-dc403e0678ab488f90e92d02221f2aa8/
+게임 저장 성공:user://savegame.json
+PASS isolated baseline
+PASS early/repeat/refresh no award
+PASS one cycle and mutually exclusive
+PASS midpoint no reward/save
+게임 저장 성공:user://savegame.json
+PASS completion bounded
+PASS actual runtime 1.2 seconds 1205
+PASS completed plus one
+게임 불러오기 성공:user://savegame.json
+PASS immediate disk award
+PASS updated UI
+PASS duplicate/stale finish ignored
+PASS normal state restored
+게임 저장 성공:user://savegame.json
+PASS threshold and remainder [8, 9, 2, 10]
+PASS level UI
+게임 저장 성공:user://savegame.json
+PASS consecutive normal cycle
+게임 저장 성공:user://savegame.json
+PASS threshold and remainder [9, 0, 3, 13]
+PASS level UI
+게임 저장 성공:user://savegame.json
+PASS consecutive normal cycle
+게임 저장 성공:user://savegame.json
+PASS threshold and remainder [10, 1, 3, 13]
+PASS level UI
+게임 저장 성공:user://savegame.json
+PASS consecutive normal cycle
+게임 저장 성공:user://savegame.json
+PASS cancel leg 0
+PASS cancel controls 0
+게임 저장 성공:user://savegame.json
+PASS cancel leg 1
+PASS cancel controls 1
+게임 저장 성공:user://savegame.json
+PASS cancel leg 2
+PASS cancel controls 2
+게임 저장 성공:user://savegame.json
+PASS cancel leg 3
+PASS cancel controls 3
+게임 저장 성공:user://savegame.json
+PASS cancel leg 4
+PASS cancel controls 4
+게임 저장 성공:user://savegame.json
+PASS cancel leg 5
+PASS cancel controls 5
+PASS invalid/identity cancels and denies egg
+PASS invalid/identity cancels and denies adult
+PASS invalid/identity cancels and denies empty
+PASS invalid/identity cancels and denies hatch
+PASS invalid/identity cancels and denies target
+PASS scene exit no reward
+PASS invalid actual completion affection-1
+PASS invalid actual completion affectioninf
+PASS invalid actual completion affectionnan
+PASS invalid actual completion affection1.5
+PASS invalid actual completion affectionbad
+PASS invalid actual completion affection10000000000000000.0
+PASS invalid actual completion level-1
+PASS invalid actual completion levelinf
+PASS invalid actual completion levelnan
+PASS invalid actual completion level1.5
+PASS invalid actual completion levelbad
+PASS invalid actual completion level10000000000000000.0
+PASS invalid actual completion level0
+PASS invalid actual completion affection_to_next_level-1
+PASS invalid actual completion affection_to_next_levelinf
+PASS invalid actual completion affection_to_next_levelnan
+PASS invalid actual completion affection_to_next_level1.5
+PASS invalid actual completion affection_to_next_levelbad
+PASS invalid actual completion affection_to_next_level10000000000000000.0
+PASS invalid actual completion affection_to_next_level0
+게임 저장 성공:user://savegame.json
+PASS three field rollback bytes apply
+PASS failure notice/UI apply
+PASS invalid input keeps play notice
+PASS new valid play clears own notice
+게임 저장 성공:user://savegame.json
+PASS retry awards once apply
+게임 저장 성공:user://savegame.json
+PASS play preserves feed notice
+PASS feed retains notice clear contract
+PASS feed blocks play
+게임 저장 성공:user://savegame.json
+PASS feed reward after play
+게임 저장 성공:user://savegame.json
+PASS three field rollback bytes save
+PASS failure notice/UI save
+PASS invalid input keeps play notice
+PASS new valid play clears own notice
+게임 저장 성공:user://savegame.json
+PASS retry awards once save
+게임 저장 성공:user://savegame.json
+PASS play preserves feed notice
+PASS feed retains notice clear contract
+PASS feed blocks play
+게임 저장 성공:user://savegame.json
+PASS feed reward after play
+게임 저장 성공:user://savegame.json
+ERROR: 세이브 파일을 열 수 없습니다. 오류 코드: 12
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] save_game (res://scripts/managers/save_manager.gd:36)
+       [1] _save_play_progress (res://scripts/game/game.gd:389)
+       [2] _award_play_affection (res://scripts/game/game.gd:403)
+       [3] _finish_playing (res://scripts/game/game.gd:365)
+       [4] fast_finish (res://play_verify.gd:45)
+       [5] suite (res://play_verify.gd:185)
+PASS real readonly save refusal rollback
+PASS real readonly bytes unchanged
+PASS real screen input (405, 720)
+게임 저장 성공:user://savegame.json
+PASS completion bounded
+PASS real screen input (720, 1280)
+게임 저장 성공:user://savegame.json
+PASS completion bounded
+PASS two valid cycles reward
+RESULT STEP30 QA failures=0

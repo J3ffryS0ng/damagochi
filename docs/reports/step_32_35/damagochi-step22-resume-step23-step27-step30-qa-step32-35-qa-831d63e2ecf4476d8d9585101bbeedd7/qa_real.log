@@ -1,0 +1,8 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS isolated user directory
+REAL_INTERVAL 90.7610168457031
+REAL_ELAPSED 90.661
+PASS real unaccelerated timer creates image
+PASS real generation freezes until cleanup
+RESULT STEP32-35 QA failures=0

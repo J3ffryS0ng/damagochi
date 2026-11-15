@@ -1,0 +1,111 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-step23-step27-step29-qa-3b8b1a50863642ea89f7b076337dd63a/
+게임 저장 성공:user://savegame.json
+PASS isolated baseline save
+PASS duplicate10 refresh100 one sequence
+PASS early completion call denied
+PASS approach no reward save
+PASS approach60px
+PASS eating no reward
+PASS fade no early reward
+게임 저장 성공:user://savegame.json
+PASS sequence completes within duration
+PASS completed +1 exactly
+PASS status updated
+PASS normal controls restored
+게임 불러오기 성공:user://savegame.json
+PASS immediate disk reward
+PASS duplicate stale finish no reward
+게임 저장 성공:user://savegame.json
+PASS sequence completes within duration
+PASS threshold rule [8, 2, 10, 9, 2, 10]
+PASS level gauge updated
+게임 저장 성공:user://savegame.json
+PASS sequence completes within duration
+PASS threshold rule [9, 2, 10, 0, 3, 13]
+PASS level gauge updated
+게임 저장 성공:user://savegame.json
+PASS sequence completes within duration
+PASS threshold rule [10, 2, 10, 1, 3, 13]
+PASS level gauge updated
+게임 저장 성공:user://savegame.json
+PASS cancel stage no reward 0.3
+게임 저장 성공:user://savegame.json
+PASS cancel stage no reward 2.2
+게임 저장 성공:user://savegame.json
+PASS cancel stage no reward 3.25
+PASS invalid target cancels egg
+PASS invalid repeated input denied egg
+PASS invalid target cancels adult
+PASS invalid repeated input denied adult
+PASS invalid target cancels empty
+PASS invalid repeated input denied empty
+PASS invalid target cancels hatch
+PASS invalid repeated input denied hatch
+PASS invalid target cancels target
+PASS invalid repeated input denied target
+PASS stale idle identity new input denied
+PASS scene exit no reward
+PASS invalid rejected affection_to_next_level=0
+PASS invalid rejected affection_to_next_level=-1
+PASS invalid rejected affection_to_next_level=inf
+PASS invalid rejected affection_to_next_level=nan
+PASS invalid rejected affection_to_next_level=1.5
+PASS invalid rejected affection_to_next_level=invalid
+PASS invalid rejected affection_to_next_level=10000000000000000.0
+PASS invalid rejected level=0
+PASS invalid rejected level=-1
+PASS invalid rejected level=inf
+PASS invalid rejected level=nan
+PASS invalid rejected level=1.5
+PASS invalid rejected level=invalid
+PASS invalid rejected level=10000000000000000.0
+PASS invalid rejected affection=-1
+PASS invalid rejected affection=inf
+PASS invalid rejected affection=nan
+PASS invalid rejected affection=1.5
+PASS invalid rejected affection=invalid
+PASS invalid rejected affection=10000000000000000.0
+PASS sequence completes within duration
+PASS zero threshold no hang user message
+게임 저장 성공:user://savegame.json
+PASS sequence completes within duration
+PASS rollback all three apply
+PASS failure existing bytes apply
+PASS failure UI apply
+PASS failure controls apply
+PASS retry clears notice
+게임 저장 성공:user://savegame.json
+PASS sequence completes within duration
+PASS new cycle reward once after failure apply
+게임 저장 성공:user://savegame.json
+PASS sequence completes within duration
+PASS rollback all three save
+PASS failure existing bytes save
+PASS failure UI save
+PASS failure controls save
+PASS retry clears notice
+게임 저장 성공:user://savegame.json
+PASS sequence completes within duration
+PASS new cycle reward once after failure save
+게임 저장 성공:user://savegame.json
+QA_READONLY_READY
+ERROR: 세이브 파일을 열 수 없습니다. 오류 코드: 12
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] save_game (res://scripts/managers/save_manager.gd:36)
+       [1] _save_feed_progress (res://scripts/game/game.gd:390)
+       [2] _award_feed_affection (res://scripts/game/game.gd:402)
+       [3] _finish_feeding (res://scripts/game/game.gd:356)
+PASS sequence completes within duration
+PASS real write open refusal rollback
+PASS real write refusal bytes unchanged
+PASS actual viewport click begins
+게임 저장 성공:user://savegame.json
+PASS sequence completes within duration
+PASS actual viewport click begins
+게임 저장 성공:user://savegame.json
+PASS sequence completes within duration
+PASS two render cycles reward precisely
+RESULT QA failures=0

@@ -1,0 +1,24 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847/
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+ERROR: Cannot open file 'res://scenes/game/Game.tscn'.
+   at: load (scene/resources/resource_format_text.cpp:1442)
+   GDScript backtrace (most recent call first):
+       [0] _on_continue_button_pressed (res://scripts/main/main_menu.gd:108)
+       [1] scene_failure (res://resume_verify.gd:294)
+       [2] menu (res://resume_verify.gd:24)
+       [3] settle (res://resume_verify.gd:19)
+ERROR: Failed loading resource: res://scenes/game/Game.tscn.
+   at: _load (core/io/resource_loader.cpp:317)
+   GDScript backtrace (most recent call first):
+       [0] _on_continue_button_pressed (res://scripts/main/main_menu.gd:108)
+       [1] scene_failure (res://resume_verify.gd:294)
+       [2] menu (res://resume_verify.gd:24)
+       [3] settle (res://resume_verify.gd:19)
+PASS RC13 continue scene failure rolls back memory and restores buttons
+PASS test restores disposable scene
+게임 불러오기 성공:user://savegame.json
+PASS RC13 scene retry succeeds without another save
+RESULT continue_scene_failure failures=0

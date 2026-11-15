@@ -1,0 +1,44 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-step23-step24-step25-dev-24a86f89130a4200bb73a5745d379ab9/
+PASS load res://scenes/game/Game.tscn
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+PASS AC1 visible disabled egg button
+PASS AC1 same size and separate menu
+PASS AC2 egg blocks routed and direct input
+알 생성 후 경과 시간: 120.0초
+시간 조건 충족
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 부화 가능
+PASS AC1 hatch starts disabled
+게임 저장 성공:user://savegame.json
+부화 완료
+PASS AC1 baby during flash stays disabled
+PASS AC2 fade cannot feed
+PASS AC1 enables after full hatch effect
+PASS AC2 routed mouse sends exactly one request
+PASS AC2 right click ignored
+PASS AC2 focused Space sends one request
+PASS AC2 refreshes keep one input connection
+PASS AC2 ten presses ten requests
+PASS AC3 input preserves data and save bytes
+PASS AC3 button preserves movement and Idle
+PASS AC1 blocked stage egg
+PASS AC1 blocked stage adult
+PASS AC1 empty data blocked
+PASS load res://scenes/game/Game.tscn
+PASS AC2 reentry has one working connection
+ERROR: 현재 활성 캐릭터 데이터가 없습니다.
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_current_creature (res://scripts/game/game.gd:104)
+       [1] run (res://button_verify.gd:138)
+       [2] mouse (res://button_verify.gd:38)
+       [3] settle (res://button_verify.gd:16)
+PASS AC1 empty load disables button
+RESULT failures=0

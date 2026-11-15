@@ -1,0 +1,34 @@
+[
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\COMMON_OPERATIONS_TEMPLATE.md",
+    "Hash": "B1C86B41239614A698BC73CFFD7F067E9E43878830F5CB09ABE988ACE5F7A3F7"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\BUG_LOG.md",
+    "Hash": "F902DACB0EF1A4F23ABAF1EB70F7C1B594A0A690CA50532CA7059B0A1824F9F5"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\game\\game.gd",
+    "Hash": "AC669729A5A516E0C241CB9B7B837F21C83897A0798B03B966DA88AE3EA14A5D"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\game_manager.gd",
+    "Hash": "42778C30612EE3B89C4FE49AFDCF1C9EA55C8227EC53193F0E224D8D5F4FAF25"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\game_data_factory.gd",
+    "Hash": "BE4B92B08A8D3C6535AE654CDA2C8D5D15F7DB14D39B75AFA8712E88D78716C3"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\save_manager.gd",
+    "Hash": "AEF9CE295A36868B3B4D22E0B4FBEEB7AEA582E80862245BE38FBE81FA4F0C19"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\scenes\\game\\Game.tscn",
+    "Hash": "799F9B87D7B7A238188EB7123213419096FE3F1A23E38C936847C69201EF4900"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\project.godot",
+    "Hash": "8C16C5D98FBA284120D6FE9F79F5505833ADD87139CAFCC8406889EACB001110"
+  }
+]

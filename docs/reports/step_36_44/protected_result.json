@@ -1,0 +1,32 @@
+[
+  {
+    "expected_change": false,
+    "unchanged": true,
+    "path": "J:\\2026\\Github\\damagochi\\COMMON_OPERATIONS_TEMPLATE.md"
+  },
+  {
+    "expected_change": true,
+    "unchanged": false,
+    "path": "J:\\2026\\Github\\damagochi\\BUG_LOG.md"
+  },
+  {
+    "expected_change": false,
+    "unchanged": true,
+    "path": "J:\\2026\\Github\\damagochi\\assets\\creatures\\001\\creature_001_idle.png"
+  },
+  {
+    "expected_change": false,
+    "unchanged": true,
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\save_manager.gd"
+  },
+  {
+    "expected_change": false,
+    "unchanged": true,
+    "path": "J:\\2026\\Github\\damagochi\\scenes\\game\\Game.tscn"
+  },
+  {
+    "expected_change": false,
+    "unchanged": true,
+    "path": "J:\\2026\\Github\\damagochi\\project.godot"
+  }
+]

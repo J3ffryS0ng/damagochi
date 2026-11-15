@@ -1,0 +1,87 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS scene enters
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+PASS AC2 egg denied
+알 생성 후 경과 시간: 120.0초
+시간 조건 충족
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 부화 가능
+게임 저장 성공:user://savegame.json
+부화 완료
+PASS AC2 hatch fade baby denied
+PASS AC4 isolated save exists
+PASS AC1 no teleport at start -120.0
+PASS AC2 duplicate10 refresh100 stable -120.0
+PASS AC2 no duplicate connections
+FAIL AC1 approach speed60 -120.0
+PASS AC1 approach Idle maintained
+PASS AC1 arrival near2sec
+PASS AC1 eating1.2 fade0.2 -120.0
+PASS AC1 three6px dips -120.0 observed=3
+PASS AC1 fixed center then fade
+PASS AC3 finished reset
+PASS AC3 movement Idle resumed
+PASS AC1 original transform
+PASS AC4 cycle data save invariant
+PASS AC1 no teleport at start 120.0
+PASS AC2 duplicate10 refresh100 stable 120.0
+PASS AC2 no duplicate connections
+PASS AC1 approach speed60 120.0
+PASS AC1 approach Idle maintained
+PASS AC1 arrival near2sec
+PASS AC1 eating1.2 fade0.2 120.0
+PASS AC1 three6px dips 120.0 observed=3
+PASS AC1 fixed center then fade
+PASS AC3 finished reset
+PASS AC3 movement Idle resumed
+PASS AC1 original transform
+PASS AC4 cycle data save invariant
+PASS AC1 no teleport at start 0.0
+PASS AC2 duplicate10 refresh100 stable 0.0
+PASS AC2 no duplicate connections
+PASS AC1 eating1.2 fade0.2 0.0
+PASS AC1 three6px dips 0.0 observed=3
+PASS AC1 fixed center then fade
+PASS AC3 finished reset
+PASS AC3 movement Idle resumed
+PASS AC1 original transform
+PASS AC4 cycle data save invariant
+PASS AC3 phase active approach
+PASS AC3 cancels approach
+PASS AC3 no delayed callback approach
+PASS scene enters
+PASS AC3 scene exit reentry approach
+PASS AC3 phase active dip
+PASS AC3 cancels dip
+PASS AC3 no delayed callback dip
+PASS scene enters
+PASS AC3 scene exit reentry dip
+PASS AC3 phase active fade
+PASS AC3 cancels fade
+PASS AC3 no delayed callback fade
+PASS scene enters
+PASS AC3 scene exit reentry fade
+알 생성 후 경과 시간: 141.8초
+시간 조건 충족
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 부화 가능
+PASS AC2 rejects egg
+PASS AC2 rejects adult
+PASS AC2 rejects unknown
+PASS AC2 empty denied
+FAIL AC2 coordinate starts one
+FAIL AC2 busy actual clicks10 ignored
+ERROR: 캐릭터 부화 처리에 실패했습니다.
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _finish_hatch (res://scripts/game/game.gd:636)
+FAIL AC2 keyboard starts next
+PASS AC4 full suite data disk invariant
+RESULT QA failures=4

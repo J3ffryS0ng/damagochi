@@ -1,0 +1,26 @@
+[
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\COMMON_OPERATIONS_TEMPLATE.md",
+    "Hash": "B1C86B41239614A698BC73CFFD7F067E9E43878830F5CB09ABE988ACE5F7A3F7"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\BUG_LOG.md",
+    "Hash": "6BE34A722817FA0B0C1BC95B61E5B1A58FC07216C14ACDABD2E1948E40F55D6F"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\assets\\creatures\\001\\creature_001_idle.png",
+    "Hash": "CCDCBDE4C48455B6ECE794AD64CD45293CFDA60C7D3B3F95C2F6592389497FB6"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\save_manager.gd",
+    "Hash": "AEF9CE295A36868B3B4D22E0B4FBEEB7AEA582E80862245BE38FBE81FA4F0C19"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\scenes\\game\\Game.tscn",
+    "Hash": "2DB3163E2A36A6F6C4C00C61FADDF413FC027D5397E8E4774FF5E8B701204091"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\project.godot",
+    "Hash": "8C16C5D98FBA284120D6FE9F79F5505833ADD87139CAFCC8406889EACB001110"
+  }
+]

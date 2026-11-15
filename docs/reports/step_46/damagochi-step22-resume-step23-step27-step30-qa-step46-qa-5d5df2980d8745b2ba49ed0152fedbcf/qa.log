@@ -1,0 +1,224 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS isolated QA directory
+PASS approved common threshold 5
+PASS boundary 001 4 type 2
+PASS boundary 001 5 type 2
+PASS boundary 001 6 type 2
+PASS boundary 001 4.0 type 3
+PASS boundary 001 5.0 type 3
+PASS boundary 001 6.0 type 3
+PASS before real level up 001
+PASS real level-up reaches threshold 001
+PASS level-up does not evolve 001
+PASS boundary 002 4 type 2
+PASS boundary 002 5 type 2
+PASS boundary 002 6 type 2
+PASS boundary 002 4.0 type 3
+PASS boundary 002 5.0 type 3
+PASS boundary 002 6.0 type 3
+PASS before real level up 002
+PASS real level-up reaches threshold 002
+PASS level-up does not evolve 002
+PASS boundary 003 4 type 2
+PASS boundary 003 5 type 2
+PASS boundary 003 6 type 2
+PASS boundary 003 4.0 type 3
+PASS boundary 003 5.0 type 3
+PASS boundary 003 6.0 type 3
+PASS before real level up 003
+PASS real level-up reaches threshold 003
+PASS level-up does not evolve 003
+PASS boundary 004 4 type 2
+PASS boundary 004 5 type 2
+PASS boundary 004 6 type 2
+PASS boundary 004 4.0 type 3
+PASS boundary 004 5.0 type 3
+PASS boundary 004 6.0 type 3
+PASS before real level up 004
+PASS real level-up reaches threshold 004
+PASS level-up does not evolve 004
+PASS reject level type/value <null>
+PASS reject level type/value true
+PASS reject level type/value false
+PASS reject level type/value 5
+PASS reject level type/value []
+PASS reject level type/value {  }
+PASS reject level type/value -1
+PASS reject level type/value 0
+PASS reject level type/value 1
+PASS reject level type/value 4.999
+PASS reject level type/value 5.001
+PASS reject level type/value inf
+PASS reject level type/value -inf
+PASS reject level type/value nan
+PASS missing level rejected without default mutation
+PASS reject stage <null>
+PASS reject stage true
+PASS reject stage 5
+PASS reject stage []
+PASS reject stage {  }
+PASS reject stage egg
+PASS reject stage adult
+PASS reject stage Baby
+PASS reject stage 
+PASS reject stage unknown
+PASS missing stage stays absent
+PASS reject index <null>
+PASS reject index true
+PASS reject index false
+PASS reject index 0
+PASS reject index 0.0
+PASS reject index 0.5
+PASS reject index -1
+PASS reject index 1
+PASS reject index 999
+PASS reject index []
+PASS reject index {  }
+PASS reject index inf
+PASS reject index nan
+PASS reject container/entry <null>
+PASS reject container/entry true
+PASS reject container/entry 4
+PASS reject container/entry array
+PASS reject container/entry {  }
+PASS reject container/entry []
+PASS reject container/entry [<null>]
+PASS reject container/entry [true]
+PASS reject container/entry [5]
+PASS reject container/entry ["baby"]
+PASS reject container/entry [[]]
+PASS reject species <null>
+PASS reject species true
+PASS reject species 1
+PASS reject species 999
+PASS reject species 
+PASS reject species []
+PASS reject species {  }
+PASS missing species remains absent
+PASS empty root
+PASS missing active creatures
+PASS index selects actual target
+PASS second valid entry
+게임 저장 성공:user://savegame.json
+PASS side effect save baseline
+PASS query leaves RNG sequence 0
+PASS query leaves RNG sequence 1
+PASS query leaves RNG sequence 2
+PASS query leaves RNG sequence 3
+PASS query leaves RNG sequence 4
+PASS query leaves RNG sequence 5
+PASS query leaves RNG sequence 6
+PASS query leaves RNG sequence 7
+PASS query leaves RNG sequence 8
+PASS query leaves RNG sequence 9
+PASS query leaves RNG sequence 10
+PASS query leaves RNG sequence 11
+PASS query leaves RNG sequence 12
+PASS query leaves RNG sequence 13
+PASS query leaves RNG sequence 14
+PASS query leaves RNG sequence 15
+PASS query leaves RNG sequence 16
+PASS query leaves RNG sequence 17
+PASS query leaves RNG sequence 18
+PASS query leaves RNG sequence 19
+PASS query leaves RNG sequence 20
+PASS query leaves RNG sequence 21
+PASS query leaves RNG sequence 22
+PASS query leaves RNG sequence 23
+PASS query leaves RNG sequence 24
+PASS query leaves RNG sequence 25
+PASS query leaves RNG sequence 26
+PASS query leaves RNG sequence 27
+PASS query leaves RNG sequence 28
+PASS query leaves RNG sequence 29
+PASS query leaves RNG sequence 30
+PASS query leaves RNG sequence 31
+PASS query leaves RNG sequence 32
+PASS query leaves RNG sequence 33
+PASS query leaves RNG sequence 34
+PASS query leaves RNG sequence 35
+PASS query leaves RNG sequence 36
+PASS query leaves RNG sequence 37
+PASS query leaves RNG sequence 38
+PASS query leaves RNG sequence 39
+PASS query leaves RNG sequence 40
+PASS query leaves RNG sequence 41
+PASS query leaves RNG sequence 42
+PASS query leaves RNG sequence 43
+PASS query leaves RNG sequence 44
+PASS query leaves RNG sequence 45
+PASS query leaves RNG sequence 46
+PASS query leaves RNG sequence 47
+PASS query leaves RNG sequence 48
+PASS query leaves RNG sequence 49
+PASS query leaves RNG sequence 50
+PASS query leaves RNG sequence 51
+PASS query leaves RNG sequence 52
+PASS query leaves RNG sequence 53
+PASS query leaves RNG sequence 54
+PASS query leaves RNG sequence 55
+PASS query leaves RNG sequence 56
+PASS query leaves RNG sequence 57
+PASS query leaves RNG sequence 58
+PASS query leaves RNG sequence 59
+PASS query leaves RNG sequence 60
+PASS query leaves RNG sequence 61
+PASS query leaves RNG sequence 62
+PASS query leaves RNG sequence 63
+PASS query leaves RNG sequence 64
+PASS query leaves RNG sequence 65
+PASS query leaves RNG sequence 66
+PASS query leaves RNG sequence 67
+PASS query leaves RNG sequence 68
+PASS query leaves RNG sequence 69
+PASS query leaves RNG sequence 70
+PASS query leaves RNG sequence 71
+PASS query leaves RNG sequence 72
+PASS query leaves RNG sequence 73
+PASS query leaves RNG sequence 74
+PASS query leaves RNG sequence 75
+PASS query leaves RNG sequence 76
+PASS query leaves RNG sequence 77
+PASS query leaves RNG sequence 78
+PASS query leaves RNG sequence 79
+PASS query leaves RNG sequence 80
+PASS query leaves RNG sequence 81
+PASS query leaves RNG sequence 82
+PASS query leaves RNG sequence 83
+PASS query leaves RNG sequence 84
+PASS query leaves RNG sequence 85
+PASS query leaves RNG sequence 86
+PASS query leaves RNG sequence 87
+PASS query leaves RNG sequence 88
+PASS query leaves RNG sequence 89
+PASS query leaves RNG sequence 90
+PASS query leaves RNG sequence 91
+PASS query leaves RNG sequence 92
+PASS query leaves RNG sequence 93
+PASS query leaves RNG sequence 94
+PASS query leaves RNG sequence 95
+PASS query leaves RNG sequence 96
+PASS query leaves RNG sequence 97
+PASS query leaves RNG sequence 98
+PASS query leaves RNG sequence 99
+PASS repeated query memory save no side effects
+PASS catalog definitions stages unchanged
+PASS four species three stages preserved
+PASS uniform weight 001
+PASS uniform weight 002
+PASS uniform weight 003
+PASS uniform weight 004
+PASS eligible game does not auto evolve
+PASS eligible baby keeps image
+PASS eligible baby care remains available
+PASS ready egg excluded
+알 생성 후 경과 시간: 120.0초
+시간 조건 충족
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 부화 가능
+게임 저장 성공:user://savegame.json
+부화 완료
+PASS existing natural hatch level 2 unchanged
+RESULT STEP46 QA suite failures=0

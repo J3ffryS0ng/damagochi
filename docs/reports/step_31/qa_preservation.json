@@ -1,0 +1,86 @@
+{
+  "preservation_total": 797,
+  "statuses": [
+    {
+      "file": "qa_completion.status.json",
+      "exit": 0
+    },
+    {
+      "file": "qa_feed_resume.status.json",
+      "exit": 0
+    },
+    {
+      "file": "qa_feed.status.json",
+      "exit": 0
+    },
+    {
+      "file": "qa_menu.status.json",
+      "exit": 0
+    },
+    {
+      "file": "qa_movement.status.json",
+      "exit": 0
+    },
+    {
+      "file": "qa_native_game_exit.status.json",
+      "exit": 0
+    },
+    {
+      "file": "qa_native_menu_exit.status.json",
+      "exit": 0
+    },
+    {
+      "file": "qa_play_resume.status.json",
+      "exit": 0
+    },
+    {
+      "file": "qa_play.status.json",
+      "exit": 0
+    },
+    {
+      "file": "qa_render.status.json",
+      "exit": 0
+    },
+    {
+      "file": "qa_restore_baby.status.json",
+      "exit": 0
+    },
+    {
+      "file": "qa_restore_egg.status.json",
+      "exit": 0
+    },
+    {
+      "file": "qa_restore_hatch.status.json",
+      "exit": 0
+    },
+    {
+      "file": "qa_resume.status.json",
+      "exit": 0
+    },
+    {
+      "file": "qa_seed_baby.status.json",
+      "exit": 0
+    },
+    {
+      "file": "qa_seed_egg.status.json",
+      "exit": 0
+    },
+    {
+      "file": "qa_seed_hatch.status.json",
+      "exit": 0
+    },
+    {
+      "file": "qa.status.json",
+      "exit": 0
+    }
+  ],
+  "source_current_match": 0,
+  "changed": [
+    {
+      "Path": "J:\\2026\\Github\\damagochi\\scripts\\game\\game.gd",
+      "Hash": "39C2EEA734139A6A32AC2196947D83A6DD59EE7689CB39253633B828BA321AD6"
+    }
+  ],
+  "native_failure": 0,
+  "pass_total": 319.0
+}

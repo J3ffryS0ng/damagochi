@@ -1,0 +1,58 @@
+[
+  {
+    "passes": 104,
+    "exit": 0,
+    "script": "dev_verify.gd",
+    "mode": "",
+    "label": "core",
+    "timeout": false
+  },
+  {
+    "passes": 1,
+    "exit": 0,
+    "script": "dev_verify.gd",
+    "mode": "seed",
+    "label": "seed",
+    "timeout": false
+  },
+  {
+    "passes": 25,
+    "exit": 0,
+    "script": "dev_verify.gd",
+    "mode": "restore",
+    "label": "restore",
+    "timeout": false
+  },
+  {
+    "passes": 60,
+    "exit": 0,
+    "script": "clean_verify.gd",
+    "mode": "",
+    "label": "clean_regression",
+    "timeout": false
+  },
+  {
+    "passes": 46,
+    "exit": 0,
+    "script": "play_verify.gd",
+    "mode": "",
+    "label": "play_regression",
+    "timeout": false
+  },
+  {
+    "passes": 38,
+    "exit": 0,
+    "script": "feed_verify.gd",
+    "mode": "",
+    "label": "feed_regression",
+    "timeout": false
+  },
+  {
+    "passes": 52,
+    "exit": 0,
+    "script": "resume_verify.gd",
+    "mode": "suite",
+    "label": "menu_regression",
+    "timeout": false
+  }
+]

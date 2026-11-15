@@ -1,0 +1,22 @@
+{
+  "frames": 414,
+  "duration": 7.009727,
+  "moving_frames": 297,
+  "waiting_frames": 117,
+  "moving_y_min": -3.999637,
+  "moving_y_max": -0.000503,
+  "waiting_y_min": -3.999451,
+  "waiting_y_max": -0.006457,
+  "maximum_sine_error": 0.3171775421257641,
+  "minimum_times": [
+    0.995326,
+    2.994558,
+    4.993931,
+    6.99306
+  ],
+  "measured_periods": [
+    1.9992320000000001,
+    1.9993729999999998,
+    1.999129
+  ]
+}

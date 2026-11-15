@@ -1,0 +1,22 @@
+[
+  {
+    "path": "scripts/managers/game_manager.gd",
+    "match": true,
+    "hash": "5FD6D75F7EB0B3CBDB94DF9EFA95A4994642F459E08ABB2832493C89CD407D3F"
+  },
+  {
+    "path": "scripts/managers/creature_catalog.gd",
+    "match": true,
+    "hash": "6D3806F36E38409F0F1307E4606FEE3D50D3217252982F5C39E703B04DC68B0D"
+  },
+  {
+    "path": "scripts/managers/save_manager.gd",
+    "match": true,
+    "hash": "AEF9CE295A36868B3B4D22E0B4FBEEB7AEA582E80862245BE38FBE81FA4F0C19"
+  },
+  {
+    "path": "data/creatures.json",
+    "match": true,
+    "hash": "ACFF607ABF8CE0F3F315D43DB0D118807BB6EB09117BEE505A0BE12C2E835CF7"
+  }
+]

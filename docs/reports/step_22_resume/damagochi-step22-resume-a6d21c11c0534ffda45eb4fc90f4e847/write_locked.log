@@ -1,0 +1,23 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847/
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+ERROR: 세이브 파일을 열 수 없습니다. 오류 코드: 12
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] save_game (res://scripts/managers/save_manager.gd:36)
+       [1] validate_name (res://scripts/main/name_entry.gd:84)
+       [2] _on_confirm_button_pressed (res://scripts/main/name_entry.gd:51)
+       [3] write_locked (res://resume_verify.gd:281)
+       [4] settle (res://resume_verify.gd:19)
+ERROR: 세이브 파일을 열 수 없습니다. 오류 코드: 12
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] save_game (res://scripts/managers/save_manager.gd:36)
+       [1] validate_name (res://scripts/main/name_entry.gd:84)
+       [2] _on_name_submitted (res://scripts/main/name_entry.gd:55)
+       [3] write_locked (res://resume_verify.gd:282)
+       [4] settle (res://resume_verify.gd:19)
+PASS RC13 write-open failure restores memory and file; retry guarded
+RESULT write_locked failures=0

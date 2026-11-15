@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://c2fwhv7wcedev"
+
+[deps]
+
+files=["res://docs/reports/step_24/damagochi-step22-resume-step23-dev-step24-dev-c146ecbd5abb43159ba3812984e4da3d/dev_positions.x.translation", "res://docs/reports/step_24/damagochi-step22-resume-step23-dev-step24-dev-c146ecbd5abb43159ba3812984e4da3d/dev_positions.y.translation", "res://docs/reports/step_24/damagochi-step22-resume-step23-dev-step24-dev-c146ecbd5abb43159ba3812984e4da3d/dev_positions.wait.translation"]
+
+source_file="res://docs/reports/step_24/damagochi-step22-resume-step23-dev-step24-dev-c146ecbd5abb43159ba3812984e4da3d/dev_positions.csv"
+dest_files=["res://docs/reports/step_24/damagochi-step22-resume-step23-dev-step24-dev-c146ecbd5abb43159ba3812984e4da3d/dev_positions.x.translation", "res://docs/reports/step_24/damagochi-step22-resume-step23-dev-step24-dev-c146ecbd5abb43159ba3812984e4da3d/dev_positions.y.translation", "res://docs/reports/step_24/damagochi-step22-resume-step23-dev-step24-dev-c146ecbd5abb43159ba3812984e4da3d/dev_positions.wait.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

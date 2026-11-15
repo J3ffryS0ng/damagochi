@@ -1,0 +1,102 @@
+[
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\game\\game.gd",
+    "Hash": "AC669729A5A516E0C241CB9B7B837F21C83897A0798B03B966DA88AE3EA14A5D"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\game\\game.gd.uid",
+    "Hash": "9B5D28BB8035A1DB979979E87EB66955DA1E5043EE4FD85A6BC8E5D263C4A0D3"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\main\\main_menu.gd",
+    "Hash": "43DE775632AD75008B22A5072EF56A250081E5723E5659F195A3C8AB159C8AD8"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\main\\main_menu.gd.uid",
+    "Hash": "1C435A86B25BDDDB1125F4351EEB4BCF57004FF23C457D44A2BA2D1B4485014D"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\main\\name_entry.gd",
+    "Hash": "DDD863FD08F0591F0C202C409ACCE59E285079E60B9F250D9E6E20269ABD4044"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\main\\name_entry.gd.uid",
+    "Hash": "BC88494EAD8B726314FDD01E5B7C0935FB23E89777870E341546C140DFDA4EBD"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\creature_catalog.gd",
+    "Hash": "6D3806F36E38409F0F1307E4606FEE3D50D3217252982F5C39E703B04DC68B0D"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\creature_catalog.gd.uid",
+    "Hash": "E710252F34D716298938219B0C019EA0C92312EBCD28673AFD64DB441E09940E"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\game_data_factory.gd",
+    "Hash": "BE4B92B08A8D3C6535AE654CDA2C8D5D15F7DB14D39B75AFA8712E88D78716C3"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\game_data_factory.gd.uid",
+    "Hash": "59A32A9418864A3537BFA61EA5FE8E5C733C9A4ED5414045AD52A090E35A0901"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\game_manager.gd",
+    "Hash": "5FD6D75F7EB0B3CBDB94DF9EFA95A4994642F459E08ABB2832493C89CD407D3F"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\game_manager.gd.uid",
+    "Hash": "F99BDCB93731AD21E0DA1A0B88CAAAC0C1F90D03B870EE3E188559C013B0CED3"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\save_manager.gd",
+    "Hash": "AEF9CE295A36868B3B4D22E0B4FBEEB7AEA582E80862245BE38FBE81FA4F0C19"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\save_manager.gd.uid",
+    "Hash": "1FB9152CD6531F3944A8931F1DCD44DCEE5D1F20B5FDAAE6F92C21D88AD15990"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\data\\creatures.json",
+    "Hash": "ACFF607ABF8CE0F3F315D43DB0D118807BB6EB09117BEE505A0BE12C2E835CF7"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\assets\\ASSET_INDEX.md",
+    "Hash": "8FB168242347D0E9B1DB30AC9817F63EBA48F1D9663C8073311D8731A317B73E"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\assets\\creatures\\001\\creature_001_idle.png",
+    "Hash": "8F555F64F7EAD7C2891FF055D1A450DF1CAA4E40F9381F416D024C33B1DB2E4C"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\assets\\eggs\\제목 없음.png",
+    "Hash": "22DE8B8B16A239E57B29C4A85685C849FFC4682BB1D3D95799FDFF47AC1BD522"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\assets\\eggs\\egg_001.png",
+    "Hash": "6FE8FF847201F31025657CA3390030B4463CC3BDCF8BA225ED0FF2811AD21256"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\assets\\eggs\\egg_001.svg",
+    "Hash": "1398ED13A07FCAA0A8BFF8B0B54B5EE5E044C68D42D671A6CD2532E2BCEB233F"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\assets\\food\\rice_bowl.svg",
+    "Hash": "EABF0BDDFBD8EB40469EAD3951B0C27B775A2D8BC4822FA649D6A68195081AA2"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\assets\\images\\poop.svg",
+    "Hash": "ADE1076E50285508C0D9AD1989E5ACCC9B33FA95456817C79543E64B0E6945F6"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\assets\\images\\creatures\\002\\creature_002_idle.png",
+    "Hash": "6F80A71E5D3C4E4B9D5FCDA2413848B012300CBFBC84B672A1082F2C50CC0B04"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\assets\\images\\creatures\\003\\creature_003_idle.png",
+    "Hash": "1A4841263559754A3143546D228EF5BE5DBC7E361C5B2A2D9314BCC68A0A884A"
+  },
+  {
+    "Path": "J:\\2026\\Github\\damagochi\\assets\\images\\creatures\\004\\creature_004_idle.png",
+    "Hash": "7D772761B827689CA384A5CFA534DDCC3BB379E4EB9F5C94385F0FF567FCA999"
+  }
+]

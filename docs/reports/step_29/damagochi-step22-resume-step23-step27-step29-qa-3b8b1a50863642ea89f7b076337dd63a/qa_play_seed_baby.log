@@ -1,0 +1,8 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-step23-step27-step29-qa-3b8b1a50863642ea89f7b076337dd63a/
+PASS enter baby
+게임 저장 성공:user://savegame.json
+PASS seed baby
+PASS seed exits with play active
+RESULT STEP29 QA failures=0

@@ -1,0 +1,64 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-step23-step24-qa-40b50e55adc9437db5c17272b9ced0a8/
+PASS game scene loads
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+PASS AC1 egg visible disabled Korean label
+PASS AC2 egg coordinate click blocked
+알 생성 후 경과 시간: 90.0초
+시간 조건 충족
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 부화 가능
+PASS AC1 hatch entry blocked
+게임 저장 성공:user://savegame.json
+부화 완료
+PASS AC1 baby flash fade still blocked
+PASS AC2 real UI click during fade blocked
+PASS AC1 fade completion enables without refresh
+PASS AC2 coordinate click exactly once 0
+PASS AC2 coordinate click exactly once 1
+PASS AC2 coordinate click exactly once 2
+PASS AC2 coordinate click exactly once 3
+PASS AC2 coordinate click exactly once 4
+PASS AC2 focused keyboard Space exactly once
+PASS AC2 refresh no duplicate request connection
+PASS AC3 feed leaves full data and save bytes unchanged
+PASS AC3 feed preserves Idle movement original orientation
+PASS AC1 same size separate menu
+PASS AC1 feed within logical viewport
+알 생성 후 경과 시간: 91.2초
+시간 조건 충족
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 부화 가능
+PASS AC1/2 stage transition egg
+PASS AC1/2 stage transition adult
+PASS AC1/2 stage transition 
+PASS AC1/2 stage transition unknown
+PASS AC1/2 stage transition baby
+PASS AC1/2 empty data UI and handler blocked
+PASS game scene loads
+PASS AC2 fresh scene one request 0
+PASS game scene loads
+PASS AC2 fresh scene one request 1
+PASS game scene loads
+PASS AC2 fresh scene one request 2
+PASS AC3 reentry preserves data and save
+PASS game scene loads
+게임 불러오기 성공:user://savegame.json
+PASS AC3 actual save restored after memory clear
+FAIL AC2/3 restored feed single request no mutation
+ERROR: 현재 활성 캐릭터 데이터가 없습니다.
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_current_creature (res://scripts/game/game.gd:102)
+       [1] run (res://qa_verify.gd:131)
+       [2] click (res://qa_verify.gd:35)
+       [3] frames (res://qa_verify.gd:16)
+PASS AC1/2 absent active creature fails closed
+RESULT QA failures=1

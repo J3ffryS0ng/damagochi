@@ -1,0 +1,66 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-step23-step24-step25-dev-4894820c306b47e9a5d4d6af4303837a/
+PASS scene load
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+PASS initial egg food hidden
+PASS egg UI and direct request blocked
+알 생성 후 경과 시간: 120.0초
+시간 조건 충족
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 부화 가능
+PASS hatch request blocked
+ERROR: 세이브 파일을 열 수 없습니다. 오류 코드: 7
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] save_game (res://scripts/managers/save_manager.gd:36)
+       [1] _finish_hatch (res://scripts/game/game.gd:574)
+ERROR: 부화 상태 저장에 실패했습니다.
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _finish_hatch (res://scripts/game/game.gd:579)
+부화 완료
+PASS baby while fade
+PASS baby fade request blocked
+PASS ready baby still hidden before input
+ERROR: 세이브 파일을 열 수 없습니다. 오류 코드: 7
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] save_game (res://scripts/managers/save_manager.gd:36)
+       [1] run (res://dev_verify.gd:78)
+FAIL save fixture
+PASS routed mouse displays food
+PASS A fixed position and texture size
+PASS transparent background
+PASS repeated input and refresh retain one image
+PASS single consumer after refresh
+PASS movement and Idle continue
+PASS food remains fixed and visible
+PASS requests and movement preserve data and disk
+PASS food clears and blocks egg
+PASS return to baby stays hidden egg
+PASS food clears and blocks adult
+PASS return to baby stays hidden adult
+PASS food clears and blocks unknown
+PASS return to baby stays hidden unknown
+PASS empty state hides and blocks
+PASS keyboard Space displays food
+PASS scene load
+PASS scene reentry releases old food and starts hidden
+PASS reentry accepts request
+ERROR: 세이브 파일을 열 수 없습니다. 오류 코드: 7
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] save_game (res://scripts/managers/save_manager.gd:36)
+       [1] run (res://dev_verify.gd:130)
+       [2] scene (res://dev_verify.gd:20)
+       [3] settle (res://dev_verify.gd:15)
+FAIL persist baby for separate process
+RESULT failures=2

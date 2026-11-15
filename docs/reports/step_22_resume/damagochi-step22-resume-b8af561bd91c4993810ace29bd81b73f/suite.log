@@ -1,0 +1,17 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 - Build 32.0.101.5542 - Compatibility - Using Device: Intel - Intel(R) Iris(R) Xe Graphics
+
+SCRIPT ERROR: Compile Error: Identifier not found: SaveManager
+   at: GDScript::reload (res://scripts/main/main_menu.gd:76)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+   at: GDScript::reload (res://resume_verify.gd:0)
+ERROR: Failed to load script "res://resume_verify.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-b8af561bd91c4993810ace29bd81b73f/
+SCRIPT ERROR: Invalid access to property or key 'continue_button' on a base object of type 'Control'.
+   at: suite (res://resume_verify.gd:108)
+   GDScript backtrace (most recent call first):
+       [0] suite (res://resume_verify.gd:108)
+       [1] menu (res://resume_verify.gd:24)
+       [2] settle (res://resume_verify.gd:19)
+RESULT suite failures=0

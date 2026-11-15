@@ -1,0 +1,10 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 - Build 32.0.101.5542 - Compatibility - Using Device: Intel - Intel(R) Iris(R) Xe Graphics
+
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-43ddee3e216f4615aeeca6e3009b2b0d/
+PASS load res://scenes/game/Game.tscn
+게임 불러오기 성공:user://savegame.json
+PASS T07 fresh-process baby restore
+PASS T07 image and Idle restored
+게임 불러오기 성공:user://savegame.json
+PASS T07 save version preserved

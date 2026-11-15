@@ -1,0 +1,187 @@
+[
+  {
+    "log": "import.log",
+    "pass": 0,
+    "fail": 0
+  },
+  {
+    "log": "qa_clean_resume.log",
+    "pass": 4,
+    "fail": 0
+  },
+  {
+    "log": "qa_clean.log",
+    "pass": 85,
+    "fail": 0
+  },
+  {
+    "log": "qa_feed_resume.log",
+    "pass": 7,
+    "fail": 0
+  },
+  {
+    "log": "qa_feed.log",
+    "pass": 83,
+    "fail": 0
+  },
+  {
+    "log": "qa_menu_write_denied.log",
+    "pass": 1,
+    "fail": 0
+  },
+  {
+    "log": "qa_menu.log",
+    "pass": 52,
+    "fail": 0
+  },
+  {
+    "log": "qa_movement.log",
+    "pass": 19,
+    "fail": 0
+  },
+  {
+    "log": "qa_native_game_exit.log",
+    "pass": 0,
+    "fail": 0
+  },
+  {
+    "log": "qa_native_menu_exit.log",
+    "pass": 0,
+    "fail": 0
+  },
+  {
+    "log": "qa_play_resume.log",
+    "pass": 6,
+    "fail": 0
+  },
+  {
+    "log": "qa_play.log",
+    "pass": 83,
+    "fail": 0
+  },
+  {
+    "log": "qa_render.log",
+    "pass": 13,
+    "fail": 0
+  },
+  {
+    "log": "qa_restore_001_baby.log",
+    "pass": 6,
+    "fail": 0
+  },
+  {
+    "log": "qa_restore_001_egg.log",
+    "pass": 6,
+    "fail": 0
+  },
+  {
+    "log": "qa_restore_002_baby.log",
+    "pass": 6,
+    "fail": 0
+  },
+  {
+    "log": "qa_restore_002_egg.log",
+    "pass": 6,
+    "fail": 0
+  },
+  {
+    "log": "qa_restore_003_baby.log",
+    "pass": 6,
+    "fail": 0
+  },
+  {
+    "log": "qa_restore_003_egg.log",
+    "pass": 6,
+    "fail": 0
+  },
+  {
+    "log": "qa_restore_004_baby.log",
+    "pass": 6,
+    "fail": 0
+  },
+  {
+    "log": "qa_restore_004_egg.log",
+    "pass": 6,
+    "fail": 0
+  },
+  {
+    "log": "qa_restore_baby.log",
+    "pass": 8,
+    "fail": 0
+  },
+  {
+    "log": "qa_restore_egg.log",
+    "pass": 4,
+    "fail": 0
+  },
+  {
+    "log": "qa_restore_hatch.log",
+    "pass": 5,
+    "fail": 0
+  },
+  {
+    "log": "qa_retry.log",
+    "pass": 6,
+    "fail": 0
+  },
+  {
+    "log": "qa_seed_001_baby.log",
+    "pass": 2,
+    "fail": 0
+  },
+  {
+    "log": "qa_seed_001_egg.log",
+    "pass": 2,
+    "fail": 0
+  },
+  {
+    "log": "qa_seed_002_baby.log",
+    "pass": 2,
+    "fail": 0
+  },
+  {
+    "log": "qa_seed_002_egg.log",
+    "pass": 2,
+    "fail": 0
+  },
+  {
+    "log": "qa_seed_003_baby.log",
+    "pass": 2,
+    "fail": 0
+  },
+  {
+    "log": "qa_seed_003_egg.log",
+    "pass": 2,
+    "fail": 0
+  },
+  {
+    "log": "qa_seed_004_baby.log",
+    "pass": 2,
+    "fail": 0
+  },
+  {
+    "log": "qa_seed_004_egg.log",
+    "pass": 2,
+    "fail": 0
+  },
+  {
+    "log": "qa_seed_baby.log",
+    "pass": 1,
+    "fail": 0
+  },
+  {
+    "log": "qa_seed_egg.log",
+    "pass": 1,
+    "fail": 0
+  },
+  {
+    "log": "qa_seed_hatch.log",
+    "pass": 1,
+    "fail": 0
+  },
+  {
+    "log": "qa.log",
+    "pass": 338,
+    "fail": 0
+  }
+]

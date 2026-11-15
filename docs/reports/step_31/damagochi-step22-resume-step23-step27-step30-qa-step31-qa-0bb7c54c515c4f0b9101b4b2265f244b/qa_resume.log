@@ -1,0 +1,10 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-step23-step27-step30-qa-step31-qa-0bb7c54c515c4f0b9101b4b2265f244b/
+게임 불러오기 성공:user://savegame.json
+PASS separate process isolated save exists
+PASS direct game restore scene
+게임 불러오기 성공:user://savegame.json
+PASS separate process restores data but starts full new timer
+PASS no Timer persistence fields
+RESULT STEP31 QA failures=0

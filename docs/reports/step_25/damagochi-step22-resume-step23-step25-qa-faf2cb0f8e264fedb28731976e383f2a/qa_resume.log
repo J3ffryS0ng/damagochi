@@ -1,0 +1,14 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-step23-step25-qa-faf2cb0f8e264fedb28731976e383f2a/
+게임 불러오기 성공:user://savegame.json
+PASS RC normal MainMenu load
+게임 불러오기 성공:user://savegame.json
+PASS RC menu continue available without loading memory
+게임 불러오기 성공:user://savegame.json
+PASS AC3 normal menu coordinate continue restores baby
+PASS AC3 process restart food initially hidden
+PASS AC4 continue preserves all saved fields bytes
+PASS AC2 restored baby food request works
+PASS AC4 restored request preserves memory and bytes
+RESULT QA resume failures=0

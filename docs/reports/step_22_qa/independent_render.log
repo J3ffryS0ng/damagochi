@@ -1,0 +1,118 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 - Build 32.0.101.5542 - Compatibility - Using Device: Intel - Intel(R) Iris(R) Xe Graphics
+
+QA_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-218f440bcc104c67be1d69b42d9937b9/
+세이브 파일 삭제 완료
+QA_PASS scene loads uid://een0gd3i1lu5
+기존 세이브 파일이 없습니다.
+QA_PASS empty submission no deferred transition or save
+ERROR: 세이브 파일을 열 수 없습니다. 오류 코드: 12
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] save_game (res://scripts/managers/save_manager.gd:36)
+       [1] validate_name (res://scripts/main/name_entry.gd:56)
+       [2] _on_confirm_button_pressed (res://scripts/main/name_entry.gd:38)
+       [3] run (res://qa_verify.gd:67)
+QA_PASS failed save no deferred transition
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "QA 독립", "created_at": 1789302660.414, "last_played_at": 1789302660.414, "active_creatures": [{ "creature_id": "001", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1789302660.414, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+QA_PASS Enter key submission enters Game
+게임 불러오기 성공:user://savegame.json
+QA_PASS trimmed Korean name persisted
+QA_PASS new egg has no Idle
+QA_PASS capture new_egg
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 0.2초
+부화 최소 시간까지 59.8초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 0.2초
+부화 최소 시간까지 59.8초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 0.2초
+부화 최소 시간까지 59.8초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 0.2초
+부화 최소 시간까지 59.8초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 0.2초
+부화 최소 시간까지 59.8초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 0.2초
+부화 최소 시간까지 59.8초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 0.2초
+부화 최소 시간까지 59.8초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 0.2초
+부화 최소 시간까지 59.8초 남음
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 아직 부화 불가
+QA_PASS ten clicks level up
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 61.0초
+시간 조건 충족
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 부화 가능
+QA_PASS capture hatch_flash
+게임 저장 성공:user://savegame.json
+부화 완료
+QA_PASS hatch changes visible sprite
+QA_PASS capture hatched_baby
+QA_PASS capture idle_up
+QA_PASS capture idle_base
+QA_IDLE_RANGE=-4.0..-0.0000000408481
+QA_PASS Idle measured within 4px including extremes
+QA_PASS every frame x scale rotation PetArea and data preserved
+QA_PASS 20 refreshes per frame retain same single Tween
+QA_PASS paused Tween replaced safely
+QA_PASS hidden sprite does not start Idle
+QA_PASS missing texture does not start Idle
+게임 저장 성공:user://savegame.json
+QA_PASS save baby for new process
+QA_PASS scene loads res://scenes/main/MainMenu.tscn
+GameManager에 이미 게임 데이터가 있습니다.
+플레이어 이름:QA 독립
+QA_PASS nonzero initial base captured
+QA_PASS egg restores nonzero base
+QA_RESULT failures=0

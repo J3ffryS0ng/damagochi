@@ -1,0 +1,11 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS QA isolated user dir
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS 41 menu read only before continue restore_003_baby
+게임 불러오기 성공:user://savegame.json
+PASS 41/42/43 restore no reroll or save restore_003_baby
+PASS 42/43 process ID preserved restore_003_baby
+PASS 39 process texture 003
+RESULT STEP36-44 QA restore_003_baby failures=0

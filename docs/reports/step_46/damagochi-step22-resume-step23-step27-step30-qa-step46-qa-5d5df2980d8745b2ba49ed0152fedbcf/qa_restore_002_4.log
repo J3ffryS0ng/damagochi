@@ -1,0 +1,9 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS isolated QA directory
+게임 불러오기 성공:user://savegame.json
+PASS restore load
+PASS restored condition restore_002_4
+PASS restored memory/disk unchanged restore_002_4
+PASS restored stage ID unchanged
+RESULT STEP46 QA restore_002_4 failures=0

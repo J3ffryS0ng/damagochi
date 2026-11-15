@@ -72,37 +72,37 @@
 
 # PHASE 3 — 기본 캐릭터 육성
 
-- [ ] STEP 22 — 캐릭터 Idle 이미지 및 애니메이션
-- [ ] STEP 23 — 캐릭터 랜덤 좌우 이동
-- [ ] STEP 24 — 밥주기 버튼
-- [ ] STEP 25 — 음식 이미지 생성 및 표시
-- [ ] STEP 26 — 먹는 애니메이션
-- [ ] STEP 27 — 밥주기 친밀도 처리
-- [ ] STEP 28 — 놀아주기 버튼
-- [ ] STEP 29 — 기뻐하는 애니메이션
-- [ ] STEP 30 — 놀아주기 친밀도 처리
-- [ ] STEP 31 — 랜덤 응가 Timer
-- [ ] STEP 32 — 응가 이미지 생성
-- [ ] STEP 33 — 응가 클릭/터치 제거
-- [ ] STEP 34 — 응가 제거 친밀도 처리
-- [ ] STEP 35 — 응가 제거 후 시원한 애니메이션
+- [X] STEP 22 — 캐릭터 Idle 이미지 및 애니메이션
+- [x] STEP 23 — 캐릭터 랜덤 좌우 이동
+- [x] STEP 24 — 밥주기 버튼
+- [x] STEP 25 — 음식 이미지 생성 및 표시
+- [x] STEP 26 — 먹는 애니메이션
+- [x] STEP 27 — 밥주기 친밀도 처리
+- [x] STEP 28 — 놀아주기 버튼
+- [x] STEP 29 — 기뻐하는 애니메이션
+- [x] STEP 30 — 놀아주기 친밀도 처리
+- [x] STEP 31 — 랜덤 응가 Timer
+- [x] STEP 32 — 응가 이미지 생성
+- [x] STEP 33 — 응가 클릭/터치 제거
+- [x] STEP 34 — 응가 제거 친밀도 처리
+- [x] STEP 35 — 응가 제거 후 시원한 애니메이션
 
 # PHASE 4 — 캐릭터 데이터 시스템
 
-- [ ] STEP 36 — `creatures.json` 설계
-- [ ] STEP 37 — 캐릭터 ID 시스템 구현
-- [ ] STEP 38 — 테스트 캐릭터 001 등록
-- [ ] STEP 39 — 이미지 경로를 데이터 기반으로 변경
-- [ ] STEP 40 — 희귀도 Weight 데이터 추가
-- [ ] STEP 41 — 랜덤 알 선택 시스템 구현
-- [ ] STEP 42 — 테스트 캐릭터 002 추가
-- [ ] STEP 43 — 테스트 캐릭터 003 추가
-- [ ] STEP 44 — 3종 랜덤 지급 확률 테스트
+- [x] STEP 36 — `creatures.json` 설계
+- [x] STEP 37 — 캐릭터 ID 시스템 구현
+- [x] STEP 38 — 테스트 캐릭터 001 등록
+- [x] STEP 39 — 이미지 경로를 데이터 기반으로 변경
+- [x] STEP 40 — 희귀도 Weight 데이터 추가
+- [x] STEP 41 — 랜덤 알 선택 시스템 구현
+- [x] STEP 42 — 테스트 캐릭터 002 추가
+- [x] STEP 43 — 테스트 캐릭터 003 추가
+- [x] STEP 44 — 3종 랜덤 지급 확률 테스트
 
 # PHASE 5 — 진화
 
-- [ ] STEP 45 — 캐릭터 Stage 데이터 추가
-- [ ] STEP 46 — 진화 레벨 조건 구현
+- [x] STEP 45 — 캐릭터 Stage 데이터 추가
+- [x] STEP 46 — 진화 레벨 조건 구현
 - [ ] STEP 47 — 진화 친밀도 조건 구현
 - [ ] STEP 48 — 진화 빛 효과 구현
 - [ ] STEP 49 — 진화 캐릭터 이미지 교체
@@ -237,16 +237,51 @@
 
 # 현재 진행 상태
 
-현재 목표:
+2026-09-28: STEP 22 개발 완료. 최신 QA는 PASS WITH ISSUE이며 AC5를 포함한 개발 완료 조건은 검증됐다. 사용자 환경 미검증은 별도 유지한다. 근거: docs/reports/STEP_22_MANAGER_FINAL.md.
 
-`PHASE 0 — 개발환경`
+2026-09-28 후속: STEP 23 — 캐릭터 랜덤 좌우 이동 개발 완료·PASS. M-008 A안, DEV·독립 QA 및 MANAGER 최종 통합 완료. 사용자 환경 품질 확인은 별도 유지한다. 근거: docs/reports/STEP_23_MANAGER_FINAL.md.
 
-다음 개발 시작점:
+2026-09-29 후속: STEP 24 — 밥주기 버튼·입력 연결 개발 완료·PASS. M-009 A안 및 DEV·독립 QA·MANAGER 통합 완료. 음식·먹기·친밀도는 후속 STEP이다. 근거: docs/reports/STEP_24_MANAGER_FINAL.md.
 
-`STEP E01 — Git 및 VS Code 설치 확인`
+2026-09-29 후속: STEP 25 — 음식 이미지 생성 및 표시 개발 완료·PASS. M-010 A안, DEV 175 PASS·독립 QA 183 PASS 및 MANAGER 통합 완료. 근거: docs/reports/STEP_25_MANAGER_FINAL.md.
 
-환경 설정이 모두 완료되면:
+2026-09-29 최신: STEP26 먹는 애니메이션 개발완료·PASS. M-011 A안, DEV225·독립QA227 PASS·MANAGER통합완료. 근거: docs/reports/STEP_26_MANAGER_FINAL.md. STEP27 밥주기 친밀도 처리 작업카드 준비가능·미착수. 자동착수금지. 최신실행상태·제한은 STEP_PLAN.md와 PROJECT_STATE.md를 따른다.
 
-`STEP 01 — MainMenu Scene 생성`
+2026-10-01 최신: STEP 27 밥주기 친밀도 처리 개발 완료·PASS. M-012 A안, DEV175·독립QA272 PASS 및 MANAGER 통합 완료. 근거: docs/reports/STEP_27_MANAGER_FINAL.md. STEP28 놀아주기 버튼 작업카드 준비 가능·미착수, 자동 착수 금지.
 
-부터 실제 CreatureGame 개발을 시작한다.
+2026-10-01 최신: STEP28 놀아주기 버튼 MANAGER 조사·S28-DEV-001 초안 완료. M-013 표시·입력 정책 결정 대기, DEV 미착수. STEP27 완료 유지, STEP29 자동착수금지.
+
+2026-10-01 최신: STEP28 놀아주기 버튼 개발 완료·PASS. M-013 A안, DEV180·독립QA355 PASS 및 MANAGER 통합 완료. 검사 종료 이상·정상 재검증 이력 보존. 근거: docs/reports/STEP_28_MANAGER_FINAL.md. STEP29 기뻐하는 애니메이션 작업카드 준비 가능·미착수, 자동 착수 금지.
+
+
+2026-10-01 최신: STEP29 기뻐하는 애니메이션 MANAGER 조사·S29-DEV-001 초안 완료. M-014 연출·행동 충돌 정책 결정 대기, DEV 미착수. STEP28 완료 유지, STEP30 자동 착수 금지.
+
+
+2026-10-01 최신: STEP29 기뻐하는 애니메이션 개발 완료·PASS. M-014 A, DEV241·독립QA748 PASS. DEV 자체수정1건/QA후수정0회. 근거: docs/reports/STEP_29_MANAGER_FINAL.md. STEP30 놀아주기 친밀도 처리 작업카드 준비 가능·미착수, 자동 착수 금지.
+
+
+2026-10-01 최신: STEP30 놀아주기 친밀도 처리 MANAGER 조사·S30-DEV-001 초안 완료. M-015 보상·실패 정책 결정 대기, DEV 미착수. STEP29 완료 유지, STEP31 자동 착수 금지.
+
+
+2026-10-01 최신: STEP30 놀아주기 친밀도 처리 개발완료·PASS WITH ISSUE. M015 A, DEV231·독립QA359 PASS, 제품수정루프0회. BUG005 종료이상 관찰(동일사본재검증정상). 근거: docs/reports/STEP_30_MANAGER_FINAL.md. STEP31 랜덤 응가 Timer 작업카드 준비가능·미착수, 자동착수금지.
+
+
+2026-10-02 최신: STEP31 랜덤 응가 Timer MANAGER 조사·S31-DEV-001 초안 완료. M-016 주기·행동중진행/재진입정책 결정 대기, DEV 미착수. STEP30완료·BUG005관찰유지, STEP32자동착수금지.
+
+
+2026-10-02 최신: STEP31 랜덤 응가 Timer 개발완료·PASS. M016 A, DEV235·독립QA319 PASS·제품자동수정0회. 기본주기실제대기/정상종료통과. 근거: docs/reports/STEP_31_MANAGER_FINAL.md. STEP32 응가 이미지 생성 준비가능·미착수, 자동착수금지.
+
+
+
+2026-10-02 최신: STEP32~35 개발완료·PASS WITH ISSUE. 독립QA370 PASS·자동수정1회 BUG006 해결. BUG005 종료 재발/같은사본 정상재검증·후속유지. docs/reports/STEP_32_35_MANAGER_FINAL.md 참조. STEP36 준비가능·미착수.
+
+
+
+2026-10-03 최신: STEP36~44 개발완료·PASS WITH ISSUE. M021 임시이미지·3종등록/가중추첨·저장호환 구현, DEV448·독립QA598 PASS·제품자동수정0회. BUG005 종료관찰유지. 실제002/003이미지 교체안내 docs/CREATURE_CATALOG.md. docs/reports/STEP_36_44_MANAGER_FINAL.md 참조. STEP45 준비가능·미착수.
+
+
+
+2026-10-07 최신: STEP 45 개발 완료·PASS. M-022 4종 각25% 및 egg/baby/adult 데이터 정의, DEV539·독립QA781 PASS, 자동수정0회. 신규 버그 없음, 기존 BUG003/004/005 후속 유지. docs/reports/STEP_45_MANAGER_FINAL.md 참조. STEP46 준비 가능·미착수.
+
+
+2026-10-07 최신: STEP46 개발 완료·PASS. M-023 A안 레벨5 이상 baby의 조건 조회, DEV326·독립QA637 PASS, 자동수정0회. 신규 버그 없음. docs/reports/STEP_46_MANAGER_FINAL.md 참조. STEP47 준비 가능·미착수.

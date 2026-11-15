@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "creatures": [
+    {
+      "id": "001",
+      "name": "테스트 캐릭터 001",
+      "rarity": "test",
+      "weight": 1,
+      "baby_image": "res://assets/creatures/001/creature_001_idle.png",
+      "baby_scale": [
+        0.2633197,
+        0.24048276
+      ],
+      "egg_image": "res://assets/eggs/egg_001.svg",
+      "egg_scale": [
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "002",
+      "name": "테스트 캐릭터 002",
+      "rarity": "test",
+      "weight": 1,
+      "baby_image": "res://assets/images/creatures/002/creature_002_idle.png",
+      "baby_scale": [
+        0.2633197,
+        0.24048276
+      ],
+      "egg_image": "res://assets/eggs/egg_001.svg",
+      "egg_scale": [
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "003",
+      "name": "테스트 캐릭터 003",
+      "rarity": "test",
+      "weight": 1,
+      "baby_image": "res://assets/images/creatures/003/creature_003_idle.png",
+      "baby_scale": [
+        0.2633197,
+        0.24048276
+      ],
+      "egg_image": "res://assets/eggs/egg_001.svg",
+      "egg_scale": [
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "rarity": "test",
+      "baby_image": "res://assets/images/creatures/004/creature_004_idle.png",
+      "baby_scale": [
+        0.2633197,
+        0.24048276
+      ],
+      "id": "004",
+      "egg_image": "res://assets/eggs/egg_001.svg",
+      "name": "테스트 캐릭터 004",
+      "weight": 1,
+      "egg_scale": [
+        0.7,
+        0.7
+      ]
+    }
+  ],
+  "stages": [
+    {
+      "id": "egg",
+      "next_stage": "baby",
+      "name": "알"
+    },
+    {
+      "id": "baby",
+      "next_stage": "adult",
+      "name": "유아"
+    },
+    {
+      "id": "adult",
+      "next_stage": "",
+      "name": "성체"
+    }
+  ]
+}

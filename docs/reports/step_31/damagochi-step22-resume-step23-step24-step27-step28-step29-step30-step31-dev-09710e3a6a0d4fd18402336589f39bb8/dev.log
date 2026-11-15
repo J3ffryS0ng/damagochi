@@ -1,0 +1,34 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+PASS egg stopped
+PASS first full interval
+게임 저장 성공:user://savegame.json
+PASS seed save
+PASS 100 refresh preserves countdown single link
+PASS interval samples range and mean
+PASS timer independent of movement process
+PASS busy preserves play
+게임 저장 성공:user://savegame.json
+PASS completion resumes same play
+PASS busy preserves feed
+게임 저장 성공:user://savegame.json
+PASS completion resumes same feed
+PASS tree pause freezes
+PASS timeout exactly once and rearm
+PASS duplicate timeout ignored
+PASS invalid stopped adult
+PASS fresh eligible interval adult
+PASS invalid stopped empty
+PASS fresh eligible interval empty
+PASS invalid stopped hatch
+PASS fresh eligible interval hatch
+PASS invalid stopped replacement
+PASS fresh eligible interval replacement
+PASS exit frees and reentry fresh
+PASS normal visuals and movement
+RESULT failures=0

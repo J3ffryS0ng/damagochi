@@ -1,0 +1,14 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-step23-step27-step30-qa-step46-qa-5d5df2980d8745b2ba49ed0152fedbcf/
+게임 불러오기 성공:user://savegame.json
+PASS normal menu
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS separate process reward restore
+PASS full data and no replay
+PASS reentry awards nothing
+게임 저장 성공:user://savegame.json
+PASS completion bounded
+PASS restored new play +1
+RESULT STEP30 QA failures=0

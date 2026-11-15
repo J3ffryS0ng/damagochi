@@ -1,0 +1,101 @@
+[
+  {
+    "file": "import.log",
+    "result": [],
+    "fail": 0,
+    "pass": 0
+  },
+  {
+    "file": "legacy_independent.log",
+    "result": [
+      "QA_RESULT failures=0"
+    ],
+    "fail": 0,
+    "pass": 32
+  },
+  {
+    "file": "legacy.log",
+    "result": [
+      "IDLE_MEASURE min=-3.99999761581421 max=-0.00000983015798 seconds=10.1062699999999 sine_error=0.0003686517723",
+      "RESULT failures=0"
+    ],
+    "fail": 0,
+    "pass": 38
+  },
+  {
+    "file": "menu_suite.log",
+    "result": [
+      "RESULT suite failures=0"
+    ],
+    "fail": 0,
+    "pass": 52
+  },
+  {
+    "file": "qa_render.log",
+    "result": [
+      "QA_PASS 60px/s measured with 125ms delta",
+      "QA_SAMPLES destinations=196 arrivals=196 left=4063 right=4048",
+      "QA_RESULT failures=0"
+    ],
+    "fail": 0,
+    "pass": 29
+  },
+  {
+    "file": "qa.log",
+    "result": [
+      "QA_PASS 60px/s measured with 125ms delta",
+      "QA_SAMPLES destinations=196 arrivals=196 left=4063 right=4048",
+      "QA_RESULT failures=0"
+    ],
+    "fail": 0,
+    "pass": 28
+  },
+  {
+    "file": "resume_baby.log",
+    "result": [
+      "RESULT resume_baby failures=0"
+    ],
+    "fail": 0,
+    "pass": 8
+  },
+  {
+    "file": "resume_egg.log",
+    "result": [
+      "RESULT resume_egg failures=0"
+    ],
+    "fail": 0,
+    "pass": 4
+  },
+  {
+    "file": "resume_hatch.log",
+    "result": [
+      "RESULT resume_hatch failures=0"
+    ],
+    "fail": 0,
+    "pass": 5
+  },
+  {
+    "file": "seed_baby.log",
+    "result": [
+      "RESULT seed_baby failures=0"
+    ],
+    "fail": 0,
+    "pass": 1
+  },
+  {
+    "file": "seed_egg.log",
+    "result": [
+      "RESULT seed_egg failures=0"
+    ],
+    "fail": 0,
+    "pass": 1
+  },
+  {
+    "file": "seed_hatch.log",
+    "result": [
+      "RESULT seed_hatch failures=0"
+    ],
+    "fail": 0,
+    "pass": 1
+  }
+]

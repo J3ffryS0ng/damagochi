@@ -1,0 +1,26 @@
+[
+  {
+    "path": "scripts/main/main_menu.gd",
+    "matches": true
+  },
+  {
+    "path": "scripts/main/name_entry.gd",
+    "matches": true
+  },
+  {
+    "path": "scenes/main/MainMenu.tscn",
+    "matches": true
+  },
+  {
+    "path": "scripts/game/game.gd",
+    "matches": true
+  },
+  {
+    "path": "scenes/game/Game.tscn",
+    "matches": true
+  },
+  {
+    "path": "scripts/managers/save_manager.gd",
+    "matches": true
+  }
+]

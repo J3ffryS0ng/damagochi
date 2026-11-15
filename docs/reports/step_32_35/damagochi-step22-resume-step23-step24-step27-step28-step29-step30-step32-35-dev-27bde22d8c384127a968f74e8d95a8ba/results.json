@@ -1,0 +1,22 @@
+[
+  {
+    "exit": 0,
+    "label": "dev",
+    "passes": 60
+  },
+  {
+    "exit": 0,
+    "label": "clean_restore",
+    "passes": 2
+  },
+  {
+    "exit": -1073741819,
+    "label": "render",
+    "passes": 62
+  },
+  {
+    "passes": 62,
+    "exit": 0,
+    "label": "render_retry"
+  }
+]

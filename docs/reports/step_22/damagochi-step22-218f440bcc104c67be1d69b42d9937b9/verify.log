@@ -1,0 +1,168 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-218f440bcc104c67be1d69b42d9937b9/
+PASS load res://scenes/main/MainMenu.tscn
+기존 세이브 파일이 없습니다.
+PASS T02 empty name stays without save
+ERROR: 세이브 파일을 열 수 없습니다. 오류 코드: 12
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] save_game (res://scripts/managers/save_manager.gd:36)
+       [1] validate_name (res://scripts/main/name_entry.gd:56)
+       [2] _on_confirm_button_pressed (res://scripts/main/name_entry.gd:38)
+       [3] run (res://verify.gd:69)
+PASS T02 expected save failure stays and reports
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "S22 normal", "created_at": 1789302497.904, "last_played_at": 1789302497.904, "active_creatures": [{ "creature_id": "001", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1789302497.904, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+PASS T02 MainMenu-name-confirm-Game
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+PASS T03 mouse +1
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 아직 부화 불가
+PASS T03 ten inputs level2 target13
+PASS T03 no early hatch
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 아직 부화 불가
+PASS T10 synthetic ScreenTouch +1
+PASS load res://scenes/game/Game.tscn
+알 생성 후 경과 시간: 0.0초
+부화 최소 시간까지 60.0초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+PASS T04 age=0.0 level=1
+PASS load res://scenes/game/Game.tscn
+알 생성 후 경과 시간: 0.0초
+부화 최소 시간까지 60.0초 남음
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 아직 부화 불가
+PASS T04 age=0.0 level=2
+PASS load res://scenes/game/Game.tscn
+알 생성 후 경과 시간: 120.0초
+시간 조건 충족
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+PASS T04 age=120.0 level=1
+PASS load res://scenes/game/Game.tscn
+알 생성 후 경과 시간: 120.0초
+시간 조건 충족
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 부화 가능
+PASS T04 age=120.0 level=2
+게임 저장 성공:user://savegame.json
+부화 완료
+PASS T06 hatch once; input blocked during effect
+PASS T06 repeated hatch check unchanged
+PASS T06 image and egg/input visibility
+PASS T06 flash faded
+PASS T06 Idle starts at hatch
+PASS T01 PNG UID
+PASS T08 20 refreshes exactly one Tween
+IDLE_MEASURE min=-3.99996542930603 max=-0.0000376701355 seconds=10.101278111111 sine_error=0.00056438580765
+PASS T08 10s amplitude and 2s sine period
+PASS T08 x scale rotation data unchanged
+PASS T09 stage egg
+PASS T09 base reset egg
+PASS T09 stage adult
+PASS T09 base reset adult
+PASS T09 stage baby
+PASS T09 empty visual cleanup
+PASS load res://scenes/game/Game.tscn
+PASS T09 scene exit kills old Idle and reentry restarts
+ERROR: 현재 활성 캐릭터 데이터가 없습니다.
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] load_current_creature (res://scripts/game/game.gd:87)
+       [1] run (res://verify.gd:144)
+       [2] scene (res://verify.gd:19)
+PASS T09 expected empty load error also cleans Idle
+PASS load res://scenes/game/Game.tscn
+알 생성 후 경과 시간: 0.0초
+부화 최소 시간까지 60.0초 남음
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 아직 부화 불가
+T05_WAIT_START
+PASS T05 no automatic hatch after 60 seconds
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 60.2초
+시간 조건 충족
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 부화 가능
+게임 저장 성공:user://savegame.json
+부화 완료
+PASS T05 extra touch hatches
+게임 저장 성공:user://savegame.json
+PASS T07 baby saved for fresh-process restore
+RESULT failures=0

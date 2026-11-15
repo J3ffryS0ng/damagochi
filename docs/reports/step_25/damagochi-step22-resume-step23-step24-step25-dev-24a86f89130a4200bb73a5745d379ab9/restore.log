@@ -1,0 +1,11 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-step23-step24-step25-dev-24a86f89130a4200bb73a5745d379ab9/
+PASS scene load
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS normal menu restores baby
+PASS separate process does not restore food
+PASS restored baby can show food
+PASS restore and request preserve disk
+RESULT failures=0

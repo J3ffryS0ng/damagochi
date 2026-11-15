@@ -1,0 +1,13 @@
+{
+  "baseline_count": 425,
+  "changed": [
+    {
+      "path": "J:\\2026\\Github\\damagochi\\scripts\\game\\game.gd",
+      "status": "changed"
+    },
+    {
+      "path": "J:\\2026\\Github\\damagochi\\scenes\\game\\Game.tscn",
+      "status": "changed"
+    }
+  ]
+}

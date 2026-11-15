@@ -2,7 +2,7 @@ class_name GameDataFactory
 extends RefCounted
 
 
-static func create_new_game(player_name: String) -> Dictionary:
+static func create_new_game(player_name: String, creature_id: String = "001") -> Dictionary:
     var current_time: float = Time.get_unix_time_from_system()
 
     return {
@@ -13,7 +13,7 @@ static func create_new_game(player_name: String) -> Dictionary:
 
         "active_creatures": [
             {
-                "creature_id": "001",
+                "creature_id": creature_id,
                 "stage": "egg",
                 "level": 1,
                 "affection": 0,

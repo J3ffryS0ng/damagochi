@@ -1,0 +1,84 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 - Build 32.0.101.5542 - Compatibility - Using Device: Intel - Intel(R) Iris(R) Xe Graphics
+
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+PASS 32 egg no poop
+PASS 32 invalid direct spawn ignored
+PASS 32 baby full interval
+PASS 32 fixed size and position
+PASS 32 actual Timer spawns image
+PASS 32 max one and paused remaining
+PASS 35 capture poop
+PASS 33 invalid mouse touch ignored
+PASS 33 blocked while feed
+게임 저장 성공:user://savegame.json
+PASS 33 no queued cleanup feed
+PASS 33 blocked while play
+게임 저장 성공:user://savegame.json
+PASS 33 no queued cleanup play
+게임 저장 성공:user://savegame.json
+PASS 33 mouse cleanup 34 exactly one immediate reward
+PASS 35 all care and timer blocked
+PASS 32 success new full interval
+PASS 35 early callback ignored
+PASS 33/34/35 duplicates and other actions ignored
+PASS 35 midpoint 6px and current x
+PASS 35 original appearance unchanged
+PASS 35 capture relief
+PASS 35 completion resumes idle and movement
+PASS 35 exact completion position
+PASS 34 no completion reward and timer resumes
+PASS 32 actual Timer spawns image
+게임 저장 성공:user://savegame.json
+PASS 33 synthetic touchscreen real viewport input
+PASS 32 actual Timer spawns image
+게임 저장 성공:user://savegame.json
+PASS 34 three field rollback add
+PASS 34 keeps poop and offers retry add
+PASS 34 failure leaves disk unchanged add
+게임 저장 성공:user://savegame.json
+PASS 34 retry boundary level up add
+PASS 34 UI and retry clears own notice add
+PASS 32 actual Timer spawns image
+게임 저장 성공:user://savegame.json
+PASS 34 three field rollback save
+PASS 34 keeps poop and offers retry save
+PASS 34 failure leaves disk unchanged save
+게임 저장 성공:user://savegame.json
+PASS 34 retry boundary level up save
+PASS 34 UI and retry clears own notice save
+PASS 32 actual Timer spawns image
+PASS 34 clean failure owns notice
+PASS 34 later play failure replaces clean notice owner
+게임 저장 성공:user://savegame.json
+PASS 34 clean success preserves newer play failure notice
+PASS 34 next play clears its own notice
+게임 저장 성공:user://savegame.json
+PASS 32 actual Timer spawns image
+PASS 34 invalid input rejected -1
+PASS 32 actual Timer spawns image
+PASS 34 invalid input rejected bad
+PASS 32 actual Timer spawns image
+PASS 34 invalid input rejected 1.5
+PASS 32 actual Timer spawns image
+PASS 34 invalid input rejected inf
+PASS 32 actual Timer spawns image
+PASS 32 invalid stage clears poop
+PASS 32 actual Timer spawns image
+게임 저장 성공:user://savegame.json
+PASS 35 replacement cancels sequence
+PASS 34 replacement no extra reward
+PASS 32 replacement fresh interval
+PASS 32 actual Timer spawns image
+PASS 32 reentry clears poop
+PASS 32 actual Timer spawns image
+게임 저장 성공:user://savegame.json
+PASS 35 exit mid relief clears and reentry resumes
+PASS 32 actual Timer spawns image
+게임 저장 성공:user://savegame.json
+PASS 34 final restore seed
+RESULT failures=0

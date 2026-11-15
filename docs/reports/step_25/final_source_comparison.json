@@ -1,0 +1,22 @@
+[
+  {
+    "matches_qa": true,
+    "path": "scripts/game/game.gd"
+  },
+  {
+    "matches_qa": true,
+    "path": "scenes/game/Game.tscn"
+  },
+  {
+    "matches_qa": true,
+    "path": "assets/food/rice_bowl.svg"
+  },
+  {
+    "matches_qa": true,
+    "path": "scripts/managers/game_manager.gd"
+  },
+  {
+    "matches_qa": true,
+    "path": "scripts/managers/save_manager.gd"
+  }
+]

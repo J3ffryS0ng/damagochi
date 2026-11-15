@@ -1,0 +1,109 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+QA_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-step23-qa-df8ff1182c654346889a779faf1a36a0/
+QA_PASS scene opens uid://een0gd3i1lu5
+QA_PASS new user continue disabled
+QA_PASS normal new game reaches name entry
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "독립 QA", "created_at": 1790600784.417, "last_played_at": 1790600784.417, "active_creatures": [{ "creature_id": "001", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1790600784.417, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+알 생성 후 경과 시간: 0.0초
+부화 최소 시간까지 60.0초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+QA_PASS normal name submission creates egg
+QA_PASS egg never moves
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 61.0초
+시간 조건 충족
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 61.0초
+시간 조건 충족
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 61.0초
+시간 조건 충족
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 61.0초
+시간 조건 충족
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 61.0초
+시간 조건 충족
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 61.0초
+시간 조건 충족
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 61.0초
+시간 조건 충족
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 61.0초
+시간 조건 충족
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 61.1초
+시간 조건 충족
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+게임 저장 성공:user://savegame.json
+알 생성 후 경과 시간: 61.1초
+시간 조건 충족
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 부화 가능
+QA_PASS level and time permit hatch; input locked
+QA_PASS hatch light appears
+게임 저장 성공:user://savegame.json
+부화 완료
+게임 불러오기 성공:user://savegame.json
+QA_PASS hatch persists baby
+QA_PASS hatched baby moves with Idle
+QA_PASS 60px/s measured with 125ms delta
+QA_PASS 30s delayed frame clamps to boundary destination
+QA_PASS arrival samples 1-3 second wait
+QA_PASS wait consumes time without movement
+QA_PASS wait expiry chooses bounded new destination
+QA_PASS 675 simulated seconds variable-frame speed bounds waiting
+QA_PASS random targets and waits vary; both directions occur
+QA_SAMPLES destinations=196 arrivals=196 left=4063 right=4048
+QA_PASS actual 7s Idle amplitude and baseline
+QA_PASS original orientation scale rotation unchanged
+QA_PASS hitbox and center remain fixed
+QA_PASS full sprite fits viewport at extreme centers
+QA_PASS movement preserves complete game data and save bytes
+QA_PASS 100 refreshes preserve one Idle and one movement target
+알 생성 후 경과 시간: 69.2초
+시간 조건 충족
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 부화 가능
+QA_PASS nonbaby cleanup egg
+QA_PASS nonbaby cleanup adult
+QA_PASS empty visual cleanup
+QA_PASS scene opens res://scenes/game/Game.tscn
+QA_PASS scene exit removes old node and Tween
+QA_PASS reentry starts near center, ignoring previous x
+QA_RESULT failures=0

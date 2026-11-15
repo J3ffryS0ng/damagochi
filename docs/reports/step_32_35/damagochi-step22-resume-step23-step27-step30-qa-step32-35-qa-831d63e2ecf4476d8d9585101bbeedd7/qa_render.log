@@ -1,0 +1,14 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 - Build 32.0.101.5542 - Compatibility - Using Device: Intel - Intel(R) Iris(R) Xe Graphics
+
+PASS isolated user directory
+PASS natural accelerated timeout creates poop
+PASS poop render (405, 720)
+게임 저장 성공:user://savegame.json
+PASS sigh render (405, 720)
+PASS natural accelerated timeout creates poop
+PASS poop render (720, 1280)
+게임 저장 성공:user://savegame.json
+PASS sigh render (720, 1280)
+PASS natural accelerated timeout creates poop
+RESULT STEP32-35 QA failures=0

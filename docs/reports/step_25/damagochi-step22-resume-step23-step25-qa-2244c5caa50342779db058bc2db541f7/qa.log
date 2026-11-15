@@ -1,0 +1,77 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-step23-step25-qa-2244c5caa50342779db058bc2db541f7/
+PASS scene load
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+PASS AC2 egg initially hidden disabled
+PASS AC2 invalid egg UI and direct signal cannot show food
+알 생성 후 경과 시간: 120.0초
+시간 조건 충족
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 부화 가능
+PASS AC2 hatch start hidden
+ERROR: 세이브 파일을 열 수 없습니다. 오류 코드: 7
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] save_game (res://scripts/managers/save_manager.gd:36)
+       [1] _finish_hatch (res://scripts/game/game.gd:574)
+ERROR: 부화 상태 저장에 실패했습니다.
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _finish_hatch (res://scripts/game/game.gd:579)
+부화 완료
+PASS RC hatch transitions baby while fading
+PASS AC2 baby fade rejects input
+PASS AC2 fade complete enabled still hidden
+PASS AC1 approved single 96 asset loaded
+PASS AC1 fixed global center independent of pet
+PASS AC1 transparent canvas corners
+PASS AC2 click one retained image 0
+PASS AC2 click one retained image 1
+PASS AC2 click one retained image 2
+PASS AC2 click one retained image 3
+PASS AC2 click one retained image 4
+PASS AC2 click one retained image 5
+PASS AC2 click one retained image 6
+PASS AC2 click one retained image 7
+PASS AC2 click one retained image 8
+PASS AC2 click one retained image 9
+PASS AC2 100 refresh no duplicate callbacks or image
+PASS AC2 keyboard Space retained single food
+PASS AC1 no overlap status or buttons
+PASS AC1 food separate from creature
+PASS AC3 movement continues and food does not follow
+PASS AC3 original direction and Idle maintained
+PASS AC4 clicks and movement preserve data and disk bytes
+알 생성 후 경과 시간: 121.8초
+시간 조건 충족
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 부화 가능
+PASS AC2/3 stage clears rejects egg
+PASS AC3 qualifying again does not resurrect food egg
+PASS AC2/3 stage clears rejects adult
+PASS AC3 qualifying again does not resurrect food adult
+PASS AC2/3 stage clears rejects unknown
+PASS AC3 qualifying again does not resurrect food unknown
+PASS AC2/3 empty data hides and rejects
+PASS AC3 food can be requested after data returns
+PASS scene load
+PASS AC3 scene destroys old image reentry hidden
+PASS AC3 scene reentry request works
+PASS AC4 entire state matrix preserves memory and save
+불러올 세이브 파일이 없습니다.
+SCRIPT ERROR: Invalid access to property or key 'active_creatures' on a base object of type 'Dictionary'.
+   at: suite (res://qa_verify.gd:149)
+   GDScript backtrace (most recent call first):
+       [0] suite (res://qa_verify.gd:149)
+       [1] click (res://qa_verify.gd:33)
+       [2] settle (res://qa_verify.gd:16)
+RESULT QA suite failures=0

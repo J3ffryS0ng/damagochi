@@ -1,0 +1,106 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-step23-step27-step28-qa-39c58c3117974f048c878e0cbad0656e/
+PASS enter game
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+PASS central fixed play rectangle
+PASS no overlap UI/FeedPanel/FeedButton
+PASS no overlap UI/BottomPanel/MenuButton
+PASS no overlap UI/FeedMessage
+PASS visible Korean label
+PASS egg disabled 405
+PASS egg rejects UI and synthetic signal
+알 생성 후 경과 시간: 120.0초
+시간 조건 충족
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 부화 가능
+PASS hatch starts blocked
+게임 저장 성공:user://savegame.json
+부화 완료
+PASS baby fade remains blocked
+PASS fade handler rejects
+PASS full fade enables
+PASS central fixed play rectangle
+PASS no overlap UI/FeedPanel/FeedButton
+PASS no overlap UI/BottomPanel/MenuButton
+PASS no overlap UI/FeedMessage
+PASS visible Korean label
+PASS left mouse one request
+PASS right mouse zero
+PASS Space one request
+PASS 100 refresh one connection
+PASS 10 actual clicks 10 requests
+PASS play memory and disk unchanged
+PASS play leaves movement and Idle active
+PASS feeding disables play
+PASS busy input ignored without interrupt
+게임 저장 성공:user://savegame.json
+PASS completion enables no queued play
+PASS feed completion retains +1
+PASS post feed fresh click once
+PASS invalid stage cancels and blocks
+PASS cancel zero reward
+PASS eligible refresh after cancel enables
+PASS play preserves failure notice
+PASS enter game
+알 생성 후 경과 시간: 0.0초
+부화 최소 시간까지 60.0초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+PASS central fixed play rectangle
+PASS no overlap UI/FeedPanel/FeedButton
+PASS no overlap UI/BottomPanel/MenuButton
+PASS no overlap UI/FeedMessage
+PASS visible Korean label
+PASS egg disabled 720
+PASS egg rejects UI and synthetic signal
+알 생성 후 경과 시간: 120.0초
+시간 조건 충족
+현재 레벨: 2 / 필요 레벨: 2
+레벨 조건 충족
+최종 판정: 부화 가능
+PASS hatch starts blocked
+게임 저장 성공:user://savegame.json
+부화 완료
+PASS baby fade remains blocked
+PASS fade handler rejects
+PASS full fade enables
+PASS central fixed play rectangle
+PASS no overlap UI/FeedPanel/FeedButton
+PASS no overlap UI/BottomPanel/MenuButton
+PASS no overlap UI/FeedMessage
+PASS visible Korean label
+PASS left mouse one request
+PASS right mouse zero
+PASS Space one request
+PASS 100 refresh one connection
+PASS 10 actual clicks 10 requests
+PASS play memory and disk unchanged
+PASS play leaves movement and Idle active
+PASS feeding disables play
+PASS busy input ignored without interrupt
+게임 저장 성공:user://savegame.json
+PASS completion enables no queued play
+PASS feed completion retains +1
+PASS post feed fresh click once
+PASS invalid stage cancels and blocks
+PASS cancel zero reward
+PASS eligible refresh after cancel enables
+PASS play preserves failure notice
+PASS enter game
+PASS ineligible direct and UI adult
+PASS enter game
+PASS ineligible direct and UI empty
+PASS enter game
+PASS ineligible direct and UI stale
+PASS enter game
+PASS ineligible direct and UI hatch
+PASS enter game
+PASS reentry connection single
+RESULT STEP28 QA failures=0

@@ -1,0 +1,22 @@
+[
+  {
+    "equal": true,
+    "path": "scripts/game/game.gd"
+  },
+  {
+    "equal": true,
+    "path": "scenes/game/Game.tscn"
+  },
+  {
+    "equal": true,
+    "path": "assets/food/rice_bowl.svg"
+  },
+  {
+    "equal": true,
+    "path": "scripts/managers/game_manager.gd"
+  },
+  {
+    "equal": true,
+    "path": "scripts/managers/save_manager.gd"
+  }
+]

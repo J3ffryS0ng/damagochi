@@ -1,0 +1,19 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 - Build 32.0.101.5542 - Compatibility - Using Device: Intel - Intel(R) Iris(R) Xe Graphics
+
+QA_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-218f440bcc104c67be1d69b42d9937b9/
+게임 불러오기 성공:user://savegame.json
+QA_PASS scene loads uid://een0gd3i1lu5
+게임 불러오기 성공:user://savegame.json
+기존 게임 데이터 복원 완료
+플레이어 이름:QA 독립
+QA_PASS default menu restores baby data
+QA_RESTART_DESTINATION=res://scenes/main/NameEntry.tscn
+QA_PASS existing restart limitation reproduced
+게임 불러오기 성공:user://savegame.json
+QA_PASS menu navigation preserves existing save
+QA_PASS scene loads res://scenes/game/Game.tscn
+QA_PASS direct Game restore starts Idle
+QA_PASS all creature fields survive process exit
+QA_PASS capture restored_baby
+QA_RESULT failures=0

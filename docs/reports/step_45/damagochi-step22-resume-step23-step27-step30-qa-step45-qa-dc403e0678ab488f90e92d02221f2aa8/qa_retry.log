@@ -1,0 +1,52 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS QA isolated user dir
+게임 저장 성공:user://savegame.json
+PASS 42/43 seed seed_002_baby
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS retry isolated scene held
+게임 저장 성공:user://savegame.json
+GameManager에 저장된 데이터:
+{ "save_version": 1, "player_name": "QA saved ID", "created_at": 1791343873.882, "last_played_at": 1791343873.882, "active_creatures": [{ "creature_id": "003", "stage": "egg", "level": 1, "affection": 0, "affection_to_next_level": 10, "egg_created_at": 1791343873.882, "hatched_at": 0.0 }], "encyclopedia": {  }, "settings": { "bgm_volume": 1.0, "sfx_volume": 1.0 } }
+ERROR: Cannot open file 'res://scenes/game/Game.tscn'.
+   at: load (scene/resources/resource_format_text.cpp:1442)
+   GDScript backtrace (most recent call first):
+       [0] _enter_game (res://scripts/main/name_entry.gd:106)
+       [1] validate_name (res://scripts/main/name_entry.gd:101)
+       [2] _on_confirm_button_pressed (res://scripts/main/name_entry.gd:51)
+       [3] retry (res://qa_verify.gd:325)
+       [4] settle (res://qa_verify.gd:12)
+ERROR: Failed loading resource: res://scenes/game/Game.tscn.
+   at: _load (core/io/resource_loader.cpp:317)
+   GDScript backtrace (most recent call first):
+       [0] _enter_game (res://scripts/main/name_entry.gd:106)
+       [1] validate_name (res://scripts/main/name_entry.gd:101)
+       [2] _on_confirm_button_pressed (res://scripts/main/name_entry.gd:51)
+       [3] retry (res://qa_verify.gd:325)
+       [4] settle (res://qa_verify.gd:12)
+ERROR: Cannot open file 'res://scenes/game/Game.tscn'.
+   at: load (scene/resources/resource_format_text.cpp:1442)
+   GDScript backtrace (most recent call first):
+       [0] _enter_game (res://scripts/main/name_entry.gd:106)
+       [1] validate_name (res://scripts/main/name_entry.gd:63)
+       [2] _on_name_submitted (res://scripts/main/name_entry.gd:55)
+       [3] retry (res://qa_verify.gd:328)
+       [4] settle (res://qa_verify.gd:12)
+ERROR: Failed loading resource: res://scenes/game/Game.tscn.
+   at: _load (core/io/resource_loader.cpp:317)
+   GDScript backtrace (most recent call first):
+       [0] _enter_game (res://scripts/main/name_entry.gd:106)
+       [1] validate_name (res://scripts/main/name_entry.gd:63)
+       [2] _on_name_submitted (res://scripts/main/name_entry.gd:55)
+       [3] retry (res://qa_verify.gd:328)
+       [4] settle (res://qa_verify.gd:12)
+PASS 41 failed scene retry no reroll no save
+PASS retry isolated scene restored
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+PASS 41 successful retry preserves chosen ID
+RESULT STEP45 QA retry failures=0

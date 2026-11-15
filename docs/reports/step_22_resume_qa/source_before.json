@@ -1,0 +1,67 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "EC6D833C8B5ABE12BB841F43F2D6E5C836C267A29D70336516D5BAAAD2E3FBBA",
+    "Path": "J:\\2026\\Github\\damagochi\\MASTER.md"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "5D3A771CF70242220A15DE65C5B25050D7747238A2939A9281C0989036BFC5C2",
+    "Path": "J:\\2026\\Github\\damagochi\\STEP_PLAN.md"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "8874E0F1251D3C7E937C986AE9EB3105A81358940B944E05D5923B5DD832C21B",
+    "Path": "J:\\2026\\Github\\damagochi\\COMMON_OPERATIONS_TEMPLATE.md"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "E3AF512C717645DA9706B52CAC9B411E1750D5012F6DA0A90284EA95473647A1",
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\game\\game.gd"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "B74C37C18024ABD71CB01946CEC602CB5C8D8499EDCBFEC7863F3E42C7D5B9D9",
+    "Path": "J:\\2026\\Github\\damagochi\\scenes\\game\\Game.tscn"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "82A1B422F14109B698715CBE584F9B0AECA2C55E30617AF2FAFC9DEF7192FD18",
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\game_manager.gd"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "AEF9CE295A36868B3B4D22E0B4FBEEB7AEA582E80862245BE38FBE81FA4F0C19",
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\save_manager.gd"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "096D3FCF70C560A61534F46897CA0EBD0056D501FD6E77E47F6037C8F2AAD707",
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\game_data_factory.gd"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "8C16C5D98FBA284120D6FE9F79F5505833ADD87139CAFCC8406889EACB001110",
+    "Path": "J:\\2026\\Github\\damagochi\\project.godot"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "58ECFCD64F6AC49A07358B657BD28CFE40D2986FE0E997E5387B3CBA0896E5CB",
+    "Path": "J:\\2026\\Github\\damagochi\\scenes\\main\\NameEntry.tscn"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "43DE775632AD75008B22A5072EF56A250081E5723E5659F195A3C8AB159C8AD8",
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\main\\main_menu.gd"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "DDD863FD08F0591F0C202C409ACCE59E285079E60B9F250D9E6E20269ABD4044",
+    "Path": "J:\\2026\\Github\\damagochi\\scripts\\main\\name_entry.gd"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "A8E17BA6F4835EA8102248E3041CFAF4F6AE6EB02E70E49938D41F54CE79B376",
+    "Path": "J:\\2026\\Github\\damagochi\\scenes\\main\\MainMenu.tscn"
+  }
+]

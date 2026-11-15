@@ -1,0 +1,26 @@
+[
+  {
+    "path": "scenes/game/Game.tscn",
+    "unchanged_since_previous_QA": true
+  },
+  {
+    "path": "scripts/game/game.gd",
+    "unchanged_since_previous_QA": true
+  },
+  {
+    "path": "scripts/managers/game_manager.gd",
+    "unchanged_since_previous_QA": true
+  },
+  {
+    "path": "scripts/managers/save_manager.gd",
+    "unchanged_since_previous_QA": true
+  },
+  {
+    "path": "scripts/managers/game_data_factory.gd",
+    "unchanged_since_previous_QA": true
+  },
+  {
+    "path": "assets/creatures/001/creature_001_idle.png",
+    "unchanged_since_previous_QA": true
+  }
+]

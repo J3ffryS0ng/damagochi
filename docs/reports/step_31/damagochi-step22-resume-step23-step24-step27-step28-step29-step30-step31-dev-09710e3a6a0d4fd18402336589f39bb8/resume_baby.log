@@ -1,0 +1,15 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-step23-step24-step27-step28-step29-step30-step31-dev-09710e3a6a0d4fd18402336589f39bb8/
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+PASS RC02/03 menu reads temporary data only
+PASS RC02/03 continue enabled without write
+게임 불러오기 성공:user://savegame.json
+PASS RC02/03/14 default MainMenu continue enters Game
+PASS RC02/03 all fields and file bytes preserved across process restart
+PASS RC04 PNG visible
+PASS RC04 no duplicate Tween
+PASS RC04 1s up 4px
+PASS RC04 2s returns to base
+RESULT resume_baby failures=0

@@ -1,0 +1,114 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS isolated user directory
+PASS 96 square centered 540,900
+PASS entry no poop
+PASS natural accelerated timeout creates poop
+PASS existing poop freezes timer and duplicate request
+PASS spawn no growth/save contract changes
+PASS outside right release canceled touch ignored
+PASS SceneTree pause ignores cleanup input
+게임 저장 성공:user://savegame.json
+PASS inclusive top-left cleans exactly once across duplicate mouse touch
+PASS clean locks controls and timer
+PASS clean pauses move Idle
+PASS busy commands and early completion rejected
+PASS sigh apex -6 at 0.3 current x
+PASS source appearance unchanged
+PASS 0.6 second completion resumes Idle movement
+PASS successful cleanup starts fresh full countdown
+PASS completion no extra award no new save fields
+PASS natural accelerated timeout creates poop
+PASS feed rejects clean
+게임 저장 성공:user://savegame.json
+PASS feed ignored input never queued
+게임 저장 성공:user://savegame.json
+PASS touch inside bottom-right cleans
+PASS natural accelerated timeout creates poop
+PASS play rejects clean
+게임 저장 성공:user://savegame.json
+PASS play ignored input never queued
+게임 저장 성공:user://savegame.json
+PASS touch inside bottom-right cleans
+PASS natural accelerated timeout creates poop
+게임 저장 성공:user://savegame.json
+PASS real readonly seed
+PASS readonly handshake completed
+ERROR: 세이브 파일을 열 수 없습니다. 오류 코드: 12
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] save_game (res://scripts/managers/save_manager.gd:36)
+       [1] _save_clean_progress (res://scripts/game/game.gd:1046)
+       [2] _award_clean_affection (res://scripts/game/game.gd:1060)
+       [3] _clean_poop (res://scripts/game/game.gd:1016)
+       [4] _input (res://scripts/game/game.gd:1008)
+       [5] touch (res://clean_verify.gd:41)
+       [6] suite (res://clean_verify.gd:128)
+PASS actual readonly save refusal restores reward and poop
+PASS actual readonly bytes unchanged
+게임 저장 성공:user://savegame.json
+PASS actual writable retry succeeds
+PASS natural accelerated timeout creates poop
+게임 저장 성공:user://savegame.json
+PASS seed fault baseline
+PASS reject_apply rolls back all growth fields
+PASS reject_apply preserves retry poop and notice
+PASS reject_apply original isolated disk bytes retained
+게임 저장 성공:user://savegame.json
+PASS retry level-up correct
+PASS retry notice cleared and UI updated
+PASS natural accelerated timeout creates poop
+게임 저장 성공:user://savegame.json
+PASS seed fault baseline
+PASS reject_save rolls back all growth fields
+PASS reject_save preserves retry poop and notice
+PASS reject_save original isolated disk bytes retained
+게임 저장 성공:user://savegame.json
+PASS retry level-up correct
+PASS retry notice cleared and UI updated
+PASS natural accelerated timeout creates poop
+PASS cross notice clean failure seeded play
+PASS other failure owns notice after clean failure play
+게임 저장 성공:user://savegame.json
+PASS clean success preserves newer other action failure play
+PASS natural accelerated timeout creates poop
+PASS cross notice clean failure seeded feed
+PASS other failure owns notice after clean failure feed
+게임 저장 성공:user://savegame.json
+PASS clean success preserves newer other action failure feed
+PASS natural accelerated timeout creates poop
+PASS invalid affection rejected <null>
+PASS natural accelerated timeout creates poop
+PASS invalid affection rejected 9
+PASS natural accelerated timeout creates poop
+PASS invalid affection rejected true
+PASS natural accelerated timeout creates poop
+PASS invalid affection rejected -1
+PASS natural accelerated timeout creates poop
+PASS invalid affection rejected 1.5
+PASS natural accelerated timeout creates poop
+PASS invalid affection rejected inf
+PASS natural accelerated timeout creates poop
+PASS invalid affection rejected nan
+PASS natural accelerated timeout creates poop
+PASS invalid affection rejected 1000000000000000.0
+PASS natural accelerated timeout creates poop
+PASS zero level rejected
+PASS natural accelerated timeout creates poop
+PASS zero affection_to_next_level rejected
+PASS natural accelerated timeout creates poop
+PASS stale identity input rejects and clears poop
+PASS natural accelerated timeout creates poop
+게임 저장 성공:user://savegame.json
+PASS identity replacement cancels active sigh
+PASS late cancel callback no second award
+PASS natural accelerated timeout creates poop
+PASS stage invalidation clears poop timer
+PASS natural accelerated timeout creates poop
+게임 저장 성공:user://savegame.json
+PASS scene exit kills sigh tween
+PASS same-process reentry resets poop and animation
+PASS natural accelerated timeout creates poop
+게임 저장 성공:user://savegame.json
+PASS final persisted cleanup level-up
+RESULT STEP32-35 QA failures=0

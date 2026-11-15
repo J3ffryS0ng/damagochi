@@ -1,0 +1,15 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+PASS 32 egg no poop
+PASS 32 invalid direct spawn ignored
+PASS 32 baby full interval
+PASS 32 fixed size and position
+REAL_INTERVAL=116.175048828125 ELAPSED=116.185
+PASS 32 full real timer visible poop
+PASS 32 real occupied timer paused
+RESULT failures=0

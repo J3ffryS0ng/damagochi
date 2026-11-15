@@ -1,0 +1,32 @@
+[
+  {
+    "path": "scripts/game/game.gd",
+    "verified": true,
+    "hash": "35522AE6B2C380490934A77B3BC433383AE319A678BA50C82F1736AB36EEE042"
+  },
+  {
+    "path": "scenes/game/Game.tscn",
+    "verified": true,
+    "hash": "2DB3163E2A36A6F6C4C00C61FADDF413FC027D5397E8E4774FF5E8B701204091"
+  },
+  {
+    "path": "assets/food/rice_bowl.svg",
+    "verified": true,
+    "hash": "EABF0BDDFBD8EB40469EAD3951B0C27B775A2D8BC4822FA649D6A68195081AA2"
+  },
+  {
+    "path": "assets/images/poop.svg",
+    "verified": true,
+    "hash": "ADE1076E50285508C0D9AD1989E5ACCC9B33FA95456817C79543E64B0E6945F6"
+  },
+  {
+    "path": "scripts/managers/game_manager.gd",
+    "verified": true,
+    "hash": "82A1B422F14109B698715CBE584F9B0AECA2C55E30617AF2FAFC9DEF7192FD18"
+  },
+  {
+    "path": "scripts/managers/save_manager.gd",
+    "verified": true,
+    "hash": "AEF9CE295A36868B3B4D22E0B4FBEEB7AEA582E80862245BE38FBE81FA4F0C19"
+  }
+]

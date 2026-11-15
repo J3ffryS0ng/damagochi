@@ -1,0 +1,16 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+PASS egg stopped
+PASS first full interval
+게임 저장 성공:user://savegame.json
+PASS seed save
+REAL_INTERVAL=63.6328773498535
+PASS real default timer elapsed 63.631
+PASS real timeout rearms
+PASS real request leaves data and save unchanged
+RESULT failures=0

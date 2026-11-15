@@ -1,0 +1,97 @@
+[
+  {
+    "fails": 0,
+    "log": "import.log",
+    "passes": 0
+  },
+  {
+    "fails": 0,
+    "log": "qa_feed_resume.log",
+    "passes": 7
+  },
+  {
+    "fails": 0,
+    "log": "qa_feed.log",
+    "passes": 83
+  },
+  {
+    "fails": 0,
+    "log": "qa_menu.log",
+    "passes": 52
+  },
+  {
+    "fails": 0,
+    "log": "qa_movement.log",
+    "passes": 19
+  },
+  {
+    "fails": 0,
+    "log": "qa_native_game_exit.log",
+    "passes": 0
+  },
+  {
+    "fails": 0,
+    "log": "qa_native_menu_exit.log",
+    "passes": 0
+  },
+  {
+    "fails": 0,
+    "log": "qa_play_restore_baby.log",
+    "passes": 6
+  },
+  {
+    "fails": 0,
+    "log": "qa_play_restore_egg.log",
+    "passes": 6
+  },
+  {
+    "fails": 0,
+    "log": "qa_play_seed_baby.log",
+    "passes": 3
+  },
+  {
+    "fails": 0,
+    "log": "qa_play_seed_egg.log",
+    "passes": 2
+  },
+  {
+    "fails": 0,
+    "log": "qa_render.log",
+    "passes": 279
+  },
+  {
+    "fails": 0,
+    "log": "qa_restore_baby.log",
+    "passes": 8
+  },
+  {
+    "fails": 0,
+    "log": "qa_restore_egg.log",
+    "passes": 4
+  },
+  {
+    "fails": 0,
+    "log": "qa_restore_hatch.log",
+    "passes": 5
+  },
+  {
+    "fails": 0,
+    "log": "qa_seed_baby.log",
+    "passes": 1
+  },
+  {
+    "fails": 0,
+    "log": "qa_seed_egg.log",
+    "passes": 1
+  },
+  {
+    "fails": 0,
+    "log": "qa_seed_hatch.log",
+    "passes": 1
+  },
+  {
+    "fails": 0,
+    "log": "qa.log",
+    "passes": 271
+  }
+]

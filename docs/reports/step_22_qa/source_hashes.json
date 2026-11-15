@@ -1,0 +1,42 @@
+[
+  {
+    "path": "scenes/game/Game.tscn",
+    "sha256": "B74C37C18024ABD71CB01946CEC602CB5C8D8499EDCBFEC7863F3E42C7D5B9D9",
+    "copy_matches": true
+  },
+  {
+    "path": "scripts/game/game.gd",
+    "sha256": "E3AF512C717645DA9706B52CAC9B411E1750D5012F6DA0A90284EA95473647A1",
+    "copy_matches": true
+  },
+  {
+    "path": "scripts/main/name_entry.gd",
+    "sha256": "2B6F1F3E5B8A27AC6F7EAD45C1120EB6D5ED93C032FF4D0E93EC5DFC2C967BDF",
+    "copy_matches": true
+  },
+  {
+    "path": "scripts/main/main_menu.gd",
+    "sha256": "DC5F779B748C2E572EC6EE7A5C7E7F23D61863F61545AC6B3C2E6F4B654B8577",
+    "copy_matches": true
+  },
+  {
+    "path": "scripts/managers/game_manager.gd",
+    "sha256": "82A1B422F14109B698715CBE584F9B0AECA2C55E30617AF2FAFC9DEF7192FD18",
+    "copy_matches": true
+  },
+  {
+    "path": "scripts/managers/save_manager.gd",
+    "sha256": "AEF9CE295A36868B3B4D22E0B4FBEEB7AEA582E80862245BE38FBE81FA4F0C19",
+    "copy_matches": true
+  },
+  {
+    "path": "scripts/managers/game_data_factory.gd",
+    "sha256": "096D3FCF70C560A61534F46897CA0EBD0056D501FD6E77E47F6037C8F2AAD707",
+    "copy_matches": true
+  },
+  {
+    "path": "assets/creatures/001/creature_001_idle.png",
+    "sha256": "CCDCBDE4C48455B6ECE794AD64CD45293CFDA60C7D3B3F95C2F6592389497FB6",
+    "copy_matches": true
+  }
+]

@@ -1,0 +1,104 @@
+{
+  "verdict": "PASS WITH ISSUE",
+  "issue": "First product menu native exit -1073741819; unchanged retry menu/game exit0",
+  "total_fail": 0.0,
+  "total_pass": 359.0,
+  "runs": [
+    {
+      "label": "qa_feed_resume.status",
+      "native_exit": 0,
+      "pass": 7,
+      "fail": 0
+    },
+    {
+      "label": "qa_feed.status",
+      "native_exit": 0,
+      "pass": 83,
+      "fail": 0
+    },
+    {
+      "label": "qa_menu.status",
+      "native_exit": 0,
+      "pass": 52,
+      "fail": 0
+    },
+    {
+      "label": "qa_movement.status",
+      "native_exit": 0,
+      "pass": 19,
+      "fail": 0
+    },
+    {
+      "label": "qa_native_game_exit.status",
+      "native_exit": 0,
+      "pass": 0,
+      "fail": 0
+    },
+    {
+      "label": "qa_native_menu_exit_first.status",
+      "native_exit": -1073741819,
+      "pass": 0,
+      "fail": 0
+    },
+    {
+      "label": "qa_native_menu_exit.status",
+      "native_exit": 0,
+      "pass": 0,
+      "fail": 0
+    },
+    {
+      "label": "qa_render.status",
+      "native_exit": 0,
+      "pass": 89,
+      "fail": 0
+    },
+    {
+      "label": "qa_restore_baby.status",
+      "native_exit": 0,
+      "pass": 8,
+      "fail": 0
+    },
+    {
+      "label": "qa_restore_egg.status",
+      "native_exit": 0,
+      "pass": 4,
+      "fail": 0
+    },
+    {
+      "label": "qa_restore_hatch.status",
+      "native_exit": 0,
+      "pass": 5,
+      "fail": 0
+    },
+    {
+      "label": "qa_resume.status",
+      "native_exit": 0,
+      "pass": 6,
+      "fail": 0
+    },
+    {
+      "label": "qa_seed_baby.status",
+      "native_exit": 0,
+      "pass": 1,
+      "fail": 0
+    },
+    {
+      "label": "qa_seed_egg.status",
+      "native_exit": 0,
+      "pass": 1,
+      "fail": 0
+    },
+    {
+      "label": "qa_seed_hatch.status",
+      "native_exit": 0,
+      "pass": 1,
+      "fail": 0
+    },
+    {
+      "label": "qa.status",
+      "native_exit": 0,
+      "pass": 83,
+      "fail": 0
+    }
+  ]
+}

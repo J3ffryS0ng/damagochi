@@ -1,0 +1,26 @@
+[
+  {
+    "baseline": "preflight_hashes",
+    "count": 6,
+    "changed": 0,
+    "paths": [
+      null
+    ]
+  },
+  {
+    "baseline": "protected_before",
+    "count": 8,
+    "changed": 0,
+    "paths": [
+      null
+    ]
+  },
+  {
+    "baseline": "history_before",
+    "count": 1274,
+    "changed": 0,
+    "paths": [
+      null
+    ]
+  }
+]

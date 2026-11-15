@@ -29,14 +29,32 @@ theme_override_font_sizes/font_size = 36
 text = "Damagochi"
 horizontal_alignment = 1
 
+[node name="ContinueButton" type="Button" parent="CenterContainer/VBoxContainer"]
+custom_minimum_size = Vector2(280, 70)
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "이어하기"
+
 [node name="StartButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=672395652]
 custom_minimum_size = Vector2(280, 70)
 layout_mode = 2
 theme_override_font_sizes/font_size = 24
-text = "Game Start"
+text = "새 게임"
 
 [node name="EncyclopediaButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=1089368796]
 custom_minimum_size = Vector2(280, 70)
 layout_mode = 2
 theme_override_font_sizes/font_size = 24
 text = "Encyclopedia"
+
+[node name="MessageLabel" type="Label" parent="CenterContainer/VBoxContainer"]
+custom_minimum_size = Vector2(280, 0)
+layout_mode = 2
+autowrap_mode = 3
+horizontal_alignment = 1
+
+[node name="ReplaceSaveDialog" type="ConfirmationDialog" parent="."]
+title = "새 게임 확인"
+dialog_text = "새 게임을 시작하면 기존 진행 데이터가 대체될 수 있습니다. 계속하시겠습니까?"
+ok_button_text = "새 게임 진행"
+cancel_button_text = "취소"

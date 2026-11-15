@@ -1,0 +1,43 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+QA_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-a6d21c11c0534ffda45eb4fc90f4e847/
+QA_PASS reject player_name=<null>
+QA_PASS reject player_name=
+QA_PASS reject player_name= 
+QA_PASS reject player_name=true
+QA_PASS reject player_name=[]
+QA_PASS reject player_name={  }
+QA_PASS reject save_version=<null>
+QA_PASS reject save_version=
+QA_PASS reject save_version= 
+QA_PASS reject save_version=true
+QA_PASS reject save_version=[]
+QA_PASS reject save_version={  }
+QA_PASS reject creature creature_id=<null>
+QA_PASS reject creature creature_id=
+QA_PASS reject creature creature_id= 
+QA_PASS reject creature creature_id=1
+QA_PASS reject creature creature_id=[]
+QA_PASS reject creature creature_id={  }
+QA_PASS reject creature stage=<null>
+QA_PASS reject creature stage=
+QA_PASS reject creature stage= 
+QA_PASS reject creature stage=1
+QA_PASS reject creature stage=[]
+QA_PASS reject creature stage={  }
+QA_PASS invalid non-active array member rejected
+QA_PASS validator pure and accepts JSON integer-valued float
+게임 저장 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+QA_PASS menu inspection does not replace existing memory
+게임 불러오기 성공:user://savegame.json
+QA_FAIL double Continue reads disk not stale memory
+QA_PASS Continue preserves original bytes
+QA_PASS 100 load refreshes preserve one moving Idle
+게임 불러오기 성공:user://savegame.json
+게임 불러오기 성공:user://savegame.json
+세이브 파일 삭제 완료
+QA_PASS deleted file invalidates existing-file authorization
+QA_PASS back discards approval after external deletion
+게임 저장 성공:user://savegame.json
+QA_RESULT failures=1

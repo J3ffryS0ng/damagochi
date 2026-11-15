@@ -1,0 +1,77 @@
+[
+  {
+    "log": "import.log",
+    "fails": 0,
+    "passes": 0
+  },
+  {
+    "log": "qa_feed_resume.log",
+    "fails": 0,
+    "passes": 7
+  },
+  {
+    "log": "qa_feed.log",
+    "fails": 0,
+    "passes": 83
+  },
+  {
+    "log": "qa_menu.log",
+    "fails": 0,
+    "passes": 52
+  },
+  {
+    "log": "qa_movement.log",
+    "fails": 0,
+    "passes": 19
+  },
+  {
+    "log": "qa_native_menu_exit.log",
+    "fails": 0,
+    "passes": 0
+  },
+  {
+    "log": "qa_render.log",
+    "fails": 0,
+    "passes": 89
+  },
+  {
+    "log": "qa_restore_baby.log",
+    "fails": 0,
+    "passes": 8
+  },
+  {
+    "log": "qa_restore_egg.log",
+    "fails": 0,
+    "passes": 4
+  },
+  {
+    "log": "qa_restore_hatch.log",
+    "fails": 0,
+    "passes": 5
+  },
+  {
+    "log": "qa_resume.log",
+    "fails": 0,
+    "passes": 6
+  },
+  {
+    "log": "qa_seed_baby.log",
+    "fails": 0,
+    "passes": 1
+  },
+  {
+    "log": "qa_seed_egg.log",
+    "fails": 0,
+    "passes": 1
+  },
+  {
+    "log": "qa_seed_hatch.log",
+    "fails": 0,
+    "passes": 1
+  },
+  {
+    "log": "qa.log",
+    "fails": 0,
+    "passes": 83
+  }
+]

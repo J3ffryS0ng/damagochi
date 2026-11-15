@@ -1,0 +1,89 @@
+{
+  "verdict": "PASS",
+  "failures": 0.0,
+  "runs": [
+    {
+      "log": "qa_menu.log",
+      "pass": 52,
+      "fail": 0,
+      "script_errors": 0,
+      "native_exit": 0
+    },
+    {
+      "log": "qa_movement.log",
+      "pass": 19,
+      "fail": 0,
+      "script_errors": 0,
+      "native_exit": 0
+    },
+    {
+      "log": "qa_render.log",
+      "pass": 91,
+      "fail": 0,
+      "script_errors": 0,
+      "native_exit": 0
+    },
+    {
+      "log": "qa_restore_baby.log",
+      "pass": 8,
+      "fail": 0,
+      "script_errors": 0,
+      "native_exit": 0
+    },
+    {
+      "log": "qa_restore_egg.log",
+      "pass": 4,
+      "fail": 0,
+      "script_errors": 0,
+      "native_exit": 0
+    },
+    {
+      "log": "qa_restore_hatch.log",
+      "pass": 5,
+      "fail": 0,
+      "script_errors": 0,
+      "native_exit": 0
+    },
+    {
+      "log": "qa_resume.log",
+      "pass": 7,
+      "fail": 0,
+      "script_errors": 0,
+      "native_exit": 0
+    },
+    {
+      "log": "qa_seed_baby.log",
+      "pass": 1,
+      "fail": 0,
+      "script_errors": 0,
+      "native_exit": 0
+    },
+    {
+      "log": "qa_seed_egg.log",
+      "pass": 1,
+      "fail": 0,
+      "script_errors": 0,
+      "native_exit": 0
+    },
+    {
+      "log": "qa_seed_hatch.log",
+      "pass": 1,
+      "fail": 0,
+      "script_errors": 0,
+      "native_exit": 0
+    },
+    {
+      "log": "qa.log",
+      "pass": 83,
+      "fail": 0,
+      "script_errors": 0,
+      "native_exit": 0
+    }
+  ],
+  "screenshots_reviewed": 8,
+  "qa_test_corrections": 1,
+  "original_save_accessed": false,
+  "script_errors": 0.0,
+  "product_fix_loops": 0,
+  "passes": 272.0
+}

@@ -1,0 +1,9 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 - Build 32.0.101.5542 - Compatibility - Using Device: Intel - Intel(R) Iris(R) Xe Graphics
+
+TEST_USER_DIR=C:/Users/syj_1/AppData/Roaming/damagochi-step22-resume-step23-step27-step30-qa-step31-qa-0bb7c54c515c4f0b9101b4b2265f244b/
+PASS render (405, 720)
+PASS render controls and timer (405, 720)
+PASS render (720, 1280)
+PASS render controls and timer (720, 1280)
+RESULT STEP31 QA failures=0

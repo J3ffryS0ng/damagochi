@@ -1,0 +1,150 @@
+[
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\game\\game.gd",
+    "sha256": "E3AF512C717645DA9706B52CAC9B411E1750D5012F6DA0A90284EA95473647A1"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\game\\game.gd.uid",
+    "sha256": "9B5D28BB8035A1DB979979E87EB66955DA1E5043EE4FD85A6BC8E5D263C4A0D3"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\main\\main_menu.gd",
+    "sha256": "43DE775632AD75008B22A5072EF56A250081E5723E5659F195A3C8AB159C8AD8"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\main\\main_menu.gd.uid",
+    "sha256": "1C435A86B25BDDDB1125F4351EEB4BCF57004FF23C457D44A2BA2D1B4485014D"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\main\\name_entry.gd",
+    "sha256": "DDD863FD08F0591F0C202C409ACCE59E285079E60B9F250D9E6E20269ABD4044"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\main\\name_entry.gd.uid",
+    "sha256": "BC88494EAD8B726314FDD01E5B7C0935FB23E89777870E341546C140DFDA4EBD"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\game_data_factory.gd",
+    "sha256": "096D3FCF70C560A61534F46897CA0EBD0056D501FD6E77E47F6037C8F2AAD707"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\game_data_factory.gd.uid",
+    "sha256": "59A32A9418864A3537BFA61EA5FE8E5C733C9A4ED5414045AD52A090E35A0901"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\game_manager.gd",
+    "sha256": "82A1B422F14109B698715CBE584F9B0AECA2C55E30617AF2FAFC9DEF7192FD18"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\game_manager.gd.uid",
+    "sha256": "F99BDCB93731AD21E0DA1A0B88CAAAC0C1F90D03B870EE3E188559C013B0CED3"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\save_manager.gd",
+    "sha256": "AEF9CE295A36868B3B4D22E0B4FBEEB7AEA582E80862245BE38FBE81FA4F0C19"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scripts\\managers\\save_manager.gd.uid",
+    "sha256": "1FB9152CD6531F3944A8931F1DCD44DCEE5D1F20B5FDAAE6F92C21D88AD15990"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scenes\\encyclopedia\\Encyclopedia.tscn",
+    "sha256": "E4F8E9ACF55DA5BD7C94F23661D8835B715A0B068C0DABFC221ADD5C7CF4E537"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scenes\\game\\Game.tscn",
+    "sha256": "B74C37C18024ABD71CB01946CEC602CB5C8D8499EDCBFEC7863F3E42C7D5B9D9"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scenes\\main\\Encyclopedia.tscn",
+    "sha256": "07A212A63B2AF6A09CBEC58EE95B1BD5214FA59369C268BEFCE2F2C428CBD36E"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scenes\\main\\MainMenu.tscn",
+    "sha256": "A8E17BA6F4835EA8102248E3041CFAF4F6AE6EB02E70E49938D41F54CE79B376"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\scenes\\main\\NameEntry.tscn",
+    "sha256": "58ECFCD64F6AC49A07358B657BD28CFE40D2986FE0E997E5387B3CBA0896E5CB"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\assets\\creatures\\001\\creature_001_idle.png",
+    "sha256": "CCDCBDE4C48455B6ECE794AD64CD45293CFDA60C7D3B3F95C2F6592389497FB6"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\assets\\creatures\\001\\creature_001_idle.png.import",
+    "sha256": "DA5852459B9AC18928F0D8D9E398A8FDD819870A99F9A6B26667B069287DC570"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\assets\\eggs\\제목 없음.png",
+    "sha256": "22DE8B8B16A239E57B29C4A85685C849FFC4682BB1D3D95799FDFF47AC1BD522"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\assets\\eggs\\제목 없음.png.import",
+    "sha256": "C2894B2F39F2B4670CA08F8B7B61BC61208B4FD1329E86ADCB07EFCE513D6DEC"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\assets\\eggs\\egg_001.png",
+    "sha256": "6FE8FF847201F31025657CA3390030B4463CC3BDCF8BA225ED0FF2811AD21256"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\assets\\eggs\\egg_001.png.import",
+    "sha256": "4821495C2CD188E27A23A46B2D183AFFFB2F3558C973462E724464C9B80B88DF"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\assets\\eggs\\egg_001.svg",
+    "sha256": "1398ED13A07FCAA0A8BFF8B0B54B5EE5E044C68D42D671A6CD2532E2BCEB233F"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\assets\\eggs\\egg_001.svg.import",
+    "sha256": "317A5BB211D72BFC9DECE92F21DEE716CE530E09914661B3581601CCD30DF03C"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\tasks\\STEP_22_DEV.md",
+    "sha256": "6C1FF7B9A4FC4EE74CECC7BC48F1962C4158160396A11B281E4906FA955C1BF3"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\tasks\\STEP_22_RESUME.md",
+    "sha256": "ED1E94E7049D7A6FB5E69EE686864A9C44BF4CB12C41096835A58BDDDA89016B"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\tasks\\STEP_22.md",
+    "sha256": "19C6A66E0842E21674CD6404C56398391AD1A50022D6DF16A57131FF4796ED3B"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\tasks\\STEP_23_DEV.md",
+    "sha256": "9AAFB40017EAEE4E67428D8A1ED267B6D533A32F5C95594F6BC3931C53C922C9"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\STEP_22_DEV_REPORT.md",
+    "sha256": "54E0A24CCC6EAC3F220F951E81C346455993B51E394EFF46AC5B23949372F1DF"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\STEP_22_MANAGER_FINAL.md",
+    "sha256": "D6CCBFFE285421A4B1BE47D1415DEF39A669A4EF5D3A87C749B4A4F480FB6B12"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\STEP_22_QA_REPORT.md",
+    "sha256": "D11F8BFCB6C3B9274EAD7DBAC6BE677D5702BB19052E0A27272BEE949764851F"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\STEP_22_RESUME_DEV_REPORT.md",
+    "sha256": "04B99C20974B66974467834889A23265409F4CB2B9ABE5090B808B2CA9961A1D"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\docs\\reports\\STEP_22_RESUME_QA_REPORT.md",
+    "sha256": "6C8FB42CBEB8AB361A474B93B2E099937CC3863636EE84E327F36E1F03A1C307"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\COMMON_OPERATIONS_TEMPLATE.md",
+    "sha256": "8874E0F1251D3C7E937C986AE9EB3105A81358940B944E05D5923B5DD832C21B"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\BUG_LOG.md",
+    "sha256": "08E8E6BDC0A737D045A4A0515142B3183DF622DECE78D32562762E6FD5E80E41"
+  },
+  {
+    "path": "J:\\2026\\Github\\damagochi\\project.godot",
+    "sha256": "8C16C5D98FBA284120D6FE9F79F5505833ADD87139CAFCC8406889EACB001110"
+  }
+]

@@ -1,0 +1,27 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+알 생성 후 경과 시간: 0.1초
+부화 최소 시간까지 59.9초 남음
+현재 레벨: 1 / 필요 레벨: 2
+레벨 조건 미충족
+최종 판정: 아직 부화 불가
+PASS 32 egg no poop
+PASS 32 invalid direct spawn ignored
+PASS 32 baby full interval
+PASS 32 fixed size and position
+PASS 32 actual Timer spawns image
+PASS 32 max one and paused remaining
+PASS 33 invalid mouse touch ignored
+PASS 33 blocked while feed
+게임 저장 성공:user://savegame.json
+PASS 33 no queued cleanup feed
+PASS 33 blocked while play
+게임 저장 성공:user://savegame.json
+PASS 33 no queued cleanup play
+FAIL 33 mouse cleanup 34 exactly one immediate reward
+FAIL 35 all care and timer blocked
+PASS 32 success new full interval
+SCRIPT ERROR: Invalid call. Nonexistent function 'pause' in base 'Nil'.
+   at: run (res://dev_verify.gd:121)
+   GDScript backtrace (most recent call first):
+       [0] run (res://dev_verify.gd:121)

@@ -1,7 +1,42 @@
 extends Node
 
 
+const BABY_TO_ADULT_MIN_LEVEL := 5
+
+
 var game_data: Dictionary = {}
+var creature_catalog := CreatureCatalog.new()
+
+
+# Checks only the level prerequisite; it never evolves or normalizes save data.
+func is_evolution_level_met(index: Variant = 0) -> bool:
+    if not index is int:
+        return false
+    var creatures: Variant = game_data.get("active_creatures")
+    if not creatures is Array or index < 0 or index >= creatures.size():
+        return false
+    var creature: Variant = creatures[index]
+    if not creature is Dictionary:
+        return false
+    var stage: Variant = creature.get("stage")
+    if not stage is String or stage != "baby":
+        return false
+    var id: Variant = creature.get("creature_id")
+    if not id is String:
+        return false
+    var registered := false
+    for definition in creature_catalog.get_definitions():
+        if definition.id == id:
+            registered = true
+            break
+    if not registered:
+        return false
+    var level: Variant = creature.get("level")
+    if not (level is int or level is float):
+        return false
+    if level is float and (not is_finite(level) or level != floor(level)):
+        return false
+    return level >= BABY_TO_ADULT_MIN_LEVEL
 
 
 func has_game_data() -> bool:
@@ -10,7 +45,8 @@ func has_game_data() -> bool:
 
 func create_new_game(player_name: String) -> void:
     game_data = GameDataFactory.create_new_game(
-        player_name
+        player_name,
+        creature_catalog.choose_id()
     )
 
     ensure_creature_defaults()
